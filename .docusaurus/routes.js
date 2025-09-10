@@ -3,33 +3,33 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/AlphaBuilder-Site/contact',
-    component: ComponentCreator('/AlphaBuilder-Site/contact', '22c'),
+    path: '/contact',
+    component: ComponentCreator('/contact', 'b68'),
     exact: true
   },
   {
-    path: '/AlphaBuilder-Site/optimizer',
-    component: ComponentCreator('/AlphaBuilder-Site/optimizer', '0a0'),
+    path: '/optimizer',
+    component: ComponentCreator('/optimizer', '47c'),
     exact: true
   },
   {
-    path: '/AlphaBuilder-Site/research',
-    component: ComponentCreator('/AlphaBuilder-Site/research', 'd3e'),
+    path: '/research',
+    component: ComponentCreator('/research', '83c'),
     exact: true
   },
   {
-    path: '/AlphaBuilder-Site/signals',
-    component: ComponentCreator('/AlphaBuilder-Site/signals', '2dc'),
+    path: '/signals',
+    component: ComponentCreator('/signals', '93c'),
     exact: true
   },
   {
-    path: '/AlphaBuilder-Site/system',
-    component: ComponentCreator('/AlphaBuilder-Site/system', '869'),
+    path: '/system',
+    component: ComponentCreator('/system', '1a9'),
     exact: true
   },
   {
-    path: '/AlphaBuilder-Site/',
-    component: ComponentCreator('/AlphaBuilder-Site/', 'b4d'),
+    path: '/',
+    component: ComponentCreator('/', '2e1'),
     exact: true
   },
   {
