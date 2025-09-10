@@ -13,7 +13,7 @@ const config = {
   url: 'https://alphabuilder.github.io',
   baseUrl: '/alphabuilder-site/',
 
-  organizationName: 'AlphaBuilder',
+  organizationName: 'Jeetmu',
   projectName: 'AlphaBuilder-Site',
   onBrokenLinks: 'warn', 
   onBrokenMarkdownLinks: 'warn',
