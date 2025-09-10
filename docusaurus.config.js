@@ -50,11 +50,6 @@ const config = {
         { to: '/system', label: 'System', position: 'left' },
         { to: '/research', label: 'Research', position: 'left'},
         { to: '/contact', label: 'Contact', position: 'left'},
-        {
-          href: 'https://github.com/Jeetmu/AlphaBuilder-Site',
-          label: 'GitHub',
-          position: 'right',
-        },
       ],
     },
     prism: {

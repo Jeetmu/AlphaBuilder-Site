@@ -28,8 +28,8 @@ export default {
     },
     "experimental_router": "browser"
   },
-  "url": "https://alphabuilder.github.io",
-  "baseUrl": "/AlphaBuilder-Site/",
+  "url": "https://alphabuilder.xyz",
+  "baseUrl": "/",
   "organizationName": "Jeetmu",
   "projectName": "AlphaBuilder-Site",
   "onBrokenLinks": "warn",
@@ -88,11 +88,6 @@ export default {
           "to": "/contact",
           "label": "Contact",
           "position": "left"
-        },
-        {
-          "href": "https://github.com/Jeetmu/AlphaBuilder-Site",
-          "label": "GitHub",
-          "position": "right"
         }
       ],
       "hideOnScroll": false
