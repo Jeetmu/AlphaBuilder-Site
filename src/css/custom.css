@@ -14,9 +14,7 @@ a {
   color: var(--ifm-color-primary);
 }
 
-.navbar__items {
-  justify-content: center !important;
-}
+.navbar__item,
 .navbar__brand,
 .navbar__link {
   color: white !important;
@@ -24,8 +22,4 @@ a {
 
 .navbar__link:hover {
   color: #1abc9c !important;
-}
-
-.navbar__logo {
-  margin-right: 0;
 }
