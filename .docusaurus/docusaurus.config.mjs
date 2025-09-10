@@ -67,27 +67,32 @@ export default {
         {
           "to": "/optimizer",
           "label": "Optimizer",
-          "position": "left"
+          "position": "left",
+          "className": "center-navbar"
         },
         {
           "to": "/signals",
           "label": "Signals",
-          "position": "left"
+          "position": "left",
+          "className": "center-navbar"
         },
         {
           "to": "/system",
           "label": "System",
-          "position": "left"
+          "position": "left",
+          "className": "center-navbar"
         },
         {
           "to": "/research",
           "label": "Research",
-          "position": "left"
+          "position": "left",
+          "className": "center-navbar"
         },
         {
           "to": "/contact",
           "label": "Contact",
-          "position": "left"
+          "position": "left",
+          "className": "center-navbar"
         }
       ],
       "hideOnScroll": false
