@@ -5,7 +5,7 @@
   "source": "@site/docs/contact.md",
   "sourceDirName": ".",
   "slug": "/contact",
-  "permalink": "/alphabuilder-site/docs/contact",
+  "permalink": "/AlphaBuilder-Site/docs/contact",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/AlphaBuilder/AlphaBuilder-Site/edit/main/docs/contact.md",
@@ -17,7 +17,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Tutorial - Basics",
-    "permalink": "/alphabuilder-site/docs/category/tutorial---basics"
+    "title": "index",
+    "permalink": "/AlphaBuilder-Site/docs/"
   }
 }

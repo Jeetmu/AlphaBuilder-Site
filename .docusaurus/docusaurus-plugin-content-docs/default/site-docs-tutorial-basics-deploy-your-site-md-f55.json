@@ -5,7 +5,7 @@
   "source": "@site/docs/tutorial-basics/deploy-your-site.md",
   "sourceDirName": "tutorial-basics",
   "slug": "/tutorial-basics/deploy-your-site",
-  "permalink": "/alphabuilder-site/docs/tutorial-basics/deploy-your-site",
+  "permalink": "/AlphaBuilder-Site/docs/tutorial-basics/deploy-your-site",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/AlphaBuilder/AlphaBuilder-Site/edit/main/docs/tutorial-basics/deploy-your-site.md",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Markdown Features",
-    "permalink": "/alphabuilder-site/docs/tutorial-basics/markdown-features"
+    "permalink": "/AlphaBuilder-Site/docs/tutorial-basics/markdown-features"
   },
   "next": {
     "title": "Congratulations!",
-    "permalink": "/alphabuilder-site/docs/tutorial-basics/congratulations"
+    "permalink": "/AlphaBuilder-Site/docs/tutorial-basics/congratulations"
   }
 }

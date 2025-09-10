@@ -5,7 +5,7 @@
   "source": "@site/docs/system.md",
   "sourceDirName": ".",
   "slug": "/system",
-  "permalink": "/alphabuilder-site/docs/system",
+  "permalink": "/AlphaBuilder-Site/docs/system",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/AlphaBuilder/AlphaBuilder-Site/edit/main/docs/system.md",
@@ -15,6 +15,6 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "signal-library",
-    "permalink": "/alphabuilder-site/docs/signal-library"
+    "permalink": "/AlphaBuilder-Site/docs/signal-library"
   }
 }

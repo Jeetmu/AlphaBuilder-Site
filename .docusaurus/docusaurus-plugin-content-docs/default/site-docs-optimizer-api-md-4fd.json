@@ -5,7 +5,7 @@
   "source": "@site/docs/optimizer-api.md",
   "sourceDirName": ".",
   "slug": "/optimizer-api",
-  "permalink": "/alphabuilder-site/docs/optimizer-api",
+  "permalink": "/AlphaBuilder-Site/docs/optimizer-api",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/AlphaBuilder/AlphaBuilder-Site/edit/main/docs/optimizer-api.md",
@@ -15,10 +15,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "index",
-    "permalink": "/alphabuilder-site/docs/"
+    "permalink": "/AlphaBuilder-Site/docs/"
   },
   "next": {
-    "title": "signal-library",
-    "permalink": "/alphabuilder-site/docs/signal-library"
+    "title": "research",
+    "permalink": "/AlphaBuilder-Site/docs/research"
   }
 }

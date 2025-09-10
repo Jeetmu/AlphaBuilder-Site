@@ -5,7 +5,7 @@
   "source": "@site/docs/signal-library.md",
   "sourceDirName": ".",
   "slug": "/signal-library",
-  "permalink": "/alphabuilder-site/docs/signal-library",
+  "permalink": "/AlphaBuilder-Site/docs/signal-library",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/AlphaBuilder/AlphaBuilder-Site/edit/main/docs/signal-library.md",
@@ -14,11 +14,11 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "optimizer-api",
-    "permalink": "/alphabuilder-site/docs/optimizer-api"
+    "title": "research",
+    "permalink": "/AlphaBuilder-Site/docs/research"
   },
   "next": {
     "title": "system",
-    "permalink": "/alphabuilder-site/docs/system"
+    "permalink": "/AlphaBuilder-Site/docs/system"
   }
 }

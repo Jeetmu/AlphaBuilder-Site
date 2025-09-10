@@ -1,5 +1,5 @@
 {
-  "/alphabuilder-site/blog-522": {
+  "/AlphaBuilder-Site/blog-5a5": {
     "__comp": "a6aa9e1f",
     "__context": {
       "plugin": "36994c47"
@@ -19,16 +19,16 @@
         "content": "925b3f96"
       }
     ],
-    "__props": "640b4269"
+    "__props": "9710137c"
   },
-  "/alphabuilder-site/blog/archive-985": {
+  "/AlphaBuilder-Site/blog/archive-0d3": {
     "__comp": "9e4087bc",
     "__context": {
       "plugin": "36994c47"
     },
-    "__props": "caca5032"
+    "__props": "9a8b56a8"
   },
-  "/alphabuilder-site/blog/authors-3e1": {
+  "/AlphaBuilder-Site/blog/authors-cdc": {
     "__comp": "621db11d",
     "__context": {
       "data": {
@@ -37,9 +37,9 @@
       "plugin": "36994c47"
     },
     "sidebar": "814f3328",
-    "__props": "ee33d71e"
+    "__props": "24026ee3"
   },
-  "/alphabuilder-site/blog/authors/all-sebastien-lorber-articles-b61": {
+  "/AlphaBuilder-Site/blog/authors/all-sebastien-lorber-articles-aa1": {
     "__comp": "33fc5bb8",
     "__context": {
       "data": {
@@ -59,9 +59,9 @@
       }
     ],
     "sidebar": "814f3328",
-    "__props": "85fb004e"
+    "__props": "31577be5"
   },
-  "/alphabuilder-site/blog/authors/yangshun-2c2": {
+  "/AlphaBuilder-Site/blog/authors/yangshun-5bc": {
     "__comp": "33fc5bb8",
     "__context": {
       "data": {
@@ -81,9 +81,9 @@
       }
     ],
     "sidebar": "814f3328",
-    "__props": "983ffe0f"
+    "__props": "56fcce77"
   },
-  "/alphabuilder-site/blog/first-blog-post-23b": {
+  "/AlphaBuilder-Site/blog/first-blog-post-3bb": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
@@ -94,7 +94,7 @@
     "sidebar": "814f3328",
     "content": "e273c56f"
   },
-  "/alphabuilder-site/blog/long-blog-post-3f0": {
+  "/AlphaBuilder-Site/blog/long-blog-post-702": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
@@ -105,7 +105,7 @@
     "sidebar": "814f3328",
     "content": "73664a40"
   },
-  "/alphabuilder-site/blog/mdx-blog-post-203": {
+  "/AlphaBuilder-Site/blog/mdx-blog-post-618": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
@@ -116,15 +116,15 @@
     "sidebar": "814f3328",
     "content": "59362658"
   },
-  "/alphabuilder-site/blog/tags-c16": {
+  "/AlphaBuilder-Site/blog/tags-e07": {
     "__comp": "01a85c17",
     "__context": {
       "plugin": "36994c47"
     },
     "sidebar": "814f3328",
-    "__props": "47a132d8"
+    "__props": "7c6a7f97"
   },
-  "/alphabuilder-site/blog/tags/docusaurus-632": {
+  "/AlphaBuilder-Site/blog/tags/docusaurus-241": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -144,9 +144,9 @@
         "content": "925b3f96"
       }
     ],
-    "__props": "57c67d38"
+    "__props": "63d05a19"
   },
-  "/alphabuilder-site/blog/tags/facebook-82a": {
+  "/AlphaBuilder-Site/blog/tags/facebook-b36": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -157,9 +157,9 @@
         "content": "7661071f"
       }
     ],
-    "__props": "7040d7a3"
+    "__props": "a4798559"
   },
-  "/alphabuilder-site/blog/tags/hello-042": {
+  "/AlphaBuilder-Site/blog/tags/hello-c2c": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -173,9 +173,9 @@
         "content": "8717b14a"
       }
     ],
-    "__props": "3e42a686"
+    "__props": "3f26122a"
   },
-  "/alphabuilder-site/blog/tags/hola-fbd": {
+  "/AlphaBuilder-Site/blog/tags/hola-ad7": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -186,9 +186,9 @@
         "content": "925b3f96"
       }
     ],
-    "__props": "674abf89"
+    "__props": "bb817645"
   },
-  "/alphabuilder-site/blog/welcome-7bb": {
+  "/AlphaBuilder-Site/blog/welcome-509": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
@@ -199,87 +199,51 @@
     "sidebar": "814f3328",
     "content": "d9f32620"
   },
-  "/alphabuilder-site/markdown-page-565": {
+  "/AlphaBuilder-Site/markdown-page-f0f": {
     "__comp": "1f391b9e",
     "__context": {
       "plugin": "a7456010"
     },
     "content": "393be207"
   },
-  "/alphabuilder-site/docs-334": {
+  "/AlphaBuilder-Site/docs-832": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/alphabuilder-site/docs-a26": {
+  "/AlphaBuilder-Site/docs-ae0": {
     "__comp": "a7bd4aaa",
-    "__props": "22ae9763"
+    "__props": "35235172"
   },
-  "/alphabuilder-site/docs-4ab": {
+  "/AlphaBuilder-Site/docs-24b": {
     "__comp": "a94703ab"
   },
-  "/alphabuilder-site/docs/-8d3": {
+  "/AlphaBuilder-Site/docs/-347": {
     "__comp": "17896441",
     "content": "c377a04b"
   },
-  "/alphabuilder-site/docs/category/tutorial---basics-717": {
-    "__comp": "14eb3368",
-    "__props": "f6392953"
-  },
-  "/alphabuilder-site/docs/category/tutorial---extras-55b": {
-    "__comp": "14eb3368",
-    "__props": "fbe2d8c5"
-  },
-  "/alphabuilder-site/docs/contact-d5d": {
+  "/AlphaBuilder-Site/docs/contact-322": {
     "__comp": "17896441",
     "content": "32dd35a8"
   },
-  "/alphabuilder-site/docs/optimizer-api-a73": {
+  "/AlphaBuilder-Site/docs/optimizer-api-c6c": {
     "__comp": "17896441",
     "content": "4fdcfbab"
   },
-  "/alphabuilder-site/docs/signal-library-6e0": {
+  "/AlphaBuilder-Site/docs/research-79f": {
+    "__comp": "17896441",
+    "content": "b3c3c200"
+  },
+  "/AlphaBuilder-Site/docs/signal-library-1e8": {
     "__comp": "17896441",
     "content": "72840bed"
   },
-  "/alphabuilder-site/docs/system-2ac": {
+  "/AlphaBuilder-Site/docs/system-b8b": {
     "__comp": "17896441",
     "content": "ff0c441f"
   },
-  "/alphabuilder-site/docs/tutorial-basics/congratulations-e92": {
-    "__comp": "17896441",
-    "content": "822bd8ab"
-  },
-  "/alphabuilder-site/docs/tutorial-basics/create-a-blog-post-94b": {
-    "__comp": "17896441",
-    "content": "533a09ca"
-  },
-  "/alphabuilder-site/docs/tutorial-basics/create-a-document-389": {
-    "__comp": "17896441",
-    "content": "1e4232ab"
-  },
-  "/alphabuilder-site/docs/tutorial-basics/create-a-page-d66": {
-    "__comp": "17896441",
-    "content": "5c868d36"
-  },
-  "/alphabuilder-site/docs/tutorial-basics/deploy-your-site-179": {
-    "__comp": "17896441",
-    "content": "f55d3e7a"
-  },
-  "/alphabuilder-site/docs/tutorial-basics/markdown-features-56f": {
-    "__comp": "17896441",
-    "content": "18c41134"
-  },
-  "/alphabuilder-site/docs/tutorial-extras/manage-docs-versions-08d": {
-    "__comp": "17896441",
-    "content": "dff1c289"
-  },
-  "/alphabuilder-site/docs/tutorial-extras/translate-your-site-b58": {
-    "__comp": "17896441",
-    "content": "e44a2883"
-  },
-  "/alphabuilder-site/-e4a": {
+  "/AlphaBuilder-Site/-b4d": {
     "__comp": "c4f5d8e4",
     "__context": {
       "plugin": "a7456010"
