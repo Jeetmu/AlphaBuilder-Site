@@ -1,0 +1,23 @@
+{
+  "id": "contact",
+  "title": "Tutorial Intro",
+  "description": "Let's discover Docusaurus in less than 5 minutes.",
+  "source": "@site/docs/contact.md",
+  "sourceDirName": ".",
+  "slug": "/contact",
+  "permalink": "/alphabuilder-site/docs/contact",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/AlphaBuilder/AlphaBuilder-Site/edit/main/docs/contact.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Tutorial - Basics",
+    "permalink": "/alphabuilder-site/docs/category/tutorial---basics"
+  }
+}
