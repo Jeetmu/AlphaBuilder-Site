@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkalphabuilder_site=self.webpackChunkalphabuilder_site||[]).push([[1903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/alphabuilder-site/blog","blogTitle":"Blog","authorsListPath":"/alphabuilder-site/blog/authors"}')}}]);
