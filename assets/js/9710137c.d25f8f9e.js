@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalphabuilder_site=self.webpackChunkalphabuilder_site||[]).push([[390],{8135:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/AlphaBuilder-Site/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
