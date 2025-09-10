@@ -10,8 +10,8 @@ const config = {
     v4: true, 
   },
 
-  url: 'https://alphabuilder.github.io',
-  baseUrl: '/AlphaBuilder-Site/',
+  url: 'https://alphabuilder.xyz',
+  baseUrl: '/',
 
   organizationName: 'Jeetmu',
   projectName: 'AlphaBuilder-Site',
