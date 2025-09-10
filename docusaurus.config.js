@@ -44,13 +44,13 @@ const config = {
         alt: 'AlphaBuilder Logo',
         src: 'img/logo.png',
       },
-      items: [
-        { to: '/optimizer', label: 'Optimizer', position: 'left' },
-        { to: '/signals', label: 'Signals', position: 'left' },
-        { to: '/system', label: 'System', position: 'left' },
-        { to: '/research', label: 'Research', position: 'left'},
-        { to: '/contact', label: 'Contact', position: 'left'},
-      ],
+       items: [
+        { to: '/optimizer', label: 'Optimizer', position: 'left', className: 'center-navbar' },
+        { to: '/signals', label: 'Signals', position: 'left', className: 'center-navbar' },
+        { to: '/system', label: 'System', position: 'left', className: 'center-navbar' },
+        { to: '/research', label: 'Research', position: 'left', className: 'center-navbar' },
+        { to: '/contact', label: 'Contact', position: 'left', className: 'center-navbar' },
+     ],
     },
     colorMode: {
     defaultMode: 'dark',
