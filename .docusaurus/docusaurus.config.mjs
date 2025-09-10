@@ -48,17 +48,7 @@ export default {
       "classic",
       {
         "docs": false,
-        "blog": {
-          "showReadingTime": true,
-          "feedOptions": {
-            "type": [
-              "rss",
-              "atom"
-            ],
-            "xslt": true
-          },
-          "editUrl": "https://github.com/AlphaBuilder/AlphaBuilder-Site/edit/main/"
-        },
+        "blog": false,
         "theme": {
           "customCss": "./src/css/custom.css"
         }
