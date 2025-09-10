@@ -52,6 +52,10 @@ const config = {
         { to: '/contact', label: 'Contact', position: 'left'},
       ],
     },
+    colorMode: {
+    defaultMode: 'dark',
+    disableSwitch: true,  
+  },
   },
 };
 
