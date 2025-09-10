@@ -1,247 +1,38 @@
 {
-  "/AlphaBuilder-Site/blog-5a5": {
-    "__comp": "a6aa9e1f",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "7661071f"
-      },
-      {
-        "content": "f4f34a3a"
-      },
-      {
-        "content": "8717b14a"
-      },
-      {
-        "content": "925b3f96"
-      }
-    ],
-    "__props": "9710137c"
-  },
-  "/AlphaBuilder-Site/blog/archive-0d3": {
-    "__comp": "9e4087bc",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "__props": "9a8b56a8"
-  },
-  "/AlphaBuilder-Site/blog/authors-cdc": {
-    "__comp": "621db11d",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "__props": "24026ee3"
-  },
-  "/AlphaBuilder-Site/blog/authors/all-sebastien-lorber-articles-aa1": {
-    "__comp": "33fc5bb8",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "items": [
-      {
-        "content": "7661071f"
-      },
-      {
-        "content": "f4f34a3a"
-      },
-      {
-        "content": "925b3f96"
-      }
-    ],
-    "sidebar": "814f3328",
-    "__props": "31577be5"
-  },
-  "/AlphaBuilder-Site/blog/authors/yangshun-5bc": {
-    "__comp": "33fc5bb8",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "items": [
-      {
-        "content": "7661071f"
-      },
-      {
-        "content": "8717b14a"
-      },
-      {
-        "content": "925b3f96"
-      }
-    ],
-    "sidebar": "814f3328",
-    "__props": "56fcce77"
-  },
-  "/AlphaBuilder-Site/blog/first-blog-post-3bb": {
-    "__comp": "ccc49370",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "content": "e273c56f"
-  },
-  "/AlphaBuilder-Site/blog/long-blog-post-702": {
-    "__comp": "ccc49370",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "content": "73664a40"
-  },
-  "/AlphaBuilder-Site/blog/mdx-blog-post-618": {
-    "__comp": "ccc49370",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "content": "59362658"
-  },
-  "/AlphaBuilder-Site/blog/tags-e07": {
-    "__comp": "01a85c17",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "__props": "7c6a7f97"
-  },
-  "/AlphaBuilder-Site/blog/tags/docusaurus-241": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "7661071f"
-      },
-      {
-        "content": "f4f34a3a"
-      },
-      {
-        "content": "8717b14a"
-      },
-      {
-        "content": "925b3f96"
-      }
-    ],
-    "__props": "63d05a19"
-  },
-  "/AlphaBuilder-Site/blog/tags/facebook-b36": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "7661071f"
-      }
-    ],
-    "__props": "a4798559"
-  },
-  "/AlphaBuilder-Site/blog/tags/hello-c2c": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "7661071f"
-      },
-      {
-        "content": "8717b14a"
-      }
-    ],
-    "__props": "3f26122a"
-  },
-  "/AlphaBuilder-Site/blog/tags/hola-ad7": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "925b3f96"
-      }
-    ],
-    "__props": "bb817645"
-  },
-  "/AlphaBuilder-Site/blog/welcome-509": {
-    "__comp": "ccc49370",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "content": "d9f32620"
-  },
-  "/AlphaBuilder-Site/markdown-page-f0f": {
+  "/AlphaBuilder-Site/contact-22c": {
     "__comp": "1f391b9e",
     "__context": {
       "plugin": "a7456010"
     },
-    "content": "393be207"
+    "content": "66c10cbb"
   },
-  "/AlphaBuilder-Site/docs-832": {
-    "__comp": "5e95c892",
+  "/AlphaBuilder-Site/optimizer-0a0": {
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "aba21aa0"
-    }
+      "plugin": "a7456010"
+    },
+    "content": "6cc07f19"
   },
-  "/AlphaBuilder-Site/docs-ae0": {
-    "__comp": "a7bd4aaa",
-    "__props": "35235172"
+  "/AlphaBuilder-Site/research-d3e": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "6334ff11"
   },
-  "/AlphaBuilder-Site/docs-24b": {
-    "__comp": "a94703ab"
+  "/AlphaBuilder-Site/signals-2dc": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "cd30b60d"
   },
-  "/AlphaBuilder-Site/docs/-347": {
-    "__comp": "17896441",
-    "content": "c377a04b"
-  },
-  "/AlphaBuilder-Site/docs/contact-322": {
-    "__comp": "17896441",
-    "content": "32dd35a8"
-  },
-  "/AlphaBuilder-Site/docs/optimizer-api-c6c": {
-    "__comp": "17896441",
-    "content": "4fdcfbab"
-  },
-  "/AlphaBuilder-Site/docs/research-79f": {
-    "__comp": "17896441",
-    "content": "b3c3c200"
-  },
-  "/AlphaBuilder-Site/docs/signal-library-1e8": {
-    "__comp": "17896441",
-    "content": "72840bed"
-  },
-  "/AlphaBuilder-Site/docs/system-b8b": {
-    "__comp": "17896441",
-    "content": "ff0c441f"
+  "/AlphaBuilder-Site/system-869": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "0efc3901"
   },
   "/AlphaBuilder-Site/-b4d": {
     "__comp": "c4f5d8e4",
