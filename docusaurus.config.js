@@ -28,10 +28,7 @@ const config = {
     [
       'classic',
       {
-        docs: {
-          sidebarPath: './sidebars.js',
-          editUrl: 'https://github.com/AlphaBuilder/AlphaBuilder-Site/edit/main/',
-        },
+        docs: false,
         blog: {
           showReadingTime: true,
           feedOptions: {
@@ -46,54 +43,26 @@ const config = {
       },
     ],
   ],
-
   themeConfig: {
-    image: 'img/alphabuilder-social-card.jpg',
     navbar: {
+      style: 'dark',
       title: 'AlphaBuilder',
       logo: {
         alt: 'AlphaBuilder Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       items: [
-        {to: '/docs/intro', label: 'Docs', position: 'left'},
-        {to: '/blog', label: 'Blog', position: 'left'},
+        { to: '/optimizer', label: 'Optimizer', position: 'left' },
+        { to: '/signals', label: 'Signals', position: 'left' },
+        { to: '/system', label: 'System', position: 'left' },
+        { to: '/research', label: 'Research', position: 'left'},
+        { to: '/contact', label: 'Contact', position: 'left'},
         {
-          href: 'https://github.com/AlphaBuilder/AlphaBuilder-Site',
+          href: 'https://github.com/Jeetmu/AlphaBuilder-Site',
           label: 'GitHub',
           position: 'right',
         },
       ],
-    },
-    footer: {
-      style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {label: 'Getting Started', to: '/docs/intro'},
-            {label: 'Optimizer API', to: '/docs/optimizer'},
-            {label: 'Signal Library', to: '/docs/signals'},
-            {label: 'System', to: '/docs/system'},
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {label: 'Stack Overflow', href: 'https://stackoverflow.com/'},
-            {label: 'Discord', href: 'https://discord.gg/'},
-            {label: 'X (Twitter)', href: 'https://x.com/'},
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {label: 'Blog', to: '/blog'},
-            {label: 'GitHub', href: 'https://github.com/AlphaBuilder/AlphaBuilder-Site'},
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} AlphaBuilder Project. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
