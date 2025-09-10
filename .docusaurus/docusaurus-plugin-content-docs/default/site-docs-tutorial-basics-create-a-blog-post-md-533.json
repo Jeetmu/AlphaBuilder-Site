@@ -5,7 +5,7 @@
   "source": "@site/docs/tutorial-basics/create-a-blog-post.md",
   "sourceDirName": "tutorial-basics",
   "slug": "/tutorial-basics/create-a-blog-post",
-  "permalink": "/alphabuilder-site/docs/tutorial-basics/create-a-blog-post",
+  "permalink": "/AlphaBuilder-Site/docs/tutorial-basics/create-a-blog-post",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/AlphaBuilder/AlphaBuilder-Site/edit/main/docs/tutorial-basics/create-a-blog-post.md",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Create a Document",
-    "permalink": "/alphabuilder-site/docs/tutorial-basics/create-a-document"
+    "permalink": "/AlphaBuilder-Site/docs/tutorial-basics/create-a-document"
   },
   "next": {
     "title": "Markdown Features",
-    "permalink": "/alphabuilder-site/docs/tutorial-basics/markdown-features"
+    "permalink": "/AlphaBuilder-Site/docs/tutorial-basics/markdown-features"
   }
 }

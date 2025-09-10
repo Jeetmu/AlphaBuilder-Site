@@ -29,7 +29,7 @@ export default {
     "experimental_router": "browser"
   },
   "url": "https://alphabuilder.github.io",
-  "baseUrl": "/alphabuilder-site/",
+  "baseUrl": "/AlphaBuilder-Site/",
   "organizationName": "Jeetmu",
   "projectName": "AlphaBuilder-Site",
   "onBrokenLinks": "warn",

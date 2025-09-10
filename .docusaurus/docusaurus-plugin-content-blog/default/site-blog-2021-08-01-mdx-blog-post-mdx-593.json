@@ -1,5 +1,5 @@
 {
-  "permalink": "/alphabuilder-site/blog/mdx-blog-post",
+  "permalink": "/AlphaBuilder-Site/blog/mdx-blog-post",
   "editUrl": "https://github.com/AlphaBuilder/AlphaBuilder-Site/edit/main/blog/2021-08-01-mdx-blog-post.mdx",
   "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
   "title": "MDX Blog Post",
@@ -9,7 +9,7 @@
     {
       "inline": false,
       "label": "Docusaurus",
-      "permalink": "/alphabuilder-site/blog/tags/docusaurus",
+      "permalink": "/AlphaBuilder-Site/blog/tags/docusaurus",
       "description": "Docusaurus tag description"
     }
   ],
@@ -21,7 +21,7 @@
       "title": "Docusaurus maintainer",
       "url": "https://sebastienlorber.com",
       "page": {
-        "permalink": "/alphabuilder-site/blog/authors/all-sebastien-lorber-articles"
+        "permalink": "/AlphaBuilder-Site/blog/authors/all-sebastien-lorber-articles"
       },
       "socials": {
         "x": "https://x.com/sebastienlorber",
@@ -46,10 +46,10 @@
   "unlisted": false,
   "prevItem": {
     "title": "Welcome",
-    "permalink": "/alphabuilder-site/blog/welcome"
+    "permalink": "/AlphaBuilder-Site/blog/welcome"
   },
   "nextItem": {
     "title": "Long Blog Post",
-    "permalink": "/alphabuilder-site/blog/long-blog-post"
+    "permalink": "/AlphaBuilder-Site/blog/long-blog-post"
   }
 }

@@ -3,179 +3,125 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/alphabuilder-site/blog',
-    component: ComponentCreator('/alphabuilder-site/blog', '522'),
+    path: '/AlphaBuilder-Site/blog',
+    component: ComponentCreator('/AlphaBuilder-Site/blog', '5a5'),
     exact: true
   },
   {
-    path: '/alphabuilder-site/blog/archive',
-    component: ComponentCreator('/alphabuilder-site/blog/archive', '985'),
+    path: '/AlphaBuilder-Site/blog/archive',
+    component: ComponentCreator('/AlphaBuilder-Site/blog/archive', '0d3'),
     exact: true
   },
   {
-    path: '/alphabuilder-site/blog/authors',
-    component: ComponentCreator('/alphabuilder-site/blog/authors', '3e1'),
+    path: '/AlphaBuilder-Site/blog/authors',
+    component: ComponentCreator('/AlphaBuilder-Site/blog/authors', 'cdc'),
     exact: true
   },
   {
-    path: '/alphabuilder-site/blog/authors/all-sebastien-lorber-articles',
-    component: ComponentCreator('/alphabuilder-site/blog/authors/all-sebastien-lorber-articles', 'b61'),
+    path: '/AlphaBuilder-Site/blog/authors/all-sebastien-lorber-articles',
+    component: ComponentCreator('/AlphaBuilder-Site/blog/authors/all-sebastien-lorber-articles', 'aa1'),
     exact: true
   },
   {
-    path: '/alphabuilder-site/blog/authors/yangshun',
-    component: ComponentCreator('/alphabuilder-site/blog/authors/yangshun', '2c2'),
+    path: '/AlphaBuilder-Site/blog/authors/yangshun',
+    component: ComponentCreator('/AlphaBuilder-Site/blog/authors/yangshun', '5bc'),
     exact: true
   },
   {
-    path: '/alphabuilder-site/blog/first-blog-post',
-    component: ComponentCreator('/alphabuilder-site/blog/first-blog-post', '23b'),
+    path: '/AlphaBuilder-Site/blog/first-blog-post',
+    component: ComponentCreator('/AlphaBuilder-Site/blog/first-blog-post', '3bb'),
     exact: true
   },
   {
-    path: '/alphabuilder-site/blog/long-blog-post',
-    component: ComponentCreator('/alphabuilder-site/blog/long-blog-post', '3f0'),
+    path: '/AlphaBuilder-Site/blog/long-blog-post',
+    component: ComponentCreator('/AlphaBuilder-Site/blog/long-blog-post', '702'),
     exact: true
   },
   {
-    path: '/alphabuilder-site/blog/mdx-blog-post',
-    component: ComponentCreator('/alphabuilder-site/blog/mdx-blog-post', '203'),
+    path: '/AlphaBuilder-Site/blog/mdx-blog-post',
+    component: ComponentCreator('/AlphaBuilder-Site/blog/mdx-blog-post', '618'),
     exact: true
   },
   {
-    path: '/alphabuilder-site/blog/tags',
-    component: ComponentCreator('/alphabuilder-site/blog/tags', 'c16'),
+    path: '/AlphaBuilder-Site/blog/tags',
+    component: ComponentCreator('/AlphaBuilder-Site/blog/tags', 'e07'),
     exact: true
   },
   {
-    path: '/alphabuilder-site/blog/tags/docusaurus',
-    component: ComponentCreator('/alphabuilder-site/blog/tags/docusaurus', '632'),
+    path: '/AlphaBuilder-Site/blog/tags/docusaurus',
+    component: ComponentCreator('/AlphaBuilder-Site/blog/tags/docusaurus', '241'),
     exact: true
   },
   {
-    path: '/alphabuilder-site/blog/tags/facebook',
-    component: ComponentCreator('/alphabuilder-site/blog/tags/facebook', '82a'),
+    path: '/AlphaBuilder-Site/blog/tags/facebook',
+    component: ComponentCreator('/AlphaBuilder-Site/blog/tags/facebook', 'b36'),
     exact: true
   },
   {
-    path: '/alphabuilder-site/blog/tags/hello',
-    component: ComponentCreator('/alphabuilder-site/blog/tags/hello', '042'),
+    path: '/AlphaBuilder-Site/blog/tags/hello',
+    component: ComponentCreator('/AlphaBuilder-Site/blog/tags/hello', 'c2c'),
     exact: true
   },
   {
-    path: '/alphabuilder-site/blog/tags/hola',
-    component: ComponentCreator('/alphabuilder-site/blog/tags/hola', 'fbd'),
+    path: '/AlphaBuilder-Site/blog/tags/hola',
+    component: ComponentCreator('/AlphaBuilder-Site/blog/tags/hola', 'ad7'),
     exact: true
   },
   {
-    path: '/alphabuilder-site/blog/welcome',
-    component: ComponentCreator('/alphabuilder-site/blog/welcome', '7bb'),
+    path: '/AlphaBuilder-Site/blog/welcome',
+    component: ComponentCreator('/AlphaBuilder-Site/blog/welcome', '509'),
     exact: true
   },
   {
-    path: '/alphabuilder-site/markdown-page',
-    component: ComponentCreator('/alphabuilder-site/markdown-page', '565'),
+    path: '/AlphaBuilder-Site/markdown-page',
+    component: ComponentCreator('/AlphaBuilder-Site/markdown-page', 'f0f'),
     exact: true
   },
   {
-    path: '/alphabuilder-site/docs',
-    component: ComponentCreator('/alphabuilder-site/docs', '334'),
+    path: '/AlphaBuilder-Site/docs',
+    component: ComponentCreator('/AlphaBuilder-Site/docs', '832'),
     routes: [
       {
-        path: '/alphabuilder-site/docs',
-        component: ComponentCreator('/alphabuilder-site/docs', 'a26'),
+        path: '/AlphaBuilder-Site/docs',
+        component: ComponentCreator('/AlphaBuilder-Site/docs', 'ae0'),
         routes: [
           {
-            path: '/alphabuilder-site/docs',
-            component: ComponentCreator('/alphabuilder-site/docs', '4ab'),
+            path: '/AlphaBuilder-Site/docs',
+            component: ComponentCreator('/AlphaBuilder-Site/docs', '24b'),
             routes: [
               {
-                path: '/alphabuilder-site/docs/',
-                component: ComponentCreator('/alphabuilder-site/docs/', '8d3'),
+                path: '/AlphaBuilder-Site/docs/',
+                component: ComponentCreator('/AlphaBuilder-Site/docs/', '347'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/alphabuilder-site/docs/category/tutorial---basics',
-                component: ComponentCreator('/alphabuilder-site/docs/category/tutorial---basics', '717'),
+                path: '/AlphaBuilder-Site/docs/contact',
+                component: ComponentCreator('/AlphaBuilder-Site/docs/contact', '322'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/alphabuilder-site/docs/category/tutorial---extras',
-                component: ComponentCreator('/alphabuilder-site/docs/category/tutorial---extras', '55b'),
+                path: '/AlphaBuilder-Site/docs/optimizer-api',
+                component: ComponentCreator('/AlphaBuilder-Site/docs/optimizer-api', 'c6c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/alphabuilder-site/docs/contact',
-                component: ComponentCreator('/alphabuilder-site/docs/contact', 'd5d'),
+                path: '/AlphaBuilder-Site/docs/research',
+                component: ComponentCreator('/AlphaBuilder-Site/docs/research', '79f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/alphabuilder-site/docs/optimizer-api',
-                component: ComponentCreator('/alphabuilder-site/docs/optimizer-api', 'a73'),
+                path: '/AlphaBuilder-Site/docs/signal-library',
+                component: ComponentCreator('/AlphaBuilder-Site/docs/signal-library', '1e8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/alphabuilder-site/docs/signal-library',
-                component: ComponentCreator('/alphabuilder-site/docs/signal-library', '6e0'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/alphabuilder-site/docs/system',
-                component: ComponentCreator('/alphabuilder-site/docs/system', '2ac'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/alphabuilder-site/docs/tutorial-basics/congratulations',
-                component: ComponentCreator('/alphabuilder-site/docs/tutorial-basics/congratulations', 'e92'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/alphabuilder-site/docs/tutorial-basics/create-a-blog-post',
-                component: ComponentCreator('/alphabuilder-site/docs/tutorial-basics/create-a-blog-post', '94b'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/alphabuilder-site/docs/tutorial-basics/create-a-document',
-                component: ComponentCreator('/alphabuilder-site/docs/tutorial-basics/create-a-document', '389'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/alphabuilder-site/docs/tutorial-basics/create-a-page',
-                component: ComponentCreator('/alphabuilder-site/docs/tutorial-basics/create-a-page', 'd66'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/alphabuilder-site/docs/tutorial-basics/deploy-your-site',
-                component: ComponentCreator('/alphabuilder-site/docs/tutorial-basics/deploy-your-site', '179'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/alphabuilder-site/docs/tutorial-basics/markdown-features',
-                component: ComponentCreator('/alphabuilder-site/docs/tutorial-basics/markdown-features', '56f'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/alphabuilder-site/docs/tutorial-extras/manage-docs-versions',
-                component: ComponentCreator('/alphabuilder-site/docs/tutorial-extras/manage-docs-versions', '08d'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/alphabuilder-site/docs/tutorial-extras/translate-your-site',
-                component: ComponentCreator('/alphabuilder-site/docs/tutorial-extras/translate-your-site', 'b58'),
+                path: '/AlphaBuilder-Site/docs/system',
+                component: ComponentCreator('/AlphaBuilder-Site/docs/system', 'b8b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
@@ -186,8 +132,8 @@ export default [
     ]
   },
   {
-    path: '/alphabuilder-site/',
-    component: ComponentCreator('/alphabuilder-site/', 'e4a'),
+    path: '/AlphaBuilder-Site/',
+    component: ComponentCreator('/AlphaBuilder-Site/', 'b4d'),
     exact: true
   },
   {

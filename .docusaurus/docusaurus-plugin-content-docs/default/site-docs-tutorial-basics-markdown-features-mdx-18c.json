@@ -5,7 +5,7 @@
   "source": "@site/docs/tutorial-basics/markdown-features.mdx",
   "sourceDirName": "tutorial-basics",
   "slug": "/tutorial-basics/markdown-features",
-  "permalink": "/alphabuilder-site/docs/tutorial-basics/markdown-features",
+  "permalink": "/AlphaBuilder-Site/docs/tutorial-basics/markdown-features",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/AlphaBuilder/AlphaBuilder-Site/edit/main/docs/tutorial-basics/markdown-features.mdx",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Create a Blog Post",
-    "permalink": "/alphabuilder-site/docs/tutorial-basics/create-a-blog-post"
+    "permalink": "/AlphaBuilder-Site/docs/tutorial-basics/create-a-blog-post"
   },
   "next": {
     "title": "Deploy your site",
-    "permalink": "/alphabuilder-site/docs/tutorial-basics/deploy-your-site"
+    "permalink": "/AlphaBuilder-Site/docs/tutorial-basics/deploy-your-site"
   }
 }
