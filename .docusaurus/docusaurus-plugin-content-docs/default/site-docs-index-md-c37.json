@@ -1,0 +1,24 @@
+{
+  "id": "index",
+  "title": "index",
+  "description": "",
+  "source": "@site/docs/index.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/alphabuilder-site/docs/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/AlphaBuilder/AlphaBuilder-Site/edit/main/docs/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Translate your site",
+    "permalink": "/alphabuilder-site/docs/tutorial-extras/translate-your-site"
+  },
+  "next": {
+    "title": "optimizer-api",
+    "permalink": "/alphabuilder-site/docs/optimizer-api"
+  }
+}
