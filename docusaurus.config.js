@@ -52,10 +52,6 @@ const config = {
         { to: '/contact', label: 'Contact', position: 'left'},
       ],
     },
-    prism: {
-      theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
-    },
   },
 };
 
