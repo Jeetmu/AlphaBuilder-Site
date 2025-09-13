@@ -1,0 +1,10 @@
+site_name: AlphaBuilder
+nav:
+  - Home: index.md
+  - Research Work: research.md
+  - Optimizer API: optimizer-api.md
+  - Signal Library: signal-library.md
+  - System: system.md
+  - Contact: contact.md
+theme:
+  name: material
