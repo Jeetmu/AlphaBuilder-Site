@@ -38,8 +38,28 @@ export default [
     exact: true
   },
   {
+    path: '/about',
+    component: ComponentCreator('/about', '954'),
+    exact: true
+  },
+  {
+    path: '/blog',
+    component: ComponentCreator('/blog', '61e'),
+    exact: true
+  },
+  {
+    path: '/changelog',
+    component: ComponentCreator('/changelog', 'fda'),
+    exact: true
+  },
+  {
     path: '/contact',
     component: ComponentCreator('/contact', 'b68'),
+    exact: true
+  },
+  {
+    path: '/docs',
+    component: ComponentCreator('/docs', '669'),
     exact: true
   },
   {

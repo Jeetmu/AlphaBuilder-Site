@@ -88,6 +88,30 @@ export default {
           "className": "center-navbar"
         },
         {
+          "to": "/docs",
+          "label": "Docs",
+          "position": "left",
+          "className": "center-navbar"
+        },
+        {
+          "to": "/changelog",
+          "label": "Changelog",
+          "position": "left",
+          "className": "center-navbar"
+        },
+        {
+          "to": "/blog",
+          "label": "Blogs",
+          "position": "left",
+          "className": "center-navbar"
+        },
+        {
+          "to": "/about",
+          "label": "About",
+          "position": "left",
+          "className": "center-navbar"
+        },
+        {
           "to": "/contact",
           "label": "Contact",
           "position": "left",

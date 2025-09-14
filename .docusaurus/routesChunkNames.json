@@ -42,45 +42,73 @@
       "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
+  "/about-954": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---bloga-74-183"
+    },
+    "content": "content---about-356-540"
+  },
+  "/blog-61e": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---bloga-74-183"
+    },
+    "content": "content---bloga-0-d-1cf"
+  },
+  "/changelog-fda": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---bloga-74-183"
+    },
+    "content": "content---changelog-758-113"
+  },
   "/contact-b68": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "plugin---contacta-74-4e6"
+      "plugin": "plugin---bloga-74-183"
     },
     "content": "content---contact-66-c-5e3"
+  },
+  "/docs-669": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---bloga-74-183"
+    },
+    "content": "content---docs-2-f-7-4fe"
   },
   "/optimizer-47c": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "plugin---contacta-74-4e6"
+      "plugin": "plugin---bloga-74-183"
     },
     "content": "content---optimizer-6-cc-383"
   },
   "/research-83c": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "plugin---contacta-74-4e6"
+      "plugin": "plugin---bloga-74-183"
     },
     "content": "content---research-633-2e8"
   },
   "/signals-93c": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "plugin---contacta-74-4e6"
+      "plugin": "plugin---bloga-74-183"
     },
     "content": "content---signalscd-3-bbc"
   },
   "/system-1a9": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "plugin---contacta-74-4e6"
+      "plugin": "plugin---bloga-74-183"
     },
     "content": "content---system-0-ef-582"
   },
   "/-2e1": {
     "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
     "__context": {
-      "plugin": "plugin---contacta-74-4e6"
+      "plugin": "plugin---bloga-74-183"
     },
     "config": "config---5-e-9-4f3"
   }

@@ -1,0 +1,8 @@
+{
+  "type": "mdx",
+  "permalink": "/blog",
+  "source": "@site/src/pages/blog.md",
+  "description": "Blogs",
+  "frontMatter": {},
+  "unlisted": false
+}
