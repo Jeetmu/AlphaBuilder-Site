@@ -6,7 +6,7 @@
 export default {
   "title": "AlphaBuilder",
   "tagline": "Quant Research Project",
-  "favicon": "img/favicon.ico",
+  "favicon": "img/favicon_1.png",
   "future": {
     "v4": {
       "removeLegacyPostBuildHeadAttribute": true,
@@ -58,10 +58,9 @@ export default {
   "themeConfig": {
     "navbar": {
       "style": "dark",
-      "title": "AlphaBuilder",
       "logo": {
         "alt": "AlphaBuilder Logo",
-        "src": "img/logo.png"
+        "src": "img/logo_4.png"
       },
       "items": [
         {

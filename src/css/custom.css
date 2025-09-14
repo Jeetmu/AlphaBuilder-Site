@@ -17,7 +17,12 @@ a {
 .navbar__items {
   justify-content: center !important;
 }
-.navbar__brand,
+
+.navbar__brand {
+  display: flex;
+  align-items: center; 
+}
+
 .navbar__link {
   color: white !important;
 }
@@ -25,6 +30,14 @@ a {
 .navbar__link:hover {
   color: #1abc9c !important;
 }
-.navbar__logo {
-  margin-right: 0; 
+
+.navbar__logo img {
+  height: 150px !important;   
+  width: auto !important;      
 }
+
+.navbar__logo {
+  display: flex;
+  align-items: center;
+}
+

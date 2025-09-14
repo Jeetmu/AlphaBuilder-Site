@@ -4,7 +4,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'AlphaBuilder',
   tagline: 'Quant Research Project',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon_1.png',
 
   future: {
     v4: true, 
@@ -39,10 +39,9 @@ const config = {
   themeConfig: {
     navbar: {
       style: 'dark',
-      title: 'AlphaBuilder',
       logo: {
         alt: 'AlphaBuilder Logo',
-        src: 'img/logo_1.png',
+        src: 'img/logo_4.png',
       },
        items: [
         { to: '/optimizer', label: 'Optimizer', position: 'left', className: 'center-navbar' },

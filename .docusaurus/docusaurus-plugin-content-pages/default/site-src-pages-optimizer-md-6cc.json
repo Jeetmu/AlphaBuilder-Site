@@ -2,8 +2,7 @@
   "type": "mdx",
   "permalink": "/optimizer",
   "source": "@site/src/pages/optimizer.md",
-  "title": "Welcome to AlphaBuilder-Optimizer",
-  "description": "Coming Soon...",
+  "description": "Welcome to AlphaBuilder-Optimizer",
   "frontMatter": {},
   "unlisted": false
 }
