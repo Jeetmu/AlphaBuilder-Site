@@ -1,0 +1,8 @@
+{
+  "type": "mdx",
+  "permalink": "/about",
+  "source": "@site/src/pages/about.md",
+  "description": "About Us",
+  "frontMatter": {},
+  "unlisted": false
+}
