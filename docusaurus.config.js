@@ -42,7 +42,7 @@ const config = {
       title: 'AlphaBuilder',
       logo: {
         alt: 'AlphaBuilder Logo',
-        src: 'img/logo.png',
+        src: 'img/logo_1.png',
       },
        items: [
         { to: '/optimizer', label: 'Optimizer', position: 'left', className: 'center-navbar' },
