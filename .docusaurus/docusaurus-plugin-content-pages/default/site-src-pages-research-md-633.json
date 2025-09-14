@@ -2,8 +2,7 @@
   "type": "mdx",
   "permalink": "/research",
   "source": "@site/src/pages/research.md",
-  "title": "Welcome to Research Project",
-  "description": "Coming Soon...",
+  "description": "Welcome to Research Project",
   "frontMatter": {},
   "unlisted": false
 }
