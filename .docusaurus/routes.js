@@ -38,6 +38,16 @@ export default [
     exact: true
   },
   {
+    path: '/risk',
+    component: ComponentCreator('/risk', '8c0'),
+    exact: true
+  },
+  {
+    path: '/search',
+    component: ComponentCreator('/search', '822'),
+    exact: true
+  },
+  {
     path: '/signals',
     component: ComponentCreator('/signals', '93c'),
     exact: true

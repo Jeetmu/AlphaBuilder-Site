@@ -36,6 +36,22 @@ const config = {
       },
     ],
   ],
+
+  themes: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
+        hashed: true,
+        indexDocs: false,    
+        indexBlog: false,
+        indexPages: true,   
+        searchBarPosition: 'right',
+        searchBarShortcut: true,
+      }),
+    ],
+  ],
+
   themeConfig: {
     navbar: {
       style: 'dark',
@@ -54,6 +70,7 @@ const config = {
         { to: '/blog', label: 'Blogs', position: 'left', className: 'center-navbar' },
         { to: '/about', label: 'About', position: 'left', className: 'center-navbar' },
         { to: '/contact', label: 'Contact', position: 'left', className: 'center-navbar' },
+        { type: 'search', position: 'right' },
      ],
     },
     colorMode: {
