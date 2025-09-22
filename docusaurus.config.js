@@ -47,7 +47,7 @@ const config = {
         indexBlog: false,
         indexPages: true,   
         searchBarPosition: 'right',
-        searchBarShortcut: true,
+        searchBarShortcut: false,
       }),
     ],
   ],
