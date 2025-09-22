@@ -55,6 +55,19 @@ export default {
       }
     ]
   ],
+  "themes": [
+    [
+      "/Users/homebrew/Documents/AB-S/AlphaBuilder-System/alphabuilder_site/node_modules/@easyops-cn/docusaurus-search-local/dist/server/server/index.js",
+      {
+        "hashed": true,
+        "indexDocs": false,
+        "indexBlog": false,
+        "indexPages": true,
+        "searchBarPosition": "right",
+        "searchBarShortcut": true
+      }
+    ]
+  ],
   "themeConfig": {
     "navbar": {
       "style": "dark",
@@ -72,6 +85,12 @@ export default {
         {
           "to": "/signals",
           "label": "Signals",
+          "position": "left",
+          "className": "center-navbar"
+        },
+        {
+          "to": "/risk",
+          "label": "Risk",
           "position": "left",
           "className": "center-navbar"
         },
@@ -116,6 +135,10 @@ export default {
           "label": "Contact",
           "position": "left",
           "className": "center-navbar"
+        },
+        {
+          "type": "search",
+          "position": "right"
         }
       ],
       "hideOnScroll": false
@@ -293,7 +316,6 @@ export default {
   ],
   "customFields": {},
   "plugins": [],
-  "themes": [],
   "scripts": [],
   "headTags": [],
   "stylesheets": [],

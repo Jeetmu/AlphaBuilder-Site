@@ -31,6 +31,7 @@ a {
   color: #1abc9c !important;
 }
 
+/* Logo Position */
 .navbar__logo img {
   height: 150px !important;   
   width: auto !important;      
@@ -41,3 +42,17 @@ a {
   align-items: center;
 }
 
+
+/* Fix for search results text in dark mode */
+html[data-theme='dark'] .search-result__link {
+  color: #ffffff !important;
+}
+
+html[data-theme='dark'] .search-result__summary {
+  color: #cccccc !important;
+}
+
+html[data-theme='dark'] .DocSearch-Modal,
+html[data-theme='dark'] .DocSearch-Dropdown {
+  background-color: #1a1a1a !important;
+}

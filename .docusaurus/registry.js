@@ -1,8 +1,11 @@
 export default {
   "0efc3901": [() => import(/* webpackChunkName: "0efc3901" */ "@site/src/pages/system.md"), "@site/src/pages/system.md", require.resolveWeak("@site/src/pages/system.md")],
+  "138e0e15": [() => import(/* webpackChunkName: "138e0e15" */ "@generated/@easyops-cn/docusaurus-search-local/default/__plugin.json"), "@generated/@easyops-cn/docusaurus-search-local/default/__plugin.json", require.resolveWeak("@generated/@easyops-cn/docusaurus-search-local/default/__plugin.json")],
+  "1a4e3797": [() => import(/* webpackChunkName: "1a4e3797" */ "@theme/SearchPage"), "@theme/SearchPage", require.resolveWeak("@theme/SearchPage")],
   "1f391b9e": [() => import(/* webpackChunkName: "1f391b9e" */ "@theme/MDXPage"), "@theme/MDXPage", require.resolveWeak("@theme/MDXPage")],
   "2f74e75f": [() => import(/* webpackChunkName: "2f74e75f" */ "@site/src/pages/docs.md"), "@site/src/pages/docs.md", require.resolveWeak("@site/src/pages/docs.md")],
   "356a0ac6": [() => import(/* webpackChunkName: "356a0ac6" */ "@site/src/pages/about.md"), "@site/src/pages/about.md", require.resolveWeak("@site/src/pages/about.md")],
+  "5d41aecb": [() => import(/* webpackChunkName: "5d41aecb" */ "@site/src/pages/risk.md"), "@site/src/pages/risk.md", require.resolveWeak("@site/src/pages/risk.md")],
   "5e9f5e1a": [() => import(/* webpackChunkName: "5e9f5e1a" */ "@generated/docusaurus.config"), "@generated/docusaurus.config", require.resolveWeak("@generated/docusaurus.config")],
   "6334ff11": [() => import(/* webpackChunkName: "6334ff11" */ "@site/src/pages/research.md"), "@site/src/pages/research.md", require.resolveWeak("@site/src/pages/research.md")],
   "66c10cbb": [() => import(/* webpackChunkName: "66c10cbb" */ "@site/src/pages/contact.md"), "@site/src/pages/contact.md", require.resolveWeak("@site/src/pages/contact.md")],
