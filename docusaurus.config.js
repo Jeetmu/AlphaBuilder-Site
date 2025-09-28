@@ -1,4 +1,5 @@
 import {themes as prismThemes} from 'prism-react-renderer';
+import { FaDiscord } from 'react-icons/fa';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -70,6 +71,7 @@ const config = {
         { to: '/blog', label: 'Blogs', position: 'left', className: 'center-navbar' },
         { to: '/about', label: 'About', position: 'left', className: 'center-navbar' },
         { to: '/contact', label: 'Contact', position: 'left', className: 'center-navbar' },
+        { href: 'https://discord.gg/En3dMhcuyC', label: 'Discord', position: 'left',className: 'navbar-discord',target: '_blank'},
         { type: 'search', position: 'right' },
      ],
     },

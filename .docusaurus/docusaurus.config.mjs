@@ -137,6 +137,13 @@ export default {
           "className": "center-navbar"
         },
         {
+          "href": "https://discord.gg/En3dMhcuyC",
+          "label": "Discord",
+          "position": "left",
+          "className": "navbar-discord",
+          "target": "_blank"
+        },
+        {
           "type": "search",
           "position": "right"
         }

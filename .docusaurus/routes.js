@@ -58,6 +58,11 @@ export default [
     exact: true
   },
   {
+    path: '/discord',
+    component: ComponentCreator('/discord', 'c6f'),
+    exact: true
+  },
+  {
     path: '/docs',
     component: ComponentCreator('/docs', '669'),
     exact: true
