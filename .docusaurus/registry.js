@@ -14,6 +14,7 @@ export default {
   "content---bloga-0-d-1cf": [() => import(/* webpackChunkName: "content---bloga-0-d-1cf" */ "@site/src/pages/blog.md"), "@site/src/pages/blog.md", require.resolveWeak("@site/src/pages/blog.md")],
   "content---changelog-758-113": [() => import(/* webpackChunkName: "content---changelog-758-113" */ "@site/src/pages/changelog.md"), "@site/src/pages/changelog.md", require.resolveWeak("@site/src/pages/changelog.md")],
   "content---contact-66-c-5e3": [() => import(/* webpackChunkName: "content---contact-66-c-5e3" */ "@site/src/pages/contact.md"), "@site/src/pages/contact.md", require.resolveWeak("@site/src/pages/contact.md")],
+  "content---discord-5-cb-7fb": [() => import(/* webpackChunkName: "content---discord-5-cb-7fb" */ "@site/src/pages/discord.md"), "@site/src/pages/discord.md", require.resolveWeak("@site/src/pages/discord.md")],
   "content---docs-2-f-7-4fe": [() => import(/* webpackChunkName: "content---docs-2-f-7-4fe" */ "@site/src/pages/docs.md"), "@site/src/pages/docs.md", require.resolveWeak("@site/src/pages/docs.md")],
   "content---optimizer-6-cc-383": [() => import(/* webpackChunkName: "content---optimizer-6-cc-383" */ "@site/src/pages/optimizer.md"), "@site/src/pages/optimizer.md", require.resolveWeak("@site/src/pages/optimizer.md")],
   "content---research-633-2e8": [() => import(/* webpackChunkName: "content---research-633-2e8" */ "@site/src/pages/research.md"), "@site/src/pages/research.md", require.resolveWeak("@site/src/pages/research.md")],
