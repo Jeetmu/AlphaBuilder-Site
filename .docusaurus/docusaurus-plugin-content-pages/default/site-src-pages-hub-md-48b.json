@@ -1,0 +1,8 @@
+{
+  "type": "mdx",
+  "permalink": "/hub",
+  "source": "@site/src/pages/hub.md",
+  "description": "Welcome to AlphaBuilder-Hub",
+  "frontMatter": {},
+  "unlisted": false
+}

@@ -95,6 +95,12 @@ export default {
           "className": "center-navbar"
         },
         {
+          "to": "/hub",
+          "label": "Hub",
+          "position": "left",
+          "className": "center-navbar"
+        },
+        {
           "to": "/system",
           "label": "System",
           "position": "left",
