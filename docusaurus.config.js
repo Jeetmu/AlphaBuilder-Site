@@ -64,6 +64,7 @@ const config = {
         { to: '/optimizer', label: 'Optimizer', position: 'left', className: 'center-navbar' },
         { to: '/signals', label: 'Signals', position: 'left', className: 'center-navbar' },
         { to: '/risk', label: 'Risk', position: 'left', className: 'center-navbar' },
+        { to: '/hub', label: 'Hub', position: 'left', className: 'center-navbar' },
         { to: '/system', label: 'System', position: 'left', className: 'center-navbar' },
         { to: '/research', label: 'Research', position: 'left', className: 'center-navbar' },
         { to: '/docs', label: 'Docs', position: 'left', className: 'center-navbar' },
