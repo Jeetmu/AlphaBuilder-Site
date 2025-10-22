@@ -66,7 +66,7 @@ const config = {
         { to: '/risk', label: 'Risk', position: 'left', className: 'center-navbar' },
         { to: '/hub', label: 'Hub', position: 'left', className: 'center-navbar' },
         { to: '/system', label: 'System', position: 'left', className: 'center-navbar' },
-        { to: '/lab', label: 'Lab', position: 'left', className: 'center-navbar' },
+        { to: '/server', label: 'Server', position: 'left', className: 'center-navbar' },
         { to: '/research', label: 'Research', position: 'left', className: 'center-navbar' },
         { to: '/changelog', label: 'Changelog', position: 'left', className: 'center-navbar' },
         { to: '/blog', label: 'Blogs', position: 'left', className: 'center-navbar' },
