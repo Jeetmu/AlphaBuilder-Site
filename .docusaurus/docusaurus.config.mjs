@@ -107,14 +107,14 @@ export default {
           "className": "center-navbar"
         },
         {
-          "to": "/research",
-          "label": "Research",
+          "to": "/lab",
+          "label": "Lab",
           "position": "left",
           "className": "center-navbar"
         },
         {
-          "to": "/docs",
-          "label": "Docs",
+          "to": "/research",
+          "label": "Research",
           "position": "left",
           "className": "center-navbar"
         },
