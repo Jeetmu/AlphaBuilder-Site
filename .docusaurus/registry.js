@@ -12,8 +12,8 @@ export default {
   "66c10cbb": [() => import(/* webpackChunkName: "66c10cbb" */ "@site/src/pages/contact.md"), "@site/src/pages/contact.md", require.resolveWeak("@site/src/pages/contact.md")],
   "6cc07f19": [() => import(/* webpackChunkName: "6cc07f19" */ "@site/src/pages/optimizer.md"), "@site/src/pages/optimizer.md", require.resolveWeak("@site/src/pages/optimizer.md")],
   "75878fc8": [() => import(/* webpackChunkName: "75878fc8" */ "@site/src/pages/changelog.md"), "@site/src/pages/changelog.md", require.resolveWeak("@site/src/pages/changelog.md")],
+  "a0048188": [() => import(/* webpackChunkName: "a0048188" */ "@site/src/pages/server.md"), "@site/src/pages/server.md", require.resolveWeak("@site/src/pages/server.md")],
   "a0de97c3": [() => import(/* webpackChunkName: "a0de97c3" */ "@site/src/pages/blog.md"), "@site/src/pages/blog.md", require.resolveWeak("@site/src/pages/blog.md")],
   "a7456010": [() => import(/* webpackChunkName: "a7456010" */ "@generated/docusaurus-plugin-content-pages/default/__plugin.json"), "@generated/docusaurus-plugin-content-pages/default/__plugin.json", require.resolveWeak("@generated/docusaurus-plugin-content-pages/default/__plugin.json")],
   "c4f5d8e4": [() => import(/* webpackChunkName: "c4f5d8e4" */ "@site/src/pages/index.js"), "@site/src/pages/index.js", require.resolveWeak("@site/src/pages/index.js")],
-  "cd30b60d": [() => import(/* webpackChunkName: "cd30b60d" */ "@site/src/pages/signals.md"), "@site/src/pages/signals.md", require.resolveWeak("@site/src/pages/signals.md")],
-  "ec24efe4": [() => import(/* webpackChunkName: "ec24efe4" */ "@site/src/pages/lab.md"), "@site/src/pages/lab.md", require.resolveWeak("@site/src/pages/lab.md")],};
+  "cd30b60d": [() => import(/* webpackChunkName: "cd30b60d" */ "@site/src/pages/signals.md"), "@site/src/pages/signals.md", require.resolveWeak("@site/src/pages/signals.md")],};

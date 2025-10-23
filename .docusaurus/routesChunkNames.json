@@ -41,13 +41,6 @@
     },
     "content": "48b238d7"
   },
-  "/lab-c33": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "ec24efe4"
-  },
   "/optimizer-47c": {
     "__comp": "1f391b9e",
     "__context": {
@@ -74,6 +67,13 @@
     "__context": {
       "plugin": "138e0e15"
     }
+  },
+  "/server-8ac": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "a0048188"
   },
   "/signals-93c": {
     "__comp": "1f391b9e",
