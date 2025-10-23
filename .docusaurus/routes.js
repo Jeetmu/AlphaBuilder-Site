@@ -33,11 +33,6 @@ export default [
     exact: true
   },
   {
-    path: '/lab',
-    component: ComponentCreator('/lab', 'c33'),
-    exact: true
-  },
-  {
     path: '/optimizer',
     component: ComponentCreator('/optimizer', '47c'),
     exact: true
@@ -55,6 +50,11 @@ export default [
   {
     path: '/search',
     component: ComponentCreator('/search', '822'),
+    exact: true
+  },
+  {
+    path: '/server',
+    component: ComponentCreator('/server', '8ac'),
     exact: true
   },
   {

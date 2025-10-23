@@ -107,8 +107,8 @@ export default {
           "className": "center-navbar"
         },
         {
-          "to": "/lab",
-          "label": "Lab",
+          "to": "/server",
+          "label": "Server",
           "position": "left",
           "className": "center-navbar"
         },
