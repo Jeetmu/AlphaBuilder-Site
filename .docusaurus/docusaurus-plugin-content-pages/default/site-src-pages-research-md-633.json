@@ -2,7 +2,6 @@
   "type": "mdx",
   "permalink": "/research",
   "source": "@site/src/pages/research.md",
-  "description": "Welcome to AlphaBuilder-Research",
   "frontMatter": {},
   "unlisted": false
 }

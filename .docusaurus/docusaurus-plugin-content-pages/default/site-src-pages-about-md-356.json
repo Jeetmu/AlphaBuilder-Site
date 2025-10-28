@@ -2,7 +2,7 @@
   "type": "mdx",
   "permalink": "/about",
   "source": "@site/src/pages/about.md",
-  "description": "About Us",
+  "description": "AlphaBuilder is a modular trading and research system integrating signal generation, risk analysis, and optimization.",
   "frontMatter": {},
   "unlisted": false
 }

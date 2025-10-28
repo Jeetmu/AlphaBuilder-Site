@@ -1,10 +1,10 @@
 {
-  "/about-954": {
-    "__comp": "1f391b9e",
+  "/about-bfe": {
+    "__comp": "989c4899",
     "__context": {
       "plugin": "a7456010"
     },
-    "content": "356a0ac6"
+    "config": "5e9f5e1a"
   },
   "/blog-61e": {
     "__comp": "1f391b9e",
@@ -12,13 +12,6 @@
       "plugin": "a7456010"
     },
     "content": "a0de97c3"
-  },
-  "/changelog-fda": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "75878fc8"
   },
   "/contact-b68": {
     "__comp": "1f391b9e",
@@ -68,13 +61,6 @@
       "plugin": "138e0e15"
     }
   },
-  "/server-8ac": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "a0048188"
-  },
   "/signals-93c": {
     "__comp": "1f391b9e",
     "__context": {
@@ -82,12 +68,26 @@
     },
     "content": "cd30b60d"
   },
+  "/status-5b5": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "51dcc33b"
+  },
   "/system-1a9": {
     "__comp": "1f391b9e",
     "__context": {
       "plugin": "a7456010"
     },
     "content": "0efc3901"
+  },
+  "/vega-75d": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "33664c6f"
   },
   "/-2e1": {
     "__comp": "c4f5d8e4",
