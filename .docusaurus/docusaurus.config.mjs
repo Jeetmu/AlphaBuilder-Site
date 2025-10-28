@@ -73,7 +73,7 @@ export default {
       "style": "dark",
       "logo": {
         "alt": "AlphaBuilder Logo",
-        "src": "img/Logo_4.png"
+        "src": "/img/Logo_4.png"
       },
       "items": [
         {
