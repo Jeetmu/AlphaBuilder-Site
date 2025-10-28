@@ -58,7 +58,7 @@ const config = {
       style: 'dark',
       logo: {
         alt: 'AlphaBuilder Logo',
-        src: 'img/Logo_4.png',
+        src: '/img/Logo_4.png',
       },
        items: [
         { to: '/optimizer', label: 'Optimizer', position: 'left', className: 'center-navbar' },
@@ -67,8 +67,8 @@ const config = {
         { to: '/hub', label: 'Hub', position: 'left', className: 'center-navbar' },
         { to: '/system', label: 'System', position: 'left', className: 'center-navbar' },
         { to: '/server', label: 'Server', position: 'left', className: 'center-navbar' },
+        { to: '/vega', label: 'Vega', position: 'left', className: 'center-navbar' },
         { to: '/research', label: 'Research', position: 'left', className: 'center-navbar' },
-        { to: '/changelog', label: 'Changelog', position: 'left', className: 'center-navbar' },
         { to: '/blog', label: 'Blogs', position: 'left', className: 'center-navbar' },
         { to: '/about', label: 'About', position: 'left', className: 'center-navbar' },
         { to: '/contact', label: 'Contact', position: 'left', className: 'center-navbar' },
