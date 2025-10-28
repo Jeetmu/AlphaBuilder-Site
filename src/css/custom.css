@@ -30,6 +30,16 @@ a {
 .navbar__link:hover {
   color: #1abc9c !important;
 }
+.dropdown__link {
+  color: #ffffff !important;
+}
+.dropdown__link:hover {
+  color: #1abc9c !important;
+}
+.dropdown__menu {
+  background-color: #1e1e1e !important;
+  border: 1px solid #333;
+}
 
 /* Logo Position */
 .navbar__logo img {
@@ -41,6 +51,8 @@ a {
   display: flex;
   align-items: center;
 }
+
+
 
 
 /* Fix for search results text in dark mode */

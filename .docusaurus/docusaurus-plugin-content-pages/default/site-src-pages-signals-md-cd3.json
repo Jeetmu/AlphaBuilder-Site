@@ -2,7 +2,6 @@
   "type": "mdx",
   "permalink": "/signals",
   "source": "@site/src/pages/signals.md",
-  "description": "Welcome to AlphaBuilder-Signal",
   "frontMatter": {},
   "unlisted": false
 }

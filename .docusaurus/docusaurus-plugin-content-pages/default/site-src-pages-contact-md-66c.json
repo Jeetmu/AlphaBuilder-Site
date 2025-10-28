@@ -2,7 +2,6 @@
   "type": "mdx",
   "permalink": "/contact",
   "source": "@site/src/pages/contact.md",
-  "description": "Contact Us",
   "frontMatter": {},
   "unlisted": false
 }

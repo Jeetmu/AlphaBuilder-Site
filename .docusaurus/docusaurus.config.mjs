@@ -77,38 +77,341 @@ export default {
       },
       "items": [
         {
-          "to": "/optimizer",
-          "label": "Optimizer",
-          "position": "left",
-          "className": "center-navbar"
-        },
-        {
+          "type": "dropdown",
           "to": "/signals",
           "label": "Signals",
           "position": "left",
-          "className": "center-navbar"
+          "className": "center-navbar",
+          "items": [
+            {
+              "to": "/signals/price_return_features",
+              "label": "Price / Return Features"
+            },
+            {
+              "to": "/signals/moving_averages",
+              "label": "Moving Averages"
+            },
+            {
+              "to": "/signals/technical_indicators",
+              "label": "Technical Indicators"
+            },
+            {
+              "to": "/signals/fundamental_indicators",
+              "label": "Fundamental Indicators"
+            },
+            {
+              "to": "/signals/formulaic_alphas",
+              "label": "Formulaic Alphas"
+            },
+            {
+              "to": "/signals/regime_aware_signals",
+              "label": "Regime-Aware Signals"
+            },
+            {
+              "to": "/signals/volatility_garch_signals",
+              "label": "Volatility / GARCH Signals"
+            },
+            {
+              "to": "/signals/statistical_arb_signals",
+              "label": "Statistical / Arb Signals"
+            },
+            {
+              "to": "/signals/network_aware_signals",
+              "label": "Network-Aware Signals"
+            },
+            {
+              "to": "/signals/entropy_based_signals",
+              "label": "Entropy-Based Signals"
+            },
+            {
+              "to": "/signals/fractal_based_signals",
+              "label": "Fractal-Based Signals"
+            },
+            {
+              "to": "/signals/event_sentiment_signals",
+              "label": "Event / Sentiment Signals "
+            },
+            {
+              "to": "/signals/multi_resolution_signals",
+              "label": "Multi-Resolution Signals"
+            },
+            {
+              "to": "/signals/regime_weighted_features",
+              "label": "Regime-Weighted Features"
+            },
+            {
+              "to": "/signals/derived_meta_signals",
+              "label": "Derived / Meta Signals"
+            }
+          ]
         },
         {
+          "type": "dropdown",
           "to": "/risk",
           "label": "Risk",
           "position": "left",
-          "className": "center-navbar"
+          "className": "center-navbar",
+          "items": [
+            {
+              "to": "/risk/basic_statistical_risk",
+              "label": "Basic Statistical Risk"
+            },
+            {
+              "to": "/risk/distribution_based_risk",
+              "label": "Distribution-Based Risk"
+            },
+            {
+              "to": "/risk/volatility_modelling",
+              "label": "Volatility Modeling"
+            },
+            {
+              "to": "/risk/multi_asset_cross_asset_volatility",
+              "label": "Multi-Asset / Cross-Asset Volatility"
+            },
+            {
+              "to": "/risk/regime_aware_risk",
+              "label": "Regime-Aware Risk"
+            },
+            {
+              "to": "/risk/scenario_stress_testing",
+              "label": "Scenario & Stress Testing"
+            },
+            {
+              "to": "/risk/correlation_network_risk",
+              "label": "Correlation & Network Risk"
+            },
+            {
+              "to": "/risk/signal_to_risk_mapping",
+              "label": "Signal-to-Risk Mapping"
+            },
+            {
+              "to": "/risk/bayesian_probabilistic_risk",
+              "label": "Bayesian / Probabilistic Risk"
+            },
+            {
+              "to": "/risk/entropy_based_risk",
+              "label": "Entropy-Based Risk"
+            },
+            {
+              "to": "/risk/rl_dynamic_risk_control",
+              "label": "RL-Based Dynamic Risk Control"
+            },
+            {
+              "to": "/risk/factor_exposure_constraints",
+              "label": "Factor / Exposure Constraints"
+            },
+            {
+              "to": "/risk/tail_extreme_event_risk",
+              "label": "Tail / Extreme Event Risk"
+            },
+            {
+              "to": "/risk/rolling_multi_horizon_risk",
+              "label": "Rolling / Multi-Horizon Risk"
+            },
+            {
+              "to": "/risk/derived_hybrid_risk_signals",
+              "label": "Derived / Hybrid Risk Signals"
+            }
+          ]
         },
         {
+          "type": "dropdown",
+          "to": "/optimizer",
+          "label": "Optimizer",
+          "position": "left",
+          "className": "center-navbar",
+          "items": [
+            {
+              "to": "/optimizer/classical_portfolio_optimization",
+              "label": "Classical Portfolio Optimization"
+            },
+            {
+              "to": "/optimizer/risk_adjusted_optimization",
+              "label": "Risk-Adjusted Optimization"
+            },
+            {
+              "to": "/optimizer/factor_exposure_constraints",
+              "label": "Factor / Exposure Constraints"
+            },
+            {
+              "to": "/optimizer/heuristic_optimization",
+              "label": "Heuristic Optimization"
+            },
+            {
+              "to": "/optimizer/non_convex_optimization",
+              "label": "Non-Convex Optimization"
+            },
+            {
+              "to": "/optimizer/multi_objective_pareto_optimization",
+              "label": "Multi-Objective / Pareto Optimization"
+            },
+            {
+              "to": "/optimizer/regime_aware_optimization",
+              "label": "Regime-Aware Optimization"
+            },
+            {
+              "to": "/optimizer/rl_based_portfolio_optimization",
+              "label": "RL-Based Portfolio Optimization"
+            },
+            {
+              "to": "/optimizer/scenario_stress_aware_optimization",
+              "label": "Scenario / Stress-Aware Optimization"
+            },
+            {
+              "to": "/optimizer/meta_learning_cross_asset_adaptation",
+              "label": "Meta-Learning / Cross-Asset Adaptation"
+            },
+            {
+              "to": "/optimizer/multi_horizon_optimization",
+              "label": "Multi-Horizon Optimization"
+            },
+            {
+              "to": "/optimizer/hybrid_ensemble_optimization",
+              "label": "Hybrid / Ensemble Optimization"
+            },
+            {
+              "to": "/optimizer/entropy_based_allocation",
+              "label": "Entropy-Based Allocation"
+            },
+            {
+              "to": "/optimizer/diversification_based_allocation",
+              "label": "Diversification-Based Allocation"
+            },
+            {
+              "to": "/optimizer/derived_composite_objectives",
+              "label": "Derived / Composite Objectives"
+            },
+            {
+              "to": "/optimizer/network_aware_optimization",
+              "label": "Network Aware Optimization"
+            }
+          ]
+        },
+        {
+          "type": "dropdown",
           "to": "/hub",
           "label": "Hub",
           "position": "left",
-          "className": "center-navbar"
+          "className": "center-navbar",
+          "items": [
+            {
+              "to": "/hub/feature_engineering",
+              "label": "Feature Engineering"
+            },
+            {
+              "to": "/hub/integrated_module",
+              "label": "Integrated Module"
+            },
+            {
+              "to": "/hub/cascade_modeling",
+              "label": "Cascade Modeling"
+            },
+            {
+              "to": "/hub/encoder_layer",
+              "label": "Encoder Layer"
+            },
+            {
+              "to": "/hub/transformer_attention_layer",
+              "label": "Transformer / Attention Layer"
+            },
+            {
+              "to": "/hub/gan_generative",
+              "label": "GAN / Generative Layer"
+            },
+            {
+              "to": "/hub/skating_fusion_layer",
+              "label": "Skating Fusion Layer"
+            },
+            {
+              "to": "/hub/gating_layer",
+              "label": "Gating Layer"
+            },
+            {
+              "to": "/hub/meta_learning",
+              "label": "Meta-Learning"
+            },
+            {
+              "to": "/hub/auto_regime_discovery",
+              "label": "Auto Regime Discovery"
+            },
+            {
+              "to": "/hub/explainability_attribution",
+              "label": "Explainability / Attribution"
+            },
+            {
+              "to": "/hub/rl_based_layer",
+              "label": "RL-Based Layer"
+            },
+            {
+              "to": "/hub/forecast_head_decoder",
+              "label": "Forecast Head / Decoder"
+            }
+          ]
+        },
+        {
+          "type": "dropdown",
+          "to": "/vega",
+          "label": "Vega",
+          "position": "left",
+          "className": "center-navbar",
+          "items": [
+            {
+              "to": "/vega/volatility_foundations",
+              "label": "Volatility Foundations"
+            },
+            {
+              "to": "/vega/stochastic_volatility_models",
+              "label": "Stochastic Volatility Models"
+            },
+            {
+              "to": "/vega/regime_switching_volatility_models",
+              "label": "Regime-Switching Volatility Models"
+            },
+            {
+              "to": "/vega/volatility_surface_construction",
+              "label": "Volatility Surface Construction"
+            },
+            {
+              "to": "/vega/volatility_smile_skew_analysis",
+              "label": "Volatility Smile & Skew Analysis"
+            },
+            {
+              "to": "/vega/gaussian_process_implied_volatility",
+              "label": "Gaussian Process Implied Volatility"
+            },
+            {
+              "to": "/vega/deep_volatility_models",
+              "label": "Deep Volatility Models"
+            },
+            {
+              "to": "/vega/regime_aware_pricing",
+              "label": "Regime-Aware Pricing"
+            },
+            {
+              "to": "/vega/calibration_engine",
+              "label": "Calibration Engine"
+            },
+            {
+              "to": "/vega/volatility_risk_premium",
+              "label": "Volatility Risk Premium"
+            },
+            {
+              "to": "/vega/vega_risk_sensitivity_analysis",
+              "label": "Vega-Risk & Sensitivity Analysis"
+            },
+            {
+              "to": "/vega/volatility_forecasting_layer",
+              "label": "Volatility Forecasting Layer"
+            },
+            {
+              "to": "/vega/hybrid_meta_volatility_models",
+              "label": "Hybrid / Meta Volatility Models"
+            }
+          ]
         },
         {
           "to": "/system",
           "label": "System",
-          "position": "left",
-          "className": "center-navbar"
-        },
-        {
-          "to": "/server",
-          "label": "Server",
           "position": "left",
           "className": "center-navbar"
         },
@@ -119,14 +422,14 @@ export default {
           "className": "center-navbar"
         },
         {
-          "to": "/changelog",
-          "label": "Changelog",
+          "to": "/blog",
+          "label": "Blogs",
           "position": "left",
           "className": "center-navbar"
         },
         {
-          "to": "/blog",
-          "label": "Blogs",
+          "to": "/status",
+          "label": "Status",
           "position": "left",
           "className": "center-navbar"
         },

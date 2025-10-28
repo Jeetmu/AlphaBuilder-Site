@@ -1,0 +1,70 @@
+.markdown-two-col {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0;
+  padding: 2rem 6rem;             
+  margin: 0;          
+  color: #fff;
+}
+
+.markdown-toc {
+  position: sticky;
+  top: 80px;
+  flex: 0 0 240px;
+  border-right: 2px solid rgba(255, 255, 255, 0.2);
+  padding-right: 2rem; 
+  margin-right: 2rem; 
+}
+
+.markdown-toc ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main-link {
+  color: #fff;
+  font-weight: 600;
+  background: none;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  font-size: 1.05rem;
+  padding: 0.4rem 0;
+  width: 100%;
+  transition: color 0.2s ease;
+}
+
+.main-link:hover {
+  color: #00bfff;
+}
+
+.main-link.active {
+  color: #00bfff;
+}
+
+.sub-list {
+  margin-left: 0.8rem;
+  margin-top: 0.3rem;
+  border-left: 2px solid rgba(255, 255, 255, 0.15);
+  padding-left: 0.7rem;
+}
+
+.sub-list a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.sub-list a:hover {
+  color: #00bfff;
+}
+
+/* RIGHT CONTENT */
+.markdown-content {
+  max-width: 1200px;
+  padding-left: 1rem;
+  color: #e5e5e5;
+  line-height: 1.7;
+}
