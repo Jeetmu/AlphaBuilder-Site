@@ -16,6 +16,7 @@ const config = {
 
   organizationName: 'Jeetmu',
   projectName: 'AlphaBuilder-Site',
+  trailingSlash: false,
   onBrokenLinks: 'warn', 
   onBrokenMarkdownLinks: 'warn',
   deploymentBranch: 'gh-pages', 
@@ -58,7 +59,7 @@ const config = {
       style: 'dark',
       logo: {
         alt: 'AlphaBuilder Logo',
-        src: '/img/Logo_4.png',
+        src: '/img/logo_9.png',
       },
        items: [
         { type: 'dropdown', to: '/signals', label: 'Signals', position: 'left', className: 'center-navbar',
@@ -122,6 +123,7 @@ const config = {
         { type: 'dropdown', to: '/hub', label: 'Hub', position: 'left', className: 'center-navbar',
           items: [
             { to: '/hub/feature_engineering', label: 'Feature Engineering' },
+            { to: '/hub/tree_based_module', label: 'Tree Based Module' },
             { to: '/hub/integrated_module', label: 'Integrated Module' },
             { to: '/hub/cascade_modeling', label: 'Cascade Modeling' },
             { to: '/hub/encoder_layer', label: 'Encoder Layer' },
@@ -153,13 +155,20 @@ const config = {
             { to: '/vega/hybrid_meta_volatility_models', label: 'Hybrid / Meta Volatility Models' },
           ],
         },
-        { to: '/system', label: 'System', position: 'left', className: 'center-navbar' },
+        { type: 'dropdown', to: '/system', label: 'System', position: 'left', className: 'center-navbar',
+          items: [
+            {to: '/system/dashboard', label: 'Dashboard'},
+            {to: '/system/alpaca_trade', label: 'Alpaca Trade'},
+            {to: '/system/numerai', label: 'Numerai'},
+            {to: '/system/numerai_signals', label: 'Numerai Signals'},
+          ]
+         },
         { to: '/research', label: 'Research', position: 'left', className: 'center-navbar' },
         { to: '/blog', label: 'Blogs', position: 'left', className: 'center-navbar' },
         { to: '/status', label: 'Status', position: 'left', className: 'center-navbar' },
         { to: '/about', label: 'About', position: 'left', className: 'center-navbar' },
         { to: '/contact', label: 'Contact', position: 'left', className: 'center-navbar' },
-        { href: 'https://discord.gg/En3dMhcuyC', label: 'Discord', position: 'left',className: 'navbar-discord',target: '_blank'},
+        { href: 'https://discord.gg/rz6wPGYQBH', label: 'Discord', position: 'left',className: 'navbar-discord',target: '_blank'},
         { type: 'search', position: 'right' },
      ],
     },
@@ -167,7 +176,70 @@ const config = {
     defaultMode: 'dark',
     disableSwitch: true,  
   },
+  footer: {
+    style: 'dark',
+    links: [
+      {
+        title: 'Explore',
+        items: [
+          { label: 'About', to: '/about' },
+          { label: 'Research', to: '/research' },
+          { label: 'Blogs', to: '/blog' },
+          { label: 'Status', to: '/status' },
+          { label: 'Contact', to: '/contact' },
+        ],
+      },
+      {
+        title: 'Modules',
+        items: [
+          { label: 'Signal', to: '/signals' },
+          { label: 'Risk', to: '/risk' },
+          { label: 'Optimizer', to: '/optimizer' },
+          { label: 'Vega', to: '/vega' },
+          { label: 'Hub', to: '/hub' },
+          { label: 'System', to: '/system' },
+        ],
+      },
+      {
+        title: 'Community',
+        items: [
+          {
+            label: 'Discord',
+            href: 'https://discord.gg/rz6wPGYQBH',
+          },
+          {
+            label: 'Substack',
+            href: 'https://alphabuilderblogs.substack.com',
+          },
+          {
+            label: 'Linkdin',
+            href: 'https://www.linkedin.com/company/alphabuilder/',
+          },
+          {
+            label: 'Twitter',
+            href: 'https://x.com/AlphaBuild39589',
+          },
+          {
+            label: 'Email',
+            href: 'mailto:alphabuilder.research@gmail.com',
+          },
+        ],
+      },
+    ],
+    copyright: `
+      <p style="margin: 0.5rem 0; font-size: 0.95rem; color: #bbb;">
+        AlphaBuilder is a continuous research documentation platform exploring 
+        market intelligence, adaptive modeling, and dynamic portfolio systems.
+      </p>
+      <p style="margin-top: 0.75rem; font-size: 0.95rem; color: #bbb;">
+        Follow progress on 
+        <a href="https://discord.gg/rz6wPGYQBH" target="_blank" rel="noopener noreferrer" style="color: #00bfff; text-decoration: none;"> Discord </a>
+      </p>
+      <p style="margin-top: 0.75rem; font-size: 0.9rem; color: #777;">
+        © ${new Date().getFullYear()} AlphaBuilder
+      </p>
+    `,
   },
-};
-
+},
+  }
 export default config;

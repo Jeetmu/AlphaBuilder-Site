@@ -32,6 +32,7 @@ export default {
   "baseUrl": "/",
   "organizationName": "Jeetmu",
   "projectName": "AlphaBuilder-Site",
+  "trailingSlash": false,
   "onBrokenLinks": "warn",
   "onBrokenMarkdownLinks": "warn",
   "deploymentBranch": "gh-pages",
@@ -73,7 +74,7 @@ export default {
       "style": "dark",
       "logo": {
         "alt": "AlphaBuilder Logo",
-        "src": "/img/Logo_4.png"
+        "src": "/img/logo_9.png"
       },
       "items": [
         {
@@ -299,6 +300,10 @@ export default {
               "label": "Feature Engineering"
             },
             {
+              "to": "/hub/tree_based_module",
+              "label": "Tree Based Module"
+            },
+            {
               "to": "/hub/integrated_module",
               "label": "Integrated Module"
             },
@@ -410,10 +415,29 @@ export default {
           ]
         },
         {
+          "type": "dropdown",
           "to": "/system",
           "label": "System",
           "position": "left",
-          "className": "center-navbar"
+          "className": "center-navbar",
+          "items": [
+            {
+              "to": "/system/dashboard",
+              "label": "Dashboard"
+            },
+            {
+              "to": "/system/alpaca_trade",
+              "label": "Alpaca Trade"
+            },
+            {
+              "to": "/system/numerai",
+              "label": "Numerai"
+            },
+            {
+              "to": "/system/numerai_signals",
+              "label": "Numerai Signals"
+            }
+          ]
         },
         {
           "to": "/research",
@@ -446,7 +470,7 @@ export default {
           "className": "center-navbar"
         },
         {
-          "href": "https://discord.gg/En3dMhcuyC",
+          "href": "https://discord.gg/rz6wPGYQBH",
           "label": "Discord",
           "position": "left",
           "className": "navbar-discord",
@@ -463,6 +487,91 @@ export default {
       "defaultMode": "dark",
       "disableSwitch": true,
       "respectPrefersColorScheme": false
+    },
+    "footer": {
+      "style": "dark",
+      "links": [
+        {
+          "title": "Explore",
+          "items": [
+            {
+              "label": "About",
+              "to": "/about"
+            },
+            {
+              "label": "Research",
+              "to": "/research"
+            },
+            {
+              "label": "Blogs",
+              "to": "/blog"
+            },
+            {
+              "label": "Status",
+              "to": "/status"
+            },
+            {
+              "label": "Contact",
+              "to": "/contact"
+            }
+          ]
+        },
+        {
+          "title": "Modules",
+          "items": [
+            {
+              "label": "Signal",
+              "to": "/signals"
+            },
+            {
+              "label": "Risk",
+              "to": "/risk"
+            },
+            {
+              "label": "Optimizer",
+              "to": "/optimizer"
+            },
+            {
+              "label": "Vega",
+              "to": "/vega"
+            },
+            {
+              "label": "Hub",
+              "to": "/hub"
+            },
+            {
+              "label": "System",
+              "to": "/system"
+            }
+          ]
+        },
+        {
+          "title": "Community",
+          "items": [
+            {
+              "label": "Discord",
+              "href": "https://discord.gg/rz6wPGYQBH"
+            },
+            {
+              "label": "Substack",
+              "href": "https://alphabuilderblogs.substack.com"
+            },
+            {
+              "label": "Linkdin",
+              "href": "https://www.linkedin.com/company/alphabuilder/"
+            },
+            {
+              "label": "Twitter",
+              "href": "https://x.com/AlphaBuild39589"
+            },
+            {
+              "label": "Email",
+              "href": "mailto:alphabuilder.research@gmail.com"
+            }
+          ]
+        }
+      ],
+      "copyright": "\n      <p style=\"margin: 0.5rem 0; font-size: 0.95rem; color: #bbb;\">\n        AlphaBuilder is a continuous research documentation platform exploring \n        market intelligence, adaptive modeling, and dynamic portfolio systems.\n      </p>\n      <p style=\"margin-top: 0.75rem; font-size: 0.95rem; color: #bbb;\">\n        Follow progress on \n        <a href=\"https://discord.gg/rz6wPGYQBH\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #00bfff; text-decoration: none;\"> Discord </a>\n      </p>\n      <p style=\"margin-top: 0.75rem; font-size: 0.9rem; color: #777;\">\n        © 2025 AlphaBuilder\n      </p>\n    "
     },
     "docs": {
       "versionPersistence": "localStorage",

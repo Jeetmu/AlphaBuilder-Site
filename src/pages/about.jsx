@@ -9,7 +9,8 @@ const toc = [
     value: 'Overview',
     children: [
       { id: 'modules', value: 'Modules' },
-      { id: 'goals', value: 'Goals' },
+      { id: 'architecture', value: 'System Architecture' },
+      { id: 'goals', value: 'Goals & Philosophy' },
     ],
   },
   {
@@ -17,7 +18,7 @@ const toc = [
     value: 'Docs',
     children: [
       { id: 'installation', value: 'Installation' },
-      { id: 'Relative Strength Index', value: 'Relative Strength Index' },
+      { id: 'usage', value: 'Usage Example' },
     ],
   },
 ];
@@ -30,38 +31,104 @@ export default function AboutPage() {
       <>
         <h1 id="overview">Overview</h1>
         <p>
-          AlphaBuilder is a modular trading and research framework integrating signal, risk,
-          and optimization modules.
+          <strong>AlphaBuilder</strong> is a modular quantitative research and trading
+          framework that unifies signal generation, risk modeling, derivative pricing, and
+          portfolio optimization. It is designed for adaptive, regime-aware financial systems,
+          capable of integrating <em>classical econometrics</em>, <em>deep learning</em>,
+          <em>reinforcement learning</em>, and <em>quantum-inspired optimization</em> within a
+          single research pipeline.
         </p>
 
         <h2 id="modules">Modules</h2>
         <ul>
-          <li>AlphaBuilder-Signal</li>
-          <li>AlphaBuilder-Risk</li>
-          <li>AlphaBuilder-Vega</li>
-          <li>AlphaBuilder-Optimizer</li>
+          <li>
+            <strong>AlphaBuilder-Signal</strong> — Extracts predictive features from time
+            series and cross-sectional data using Deep Time Series Forecasting (DTSF),
+            Hidden/Markov Models, and Transformer-based architectures for regime detection
+            and market sentiment.
+          </li>
+          <li>
+            <strong>AlphaBuilder-Risk</strong> — Implements dynamic risk estimation under
+            regime shifts, combining econometric volatility forecasting, Hidden Markov Models
+            (HMM), and Bayesian methods to quantify uncertainty across asset classes.
+          </li>
+          <li>
+            <strong>AlphaBuilder-Vega</strong> — Focuses on derivative pricing under
+            stochastic and regime-modulated volatility, connecting directly to your dissertation:
+            <em>“Pricing with Markov-Modulated Stochastic Volatility.”</em>
+          </li>
+          <li>
+            <strong>AlphaBuilder-Optimizer</strong> — Provides classical (Markowitz,
+            Black-Litterman), heuristic (Genetic, PSO, Simulated Annealing), and quantum
+            optimization (QUBO-based and QAOA) backends for portfolio allocation and
+            model calibration.
+          </li>
         </ul>
 
-        <h2 id="goals">Goals</h2>
+        <h2 id="architecture">System Architecture</h2>
         <p>
-          The framework unifies classical, heuristic, and quantum optimization for portfolio
-          management and derivative pricing.
+          The system follows a <strong>modular two-tier architecture</strong>:
+        </p>
+        <ol>
+          <li>
+            <strong>AlphaBuilder-Hub</strong> — Hosts and manages pre-trained models on
+            <em>Hugging Face</em>, serving as the model registry for signals, volatility surfaces,
+            and forecasting modules.
+          </li>
+          <li>
+            <strong>AlphaBuilder-System</strong> — The orchestrator layer that connects
+            <code>Signal → Risk → Vega → Optimizer</code> into a continuous pipeline for
+            backtesting, live trading, and research.
+          </li>
+        </ol>
+        <p>
+          Each component communicates via standardized APIs, ensuring interoperability across
+          different computational paradigms — classical, stochastic, heuristic, and quantum.
+        </p>
+
+        <h2 id="goals">Goals & Philosophy</h2>
+        <p>
+          AlphaBuilder embodies the principle of <strong>adaptive decision intelligence</strong> —
+          the ability to learn, forecast, and optimize financial systems dynamically across
+          regimes. It is both a research platform and a practical execution engine, designed
+          to bridge the gap between academic models and live financial applications.
+        </p>
+        <p>
+          The long-term objective is to enable fully autonomous, explainable, and regime-aware
+          portfolio management systems that can adapt to structural market transitions, similar
+          to how macroeconomic states evolve under hidden Markov dynamics.
         </p>
       </>
     ),
+
     docs: (
       <>
-        <h1 id="docs">Docs</h1>
-        <p>This section describes how to use and configure AlphaBuilder.</p>
+        <h1 id="docs">Documentation</h1>
+        <p>
+          Below is a minimal guide to getting started with AlphaBuilder. The package is modular
+          — each sub-library (Signal, Risk, Vega, Optimizer) can be installed independently or
+          together under <code>alphabuilder-system</code>.
+        </p>
 
         <h2 id="installation">Installation</h2>
         <pre>
           <code>npm install alphabuilder-system</code>
         </pre>
 
-        <h2 id="usage">Usage</h2>
+        <h2 id="usage">Usage Example</h2>
         <pre>
-          <code>{`import { AlphaBuilderSignal } from 'alphabuilder-system';`}</code>
+          <code>{`import { AlphaBuilderSignal, AlphaBuilderOptimizer } from 'alphabuilder-system';
+
+const signal = new AlphaBuilderSignal();
+const optimizer = new AlphaBuilderOptimizer();
+
+// Generate signal
+const signals = signal.generate('SPY', { model: 'transformer' });
+
+// Optimize portfolio
+const portfolio = optimizer.optimize(signals, { method: 'QUBO' });
+
+console.log(portfolio);`}</code>
         </pre>
       </>
     ),
