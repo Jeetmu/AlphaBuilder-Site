@@ -2,6 +2,7 @@
   "type": "mdx",
   "permalink": "/contact",
   "source": "@site/src/pages/contact.md",
+  "description": "return (",
   "frontMatter": {},
   "unlisted": false
 }

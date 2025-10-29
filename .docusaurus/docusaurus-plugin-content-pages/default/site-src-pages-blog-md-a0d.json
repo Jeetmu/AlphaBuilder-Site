@@ -2,7 +2,7 @@
   "type": "mdx",
   "permalink": "/blog",
   "source": "@site/src/pages/blog.md",
-  "description": "Blogs",
+  "description": "const posts = [",
   "frontMatter": {},
   "unlisted": false
 }

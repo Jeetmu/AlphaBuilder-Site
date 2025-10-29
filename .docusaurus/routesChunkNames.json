@@ -20,26 +20,229 @@
     },
     "content": "66c10cbb"
   },
-  "/discord-c6f": {
+  "/hub-f69": {
     "__comp": "1f391b9e",
     "__context": {
       "plugin": "a7456010"
     },
-    "content": "5cbc44b0"
+    "content": "ed2a202d"
   },
-  "/hub-96e": {
+  "/hub/auto_regime_discovery-4b9": {
     "__comp": "1f391b9e",
     "__context": {
       "plugin": "a7456010"
     },
-    "content": "48b238d7"
+    "content": "4b9650ce"
   },
-  "/optimizer-47c": {
+  "/hub/cascade_modeling-080": {
     "__comp": "1f391b9e",
     "__context": {
       "plugin": "a7456010"
     },
-    "content": "6cc07f19"
+    "content": "41ecc089"
+  },
+  "/hub/encoder_layer-4b8": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "ab485847"
+  },
+  "/hub/explainability_attribution-a84": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "d43e603e"
+  },
+  "/hub/feature_engineering-b23": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "d5c5e2d2"
+  },
+  "/hub/forecast_head_decoder-85c": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "fa82dba7"
+  },
+  "/hub/gan_generative-5b8": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "632fb6e2"
+  },
+  "/hub/gating_layer-87a": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "f27070ce"
+  },
+  "/hub/integrated_module-e0e": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "d03e8237"
+  },
+  "/hub/meta_learning-ede": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "0332ba6a"
+  },
+  "/hub/rl_based_layer-23e": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "324ade72"
+  },
+  "/hub/skating_fusion_layer-92a": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "9abd96e2"
+  },
+  "/hub/transformer_attention_layer-816": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "442daa53"
+  },
+  "/hub/tree_based_module-de2": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "f60446a4"
+  },
+  "/optimizer-34a": {
+    "__comp": "1acac086",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/optimizer/classical_portfolio_optimization-876": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "78c865f5"
+  },
+  "/optimizer/derived_composite_objectives-f2b": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "80ce96e2"
+  },
+  "/optimizer/diversification_based_allocation-927": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "1c454d4e"
+  },
+  "/optimizer/entropy_based_allocation-21f": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "e80d02e8"
+  },
+  "/optimizer/factor_exposure_constraints-067": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "b4118e83"
+  },
+  "/optimizer/heuristic_optimization-b12": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "b8225454"
+  },
+  "/optimizer/hybrid_ensemble_optimization-0b2": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "dfc8274a"
+  },
+  "/optimizer/meta_learning_cross_asset_adaptation-eee": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "55fc8cf2"
+  },
+  "/optimizer/multi_horizon_optimization-503": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "52d9061d"
+  },
+  "/optimizer/multi_objective_pareto_optimization-b26": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "0cd8fa39"
+  },
+  "/optimizer/network_aware_optimization-200": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "a20614a5"
+  },
+  "/optimizer/non_convex_optimization-457": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "03f5d466"
+  },
+  "/optimizer/regime_aware_optimization-4d6": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "6cb21e9a"
+  },
+  "/optimizer/risk_adjusted_optimization-44a": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "31929e7a"
+  },
+  "/optimizer/rl_based_portfolio_optimization-3a0": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "f98a60fe"
+  },
+  "/optimizer/scenario_stress_aware_optimization-98e": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "59237b25"
   },
   "/research-83c": {
     "__comp": "1f391b9e",
@@ -48,12 +251,117 @@
     },
     "content": "6334ff11"
   },
-  "/risk-8c0": {
+  "/risk-35d": {
     "__comp": "1f391b9e",
     "__context": {
       "plugin": "a7456010"
     },
-    "content": "5d41aecb"
+    "content": "629cd7e8"
+  },
+  "/risk/basic_statistical_risk-5ee": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "45e29f53"
+  },
+  "/risk/bayesian_probabilistic_risk-656": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "7833b759"
+  },
+  "/risk/correlation_network_risk-8f7": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "446972af"
+  },
+  "/risk/derived_hybrid_risk_signals-40f": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "8a548bd8"
+  },
+  "/risk/distribution_based_risk-2a2": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "4f01ab25"
+  },
+  "/risk/entropy_based_risk-bfb": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "b957c81b"
+  },
+  "/risk/factor_exposure_constraints-a52": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "1bdc7816"
+  },
+  "/risk/multi_asset_cross_asset_volatility-ea9": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "3ab80828"
+  },
+  "/risk/regime_aware_risk-af6": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "094c63cb"
+  },
+  "/risk/rl_dynamic_risk_control-6e6": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "cb40b0eb"
+  },
+  "/risk/rolling_multi_horizon_risk-f01": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "99b8d437"
+  },
+  "/risk/scenario_stress_testing-335": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "9fb85749"
+  },
+  "/risk/signal_to_risk_mapping-01a": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "9e841b63"
+  },
+  "/risk/tail_extreme_event_risk-96b": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "10511096"
+  },
+  "/risk/volatility_modelling-234": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "1f9c96b4"
   },
   "/search-822": {
     "__comp": "1a4e3797",
@@ -61,12 +369,117 @@
       "plugin": "138e0e15"
     }
   },
-  "/signals-93c": {
+  "/signals-e7a": {
+    "__comp": "c8cb8391",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/signals/derived_meta_signals-bb9": {
     "__comp": "1f391b9e",
     "__context": {
       "plugin": "a7456010"
     },
-    "content": "cd30b60d"
+    "content": "c34e885d"
+  },
+  "/signals/entropy_based_signals-4a5": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "36c84c25"
+  },
+  "/signals/event_sentiment_signals-bdc": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "06ff1687"
+  },
+  "/signals/formulaic_alphas-feb": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "33717c9a"
+  },
+  "/signals/fractal_based_signals-210": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "9d3a2954"
+  },
+  "/signals/fundamental_indicators-016": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "5e535544"
+  },
+  "/signals/moving_averages-3e8": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "5b8e1a03"
+  },
+  "/signals/multi_resolution_signals-f96": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "03e95a8e"
+  },
+  "/signals/network_aware_signals-333": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "39856bdf"
+  },
+  "/signals/price_return_features-07e": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "a80ae35c"
+  },
+  "/signals/regime_aware_signals-176": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "75cf9f5b"
+  },
+  "/signals/regime_weighted_features-f9e": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "a62203d1"
+  },
+  "/signals/statistical_arb_signals-c8a": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "b43ed370"
+  },
+  "/signals/technical_indicators-fc6": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "19ad6489"
+  },
+  "/signals/volatility_garch_signals-32c": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "eec0d852"
   },
   "/status-5b5": {
     "__comp": "1f391b9e",
@@ -75,19 +488,138 @@
     },
     "content": "51dcc33b"
   },
-  "/system-1a9": {
+  "/system-ffc": {
     "__comp": "1f391b9e",
     "__context": {
       "plugin": "a7456010"
     },
-    "content": "0efc3901"
+    "content": "cadfbb98"
   },
-  "/vega-75d": {
+  "/system/alpaca_trade-b8d": {
     "__comp": "1f391b9e",
     "__context": {
       "plugin": "a7456010"
     },
-    "content": "33664c6f"
+    "content": "38f9b61d"
+  },
+  "/system/dashboard-f06": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "66d05ffd"
+  },
+  "/system/numerai-542": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "90967021"
+  },
+  "/system/numerai_signals-d4a": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "0c953e95"
+  },
+  "/vega-ac4": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "65ed7f0a"
+  },
+  "/vega/calibration_engine-df2": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "1c0b2036"
+  },
+  "/vega/deep_volatility_models-5af": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "e903556b"
+  },
+  "/vega/gaussian_process_implied_volatility-534": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "95e98df6"
+  },
+  "/vega/hybrid_meta_volatility_models-a9d": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "51272fc4"
+  },
+  "/vega/regime_aware_pricing-cad": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "dd210fe8"
+  },
+  "/vega/regime_switching_volatility_models-aec": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "d103ea19"
+  },
+  "/vega/stochastic_volatility_models-5f2": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "766ae777"
+  },
+  "/vega/vega_risk_sensitivity_analysis-28d": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "84dc676a"
+  },
+  "/vega/volatility_forecasting_layer-f8b": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "039efe77"
+  },
+  "/vega/volatility_foundations-a71": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "be7fa347"
+  },
+  "/vega/volatility_risk_premium-6c6": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "d089cd20"
+  },
+  "/vega/volatility_smile_skew_analysis-0fc": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "b2139376"
+  },
+  "/vega/volatility_surface_construction-f4f": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "3e760a08"
   },
   "/-2e1": {
     "__comp": "c4f5d8e4",
