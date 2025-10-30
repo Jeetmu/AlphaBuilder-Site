@@ -79,9 +79,12 @@ export default function SignalPage() {
         <p>This section describes how to install and use AlphaBuilder-Signal.</p>
 
         <h2 id="installation">Installation</h2>
-        <CodeBlock language="bash">{`pip install alphabuilder-signal`}</CodeBlock>
+        <div className="custom-codeblock">
+          <CodeBlock language="bash">{`pip install alphabuilder-signal`}</CodeBlock>
+          </div>
 
         <h2 id="quickstart">Quickstart Example</h2>
+        <div className="custom-codeblock">
         <CodeBlock language="python">{`from alphabuilder_signal import (
     Fetch,
     MovingAverage,
@@ -114,7 +117,7 @@ results = (
       .get_data()
 )
 
-print(results.head())`}</CodeBlock>
+print(results.head())`}</CodeBlock></div>
       </>
     ),
   };

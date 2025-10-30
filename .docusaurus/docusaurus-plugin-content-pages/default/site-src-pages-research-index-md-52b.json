@@ -1,0 +1,8 @@
+{
+  "type": "mdx",
+  "permalink": "/research/",
+  "source": "@site/src/pages/research/index.md",
+  "description": "const [visibleCount, setVisibleCount] = useState(4);",
+  "frontMatter": {},
+  "unlisted": false
+}

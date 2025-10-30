@@ -9,12 +9,12 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '61e'),
+    component: ComponentCreator('/blog', 'ab1'),
     exact: true
   },
   {
     path: '/contact',
-    component: ComponentCreator('/contact', 'b68'),
+    component: ComponentCreator('/contact', '6f9'),
     exact: true
   },
   {
@@ -179,7 +179,7 @@ export default [
   },
   {
     path: '/research',
-    component: ComponentCreator('/research', '83c'),
+    component: ComponentCreator('/research', 'a8a'),
     exact: true
   },
   {
@@ -349,7 +349,7 @@ export default [
   },
   {
     path: '/status',
-    component: ComponentCreator('/status', '5b5'),
+    component: ComponentCreator('/status', 'bf8'),
     exact: true
   },
   {
