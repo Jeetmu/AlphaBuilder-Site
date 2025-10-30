@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./status.css";
 
 export default function Status() {
   const initialVisible = 2; // initial changelog entries
@@ -248,10 +249,11 @@ export default function Status() {
   };
 
   return (
+    <div class='status-section'>
     <div
       style={{
         color: "#fff",
-        padding: "1.5rem",
+        paddingTop: "1rem",
         fontFamily: "Inter, sans-serif",
         maxWidth: "900px",
         margin: "auto",
@@ -413,6 +415,7 @@ export default function Status() {
           for real-time progress.
         </p>
       </section>
+    </div>
     </div>
   );
 }

@@ -13,14 +13,6 @@ const toc = [
       { id: 'goals', value: 'Goals & Philosophy' },
     ],
   },
-  {
-    id: 'docs',
-    value: 'Docs',
-    children: [
-      { id: 'installation', value: 'Installation' },
-      { id: 'usage', value: 'Usage Example' },
-    ],
-  },
 ];
 
 export default function AboutPage() {
@@ -98,38 +90,6 @@ export default function AboutPage() {
           portfolio management systems that can adapt to structural market transitions, similar
           to how macroeconomic states evolve under hidden Markov dynamics.
         </p>
-      </>
-    ),
-
-    docs: (
-      <>
-        <h1 id="docs">Documentation</h1>
-        <p>
-          Below is a minimal guide to getting started with AlphaBuilder. The package is modular
-          — each sub-library (Signal, Risk, Vega, Optimizer) can be installed independently or
-          together under <code>alphabuilder-system</code>.
-        </p>
-
-        <h2 id="installation">Installation</h2>
-        <pre>
-          <code>npm install alphabuilder-system</code>
-        </pre>
-
-        <h2 id="usage">Usage Example</h2>
-        <pre>
-          <code>{`import { AlphaBuilderSignal, AlphaBuilderOptimizer } from 'alphabuilder-system';
-
-const signal = new AlphaBuilderSignal();
-const optimizer = new AlphaBuilderOptimizer();
-
-// Generate signal
-const signals = signal.generate('SPY', { model: 'transformer' });
-
-// Optimize portfolio
-const portfolio = optimizer.optimize(signals, { method: 'QUBO' });
-
-console.log(portfolio);`}</code>
-        </pre>
       </>
     ),
   };

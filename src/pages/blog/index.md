@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import "./blog.css";
 
 export default function BlogSection() {
   const [visibleCount, setVisibleCount] = useState(4);
@@ -53,12 +54,13 @@ export default function BlogSection() {
   return (
     <>
       {/* SUBSTACK EMBED */}
+      <div class='blog-section'>
       <div
         style={{
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
-          padding: '2rem 0',
+          padding: '1rem 0 4rem',
         }}
       >
         <div
@@ -96,6 +98,7 @@ export default function BlogSection() {
             scrolling="no"
           ></iframe>
         </div>
+      </div>
       </div>
 
       {/* GRID OF POSTS */}

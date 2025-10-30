@@ -74,9 +74,12 @@ export default function OptimizerPage() {
         <p>This section describes how to install and use AlphaBuilder-Optimizer.</p>
 
         <h2 id="installation">Installation</h2>
-        <CodeBlock language="bash">{`pip install alphabuilder-optimizer`}</CodeBlock>
-
+        <div className="custom-codeblock">
+          <CodeBlock language="bash">{`pip install alphabuilder-optimizer`}</CodeBlock>
+        </div>
+        
         <h2 id="quickstart">Quickstart Example</h2>
+        <div className="custom-codeblock">
         <CodeBlock language="python">{`# Import
 from alphabuilder_optimizer import OptimizerClient
 
@@ -102,7 +105,7 @@ result = client.optimize(
 print(result)  # JSON/dict with optimized portfolio weights
 
 # Retrieve stored items
-res = client.get_items()`}</CodeBlock>
+res = client.get_items()`}</CodeBlock></div>
       </>
     ),
   };

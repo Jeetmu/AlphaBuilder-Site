@@ -1,103 +1,129 @@
 :root {
-  --ifm-color-primary: #1e1e1e;    
-  --ifm-color-secondary: #ffffff;     
-  --ifm-background-color: #121212;    
-  --ifm-color-gray-100: #e0e0e0;     
+  --ifm-color-primary: #1e1e1e;
+  --ifm-color-secondary: #ffffff;
+  --ifm-background-color: #121212;
+  --ifm-color-gray-100: #e0e0e0;
 }
 
 body {
   background-color: var(--ifm-background-color);
   color: var(--ifm-color-secondary);
+  margin: 0;
+  padding: 0;
 }
 
+/* -----------------------------------
+   GLOBAL LINK STYLE
+----------------------------------- */
 a {
   color: var(--ifm-color-primary);
 }
 
-.navbar__items {
-  justify-content: center !important;
-}
-
-.navbar__brand {
+/* -----------------------------------
+   NAVBAR
+----------------------------------- */
+.navbar {
+  background-color: #121212 !important;
+  border-bottom: 1px solid #222;
   display: flex;
   align-items: center;
-  margin-left: 8rem; 
+  justify-content: space-between;
+  padding: 0 2rem;
 }
 
+/* Navbar Items */
+.navbar__items {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1.5rem;
+}
+
+/* Navbar Links */
 .navbar__link {
-  color: white !important;
+  color: #ffffff !important;
+  font-size: 1rem;
+  transition: color 0.2s ease;
 }
 
 .navbar__link:hover {
   color: #00bfff !important;
 }
-.dropdown__link {
-  color: #ffffff !important;
-}
-.dropdown__link:hover {
-  color: #00bfff !important;
-}
+
+/* Dropdown Menu */
 .dropdown__menu {
   background-color: #1e1e1e !important;
   border: 1px solid #333;
 }
 
-/* Logo Position */
-.navbar__logo img {
-  height: 150px;          
-  width: 150px;
-  object-fit: contain;
-}
-
-.navbar__logo {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start; 
-  padding: 0 10px;
-}
-/* Fix for search results text in dark mode */
-html[data-theme='dark'] .search-result__link {
+.dropdown__link {
   color: #ffffff !important;
 }
 
+.dropdown__link:hover {
+  color: #00bfff !important;
+}
+
+/* -----------------------------------
+   LOGO
+----------------------------------- */
+.navbar__logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 10px;
+}
+
+.navbar__logo img {
+  height: 150px;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  transition: height 0.2s ease;
+}
+
+/* -----------------------------------
+   DARK MODE SEARCH FIX
+----------------------------------- */
+html[data-theme='dark'] .search-result__link {
+  color: #ffffff !important;
+}
 html[data-theme='dark'] .search-result__summary {
   color: #cccccc !important;
 }
-
 html[data-theme='dark'] .DocSearch-Modal,
 html[data-theme='dark'] .DocSearch-Dropdown {
   background-color: #1a1a1a !important;
 }
 
-
+/* -----------------------------------
+   FOOTER
+----------------------------------- */
 .footer {
   background-color: #000;
   border-top: 1px solid #222;
-  padding: 1.5rem 20rem 2rem;
+  padding: 2rem 8rem;
   color: #bbb;
 }
 
-/* Reduced overall footer height */
 .footer__inner {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  gap: 2.5rem; /* ↓ smaller gap */
-  flex-wrap: wrap;
-  margin-bottom: 1rem; /* ↓ less vertical spacing */
-}
-
-/* Link columns */
-.footer__links {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 2rem; /* ↓ reduced gap between columns */
+  gap: 2.5rem;
   flex-wrap: wrap;
   margin-bottom: 1rem;
 }
 
-/* Each column of links */
+.footer__links {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
 .footer__col {
   flex: 1 1 160px;
   text-align: left;
@@ -121,25 +147,215 @@ html[data-theme='dark'] .DocSearch-Dropdown {
   color: #00bfff;
 }
 
-/* Copyright text — smaller padding */
 .footer__bottom {
   text-align: center;
   border-top: 1px solid #222;
-  padding-top: 1rem; /* ↓ reduced */
+  padding-top: 1rem;
   font-size: 0.85rem;
   color: #888;
 }
 
-/* Mobile adjustments */
-@media (max-width: 768px) {
-  .footer__links {
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
+/* -----------------------------------
+   RESPONSIVENESS
+----------------------------------- */
+
+/* 💻 Large Desktops (≥1440px) */
+@media (min-width: 1610px) {
+  .navbar {
+    padding: 0 2rem;
   }
-  .footer__col {
-    text-align: center;
+  .navbar__items {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.8rem;
+  }
+  .navbar__logo img {
+    height: 150px;
   }
 }
 
 
+/* 💻 Large Desktops (≥1440px) */
+@media (max-width: 1600px) {
+  .navbar {
+    padding: 0 2rem;
+  }
+  .navbar__items {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0rem;
+  }
+  .navbar__logo img {
+    height: 150px;
+  }
+}
+
+/* Laptops (≤1500px) */
+/* Tablets / Laptops / All below 1500px collapse navbar */
+@media (max-width: 1500px) {
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* ensure it stays above everything */
+  background-color: #121212;
+  border-bottom: 1px solid #222;
+  display: flex;
+  flex-direction: column; /* for stacked layout on smaller screens */
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 2rem;
+  box-sizing: border-box;
+}
+
+  /* Make everything white for visibility */
+  .navbar *,
+  .navbar__link,
+  .dropdown__link,
+  .navbar__item,
+  .navbar__brand,
+  .navbar__title {
+    color: #ffffff !important;
+    fill: #ffffff !important;
+  }
+
+  .navbar__link:hover,
+  .dropdown__link:hover {
+    color: #00bfff !important;
+  }
+
+  /* Adjust logo for smaller screens */
+  .navbar__logo img {
+    height: 150px;
+    filter: brightness(1.1);
+    /* padding: 2rem 0rem 0rem; */
+  }
+
+  /* Center items under logo */
+  .navbar__items {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .navbar__link {
+    font-size: 1rem;
+    line-height: 1.4rem;
+    white-space: nowrap;
+  }
+
+  /* Footer Adjustments */
+  .footer {
+    padding: 2rem 3rem;
+  }
+
+  .footer__col {
+    flex: 1 1 20%;
+  }
+}
+
+/* 📟 Tablets (≤1000px) */
+@media (max-width: 1000px) {
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0.5rem 1.5rem;
+    background-color: #121212;
+  }
+
+  /* Make all navbar text + icons white */
+  .navbar *,
+  .navbar__link,
+  .dropdown__link,
+  .navbar__item,
+  .navbar__brand,
+  .navbar__title {
+    color: #ffffff !important;
+    fill: #ffffff !important;
+  }
+
+  /* Slight brightness hover for mobile clarity */
+  .navbar__link:hover,
+  .dropdown__link:hover {
+    color: #00bfff !important;
+  }
+
+  /* Adjust logo size for wrapped navbar */
+  .navbar__logo img {
+    height: 150px;
+    filter: brightness(1.1);
+  }
+
+  .navbar__items {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .navbar__link {
+    font-size: 1rem;
+  }
+
+  .footer {
+    padding: 2rem 2rem;
+  }
+
+  .footer__col {
+    flex: 1 1 10%;
+  }
+}
+
+/* 📟 Tablets (≤1000px) */
+@media (max-width: 400px) {
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0.5rem 1.5rem;
+    background-color: #121212;
+  }
+
+  /* Make all navbar text + icons white */
+  .navbar *,
+  .navbar__link,
+  .dropdown__link,
+  .navbar__item,
+  .navbar__brand,
+  .navbar__title {
+    color: #ffffff !important;
+    fill: #ffffff !important;
+  }
+
+  /* Slight brightness hover for mobile clarity */
+  .navbar__link:hover,
+  .dropdown__link:hover {
+    color: #00bfff !important;
+  }
+
+  /* Adjust logo size for wrapped navbar */
+  .navbar__logo img {
+    height: 150px;
+    filter: brightness(1.1);
+  }
+
+  .navbar__items {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .navbar__link {
+    font-size: 1rem;
+  }
+
+  .footer {
+    padding: 2rem 0rem;
+  }
+
+  .footer__col {
+    flex: 0 0 0%;
+  }
+}

@@ -146,3 +146,119 @@
   font-size: 0.95rem;
 }
 
+/* 🖥️ Large Desktops (≥1440px) */
+@media (min-width: 1610px) {
+  .main {
+    padding: 4rem 20rem;
+  }
+}
+
+@media (max-width: 1600px) {
+  .main {
+    padding: 4rem 12rem;
+  }
+}
+
+/* 💻 Laptops / Tablets Landscape (≤1200px) */
+@media (max-width: 1500px) {
+  .main {
+    padding: 8rem 6rem;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+  .modules {
+    padding: 0 1rem;
+  }
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* 📟 Tablets Portrait (≤800px) */
+@media (max-width: 950px) {
+  .main {
+    padding: 8rem 2rem;
+  }
+
+  .title {
+    font-size: 2.3rem;
+  }
+  .modules {
+    padding: 0 1rem;
+  }
+  .subtitle {
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+  }
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* 📱 Mobile (≤600px) */
+@media (max-width: 600px) {
+  .main {
+    padding: 8rem 2rem;
+  }
+
+  .title {
+    font-size: 1.9rem;
+  }
+
+  .subtitle {
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+
+  .button {
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    padding: 1.2rem;
+  }
+
+  .card h3 {
+    font-size: 1.05rem;
+  }
+
+  .card p {
+    font-size: 0.9rem;
+  }
+}
+
+/* 📞 Very Small Devices (≤400px) */
+@media (max-width: 400px) {
+  .main {
+    padding: 6rem 1rem;
+  }
+
+  .title {
+    font-size: 1.6rem;
+  }
+
+  .subtitle {
+    font-size: 0.9rem;
+  }
+
+  .button {
+    padding: 0.6rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  .card {
+    padding: 1rem;
+  }
+}

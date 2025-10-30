@@ -1,0 +1,8 @@
+{
+  "type": "mdx",
+  "permalink": "/blog/blog",
+  "source": "@site/src/pages/blog/blog.md",
+  "description": "const posts = [",
+  "frontMatter": {},
+  "unlisted": false
+}

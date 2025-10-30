@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import "./research.css";
 
 export default function ResearchPapers() {
   const papers = [
@@ -46,13 +47,13 @@ export default function ResearchPapers() {
     visibleCount < papers.length ? 'Show More' : 'Hide';
 
   return (
-    <div style={{ textAlign: 'center', color: '#fff' }}>
+    <div className="paper-section" style={{ textAlign: 'center', color: '#fff' }}>
       <div
         style={{
           display: 'grid',
           gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
           gap: '1.5rem',
-          padding: '2rem 0',
+          padding: '1rem 0',
         }}
       >
         {papers.slice(0, visibleCount).map((paper) => (
