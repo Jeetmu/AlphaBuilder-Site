@@ -147,22 +147,16 @@
 }
 
 /* 🖥️ Large Desktops (≥1440px) */
-@media (min-width: 1610px) {
+@media (max-width: 1650px) {
   .main {
-    padding: 4rem 20rem;
-  }
-}
-
-@media (max-width: 1600px) {
-  .main {
-    padding: 4rem 12rem;
+    padding: 4rem 15rem;
   }
 }
 
 /* 💻 Laptops / Tablets Landscape (≤1200px) */
 @media (max-width: 1500px) {
   .main {
-    padding: 8rem 6rem;
+    padding: 4rem 10rem;
   }
 
   .title {
@@ -176,10 +170,27 @@
   }
 }
 
+@media (max-width: 1200px) {
+  .main {
+    padding: 4rem 6rem;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+  .modules {
+    padding: 0 1rem;
+  }
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+
 /* 📟 Tablets Portrait (≤800px) */
 @media (max-width: 950px) {
   .main {
-    padding: 8rem 2rem;
+    padding: 4rem 2rem;
   }
 
   .title {
@@ -200,7 +211,7 @@
 /* 📱 Mobile (≤600px) */
 @media (max-width: 600px) {
   .main {
-    padding: 8rem 2rem;
+    padding: 4rem 2rem;
   }
 
   .title {
@@ -242,7 +253,7 @@
 /* 📞 Very Small Devices (≤400px) */
 @media (max-width: 400px) {
   .main {
-    padding: 6rem 1rem;
+    padding: 4rem 1rem;
   }
 
   .title {

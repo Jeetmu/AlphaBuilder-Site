@@ -1,8 +1,0 @@
-{
-  "type": "mdx",
-  "permalink": "/server",
-  "source": "@site/src/pages/server.md",
-  "description": "Welcome to AlphaBuilder-Server",
-  "frontMatter": {},
-  "unlisted": false
-}

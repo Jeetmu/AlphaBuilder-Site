@@ -1,24 +1,38 @@
 {
-  "/about-bfe": {
-    "__comp": "989c4899",
+  "/community/about-4df": {
+    "__comp": "a93e88bf",
     "__context": {
       "plugin": "a7456010"
     },
     "config": "5e9f5e1a"
   },
-  "/blog-ab1": {
+  "/community/blog-1c3": {
     "__comp": "1f391b9e",
     "__context": {
       "plugin": "a7456010"
     },
-    "content": "c95f26e4"
+    "content": "a85bb399"
   },
-  "/contact-6f9": {
+  "/community/contact-ae4": {
     "__comp": "1f391b9e",
     "__context": {
       "plugin": "a7456010"
     },
-    "content": "3c5fbdd4"
+    "content": "c7c47bb7"
+  },
+  "/community/research-5f8": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "4f870c12"
+  },
+  "/community/status-4db": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "77276f94"
   },
   "/hub-f69": {
     "__comp": "1f391b9e",
@@ -243,13 +257,6 @@
       "plugin": "a7456010"
     },
     "content": "59237b25"
-  },
-  "/research-a8a": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "52ba7e02"
   },
   "/risk-35d": {
     "__comp": "1f391b9e",
@@ -480,13 +487,6 @@
       "plugin": "a7456010"
     },
     "content": "eec0d852"
-  },
-  "/status-bf8": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "eba26283"
   },
   "/system-ffc": {
     "__comp": "1f391b9e",

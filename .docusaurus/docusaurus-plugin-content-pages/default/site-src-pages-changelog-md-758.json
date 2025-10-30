@@ -1,8 +1,0 @@
-{
-  "type": "mdx",
-  "permalink": "/changelog",
-  "source": "@site/src/pages/changelog.md",
-  "description": "Changelog",
-  "frontMatter": {},
-  "unlisted": false
-}
