@@ -1,0 +1,8 @@
+{
+  "type": "mdx",
+  "permalink": "/community/blog/",
+  "source": "@site/src/pages/community/blog/index.md",
+  "description": "const posts = [",
+  "frontMatter": {},
+  "unlisted": false
+}

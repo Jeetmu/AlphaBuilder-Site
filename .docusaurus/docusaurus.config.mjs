@@ -290,6 +290,67 @@ export default {
         },
         {
           "type": "dropdown",
+          "to": "/vega",
+          "label": "Vega",
+          "position": "left",
+          "className": "center-navbar",
+          "items": [
+            {
+              "to": "/vega/volatility_foundations",
+              "label": "Volatility Foundations"
+            },
+            {
+              "to": "/vega/stochastic_volatility_models",
+              "label": "Stochastic Volatility Models"
+            },
+            {
+              "to": "/vega/regime_switching_volatility_models",
+              "label": "Regime-Switching Volatility Models"
+            },
+            {
+              "to": "/vega/volatility_surface_construction",
+              "label": "Volatility Surface Construction"
+            },
+            {
+              "to": "/vega/volatility_smile_skew_analysis",
+              "label": "Volatility Smile & Skew Analysis"
+            },
+            {
+              "to": "/vega/gaussian_process_implied_volatility",
+              "label": "Gaussian Process Implied Volatility"
+            },
+            {
+              "to": "/vega/deep_volatility_models",
+              "label": "Deep Volatility Models"
+            },
+            {
+              "to": "/vega/regime_aware_pricing",
+              "label": "Regime-Aware Pricing"
+            },
+            {
+              "to": "/vega/calibration_engine",
+              "label": "Calibration Engine"
+            },
+            {
+              "to": "/vega/volatility_risk_premium",
+              "label": "Volatility Risk Premium"
+            },
+            {
+              "to": "/vega/vega_risk_sensitivity_analysis",
+              "label": "Vega-Risk & Sensitivity Analysis"
+            },
+            {
+              "to": "/vega/volatility_forecasting_layer",
+              "label": "Volatility Forecasting Layer"
+            },
+            {
+              "to": "/vega/hybrid_meta_volatility_models",
+              "label": "Hybrid / Meta Volatility Models"
+            }
+          ]
+        },
+        {
+          "type": "dropdown",
           "to": "/hub",
           "label": "Hub",
           "position": "left",
@@ -355,67 +416,6 @@ export default {
         },
         {
           "type": "dropdown",
-          "to": "/vega",
-          "label": "Vega",
-          "position": "left",
-          "className": "center-navbar",
-          "items": [
-            {
-              "to": "/vega/volatility_foundations",
-              "label": "Volatility Foundations"
-            },
-            {
-              "to": "/vega/stochastic_volatility_models",
-              "label": "Stochastic Volatility Models"
-            },
-            {
-              "to": "/vega/regime_switching_volatility_models",
-              "label": "Regime-Switching Volatility Models"
-            },
-            {
-              "to": "/vega/volatility_surface_construction",
-              "label": "Volatility Surface Construction"
-            },
-            {
-              "to": "/vega/volatility_smile_skew_analysis",
-              "label": "Volatility Smile & Skew Analysis"
-            },
-            {
-              "to": "/vega/gaussian_process_implied_volatility",
-              "label": "Gaussian Process Implied Volatility"
-            },
-            {
-              "to": "/vega/deep_volatility_models",
-              "label": "Deep Volatility Models"
-            },
-            {
-              "to": "/vega/regime_aware_pricing",
-              "label": "Regime-Aware Pricing"
-            },
-            {
-              "to": "/vega/calibration_engine",
-              "label": "Calibration Engine"
-            },
-            {
-              "to": "/vega/volatility_risk_premium",
-              "label": "Volatility Risk Premium"
-            },
-            {
-              "to": "/vega/vega_risk_sensitivity_analysis",
-              "label": "Vega-Risk & Sensitivity Analysis"
-            },
-            {
-              "to": "/vega/volatility_forecasting_layer",
-              "label": "Volatility Forecasting Layer"
-            },
-            {
-              "to": "/vega/hybrid_meta_volatility_models",
-              "label": "Hybrid / Meta Volatility Models"
-            }
-          ]
-        },
-        {
-          "type": "dropdown",
           "to": "/system",
           "label": "System",
           "position": "left",
@@ -440,45 +440,42 @@ export default {
           ]
         },
         {
-          "to": "/research",
-          "label": "Research",
+          "type": "dropdown",
+          "to": "/community/contact",
+          "label": "Community",
           "position": "left",
-          "className": "center-navbar"
-        },
-        {
-          "to": "/blog",
-          "label": "Blogs",
-          "position": "left",
-          "className": "center-navbar"
-        },
-        {
-          "to": "/status",
-          "label": "Status",
-          "position": "left",
-          "className": "center-navbar"
-        },
-        {
-          "to": "/about",
-          "label": "About",
-          "position": "left",
-          "className": "center-navbar"
-        },
-        {
-          "to": "/contact",
-          "label": "Contact",
-          "position": "left",
-          "className": "center-navbar"
-        },
-        {
-          "href": "https://discord.gg/rz6wPGYQBH",
-          "label": "Discord",
-          "position": "left",
-          "className": "navbar-discord",
-          "target": "_blank"
+          "className": "center-navbar",
+          "items": [
+            {
+              "to": "/community/research",
+              "label": "Research"
+            },
+            {
+              "to": "/community/blog",
+              "label": "Blogs"
+            },
+            {
+              "to": "/community/status",
+              "label": "Status"
+            },
+            {
+              "to": "/community/about",
+              "label": "About"
+            },
+            {
+              "to": "/community/contact",
+              "label": "Contact"
+            },
+            {
+              "href": "https://discord.gg/rz6wPGYQBH",
+              "label": "Discord",
+              "target": "_blank"
+            }
+          ]
         },
         {
           "type": "search",
-          "position": "right"
+          "position": "left"
         }
       ],
       "hideOnScroll": false
@@ -487,91 +484,6 @@ export default {
       "defaultMode": "dark",
       "disableSwitch": true,
       "respectPrefersColorScheme": false
-    },
-    "footer": {
-      "style": "dark",
-      "links": [
-        {
-          "title": "Explore",
-          "items": [
-            {
-              "label": "About",
-              "to": "/about"
-            },
-            {
-              "label": "Research",
-              "to": "/research"
-            },
-            {
-              "label": "Blogs",
-              "to": "/blog"
-            },
-            {
-              "label": "Status",
-              "to": "/status"
-            },
-            {
-              "label": "Contact",
-              "to": "/contact"
-            }
-          ]
-        },
-        {
-          "title": "Modules",
-          "items": [
-            {
-              "label": "Signal",
-              "to": "/signals"
-            },
-            {
-              "label": "Risk",
-              "to": "/risk"
-            },
-            {
-              "label": "Optimizer",
-              "to": "/optimizer"
-            },
-            {
-              "label": "Vega",
-              "to": "/vega"
-            },
-            {
-              "label": "Hub",
-              "to": "/hub"
-            },
-            {
-              "label": "System",
-              "to": "/system"
-            }
-          ]
-        },
-        {
-          "title": "Community",
-          "items": [
-            {
-              "label": "Discord",
-              "href": "https://discord.gg/rz6wPGYQBH"
-            },
-            {
-              "label": "Substack",
-              "href": "https://alphabuilderblogs.substack.com"
-            },
-            {
-              "label": "Linkdin",
-              "href": "https://www.linkedin.com/company/alphabuilder/"
-            },
-            {
-              "label": "Twitter",
-              "href": "https://x.com/AlphaBuild39589"
-            },
-            {
-              "label": "Email",
-              "href": "mailto:alphabuilder.research@gmail.com"
-            }
-          ]
-        }
-      ],
-      "copyright": "\n      <p style=\"margin: 0.5rem 0; font-size: 0.95rem; color: #bbb;\">\n        AlphaBuilder is a continuous research documentation platform exploring \n        market intelligence, adaptive modeling, and dynamic portfolio systems.\n      </p>\n      <p style=\"margin-top: 0.75rem; font-size: 0.95rem; color: #bbb;\">\n        Follow progress on \n        <a href=\"https://discord.gg/rz6wPGYQBH\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #00bfff; text-decoration: none;\"> Discord </a>\n      </p>\n      <p style=\"margin-top: 0.75rem; font-size: 0.9rem; color: #777;\">\n        © 2025 AlphaBuilder\n      </p>\n    "
     },
     "docs": {
       "versionPersistence": "localStorage",

@@ -1,8 +1,0 @@
-{
-  "type": "mdx",
-  "permalink": "/blog",
-  "source": "@site/src/pages/blog.mdx",
-  "description": "return (",
-  "frontMatter": {},
-  "unlisted": false
-}

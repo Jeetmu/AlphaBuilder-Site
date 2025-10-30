@@ -3,18 +3,28 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/about',
-    component: ComponentCreator('/about', 'bfe'),
+    path: '/community/about',
+    component: ComponentCreator('/community/about', '4df'),
     exact: true
   },
   {
-    path: '/blog',
-    component: ComponentCreator('/blog', 'ab1'),
+    path: '/community/blog',
+    component: ComponentCreator('/community/blog', '1c3'),
     exact: true
   },
   {
-    path: '/contact',
-    component: ComponentCreator('/contact', '6f9'),
+    path: '/community/contact',
+    component: ComponentCreator('/community/contact', 'ae4'),
+    exact: true
+  },
+  {
+    path: '/community/research',
+    component: ComponentCreator('/community/research', '5f8'),
+    exact: true
+  },
+  {
+    path: '/community/status',
+    component: ComponentCreator('/community/status', '4db'),
     exact: true
   },
   {
@@ -175,11 +185,6 @@ export default [
   {
     path: '/optimizer/scenario_stress_aware_optimization',
     component: ComponentCreator('/optimizer/scenario_stress_aware_optimization', '98e'),
-    exact: true
-  },
-  {
-    path: '/research',
-    component: ComponentCreator('/research', 'a8a'),
     exact: true
   },
   {
@@ -345,11 +350,6 @@ export default [
   {
     path: '/signals/volatility_garch_signals',
     component: ComponentCreator('/signals/volatility_garch_signals', '32c'),
-    exact: true
-  },
-  {
-    path: '/status',
-    component: ComponentCreator('/status', 'bf8'),
     exact: true
   },
   {

@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import Layout from '@theme/Layout';
 import MarkdownTwoColumnLayout from '../.././components/MarkdownTwoColumnLayout';
-import CodeBlock from '@theme/CodeBlock'; // ✅ Import Docusaurus syntax highlighting
+import CodeBlock from '@theme/CodeBlock';
 
 const toc = [
   {
