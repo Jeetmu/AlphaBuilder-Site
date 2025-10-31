@@ -354,7 +354,7 @@ export default [
   },
   {
     path: '/system',
-    component: ComponentCreator('/system', 'ffc'),
+    component: ComponentCreator('/system', '4e8'),
     exact: true
   },
   {

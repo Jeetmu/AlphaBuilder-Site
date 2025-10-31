@@ -40,10 +40,30 @@ export default function Contact() {
     <div className="contact-container">
       <h1>Contact AlphaBuilder</h1>
       <p>
-        We’re always open to collaborations, research discussions, and feedback
-        on our projects. Join our communities or reach out directly — we’d love
-        to hear from you.
+        We’re always open to collaborations, research discussions, and feedback on our projects. 
+        Join our communities or reach out directly at{" "}
+        <a
+          href="mailto:alphabuilder.research@gmail.com"
+          style={{
+            color: "#fff",
+            textDecoration: "none",
+            fontWeight: "600",
+            transition: "all 0.2s ease",
+          }}
+          onMouseEnter={(e) => {
+            e.target.style.textDecoration = "underline";
+            e.target.style.color = "#00bfff";
+          }}
+          onMouseLeave={(e) => {
+            e.target.style.textDecoration = "none";
+            e.target.style.color = "#fff";
+          }}
+        >
+          alphabuilder.research@gmail.com
+        </a>
+        — we’d love to hear from you.
       </p>
+
 
       <div className="contact-links">
         {links.map((link, i) => (
