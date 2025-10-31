@@ -154,7 +154,6 @@ a {
 .navbar__item.dropdown:hover > .navbar__link::after {
   transform: rotate(-135deg);
   border-color: #00bfff;
-  box-shadow: 0 0 6px #00bfff;
   opacity: 1;
 }
 
@@ -183,8 +182,18 @@ a {
   width: auto;
   max-width: 100%;
   object-fit: contain;
-  transition: height 0.2s ease;
+  transition: all 0.3s ease;
 }
+
+/* Hover — turns logo blue (#00bfff) */
+.navbar__logo img:hover {
+  filter: brightness(0%) saturate(50%) invert(65%) sepia(93%)
+          saturate(800%) hue-rotate(176deg) brightness(110%) contrast(100%);
+  transform: scale(1.05);
+  box-shadow: none; /* ensure no shadow */
+  text-shadow: none; /* prevent glow in case applied elsewhere */
+}
+
 
 /* -----------------------------------
    DARK MODE SEARCH FIX
@@ -219,7 +228,7 @@ footer h4 {
 }
 
 .footer-section {
-  padding: 0rem 25rem; /* top-bottom 2rem, left-right 4rem */
+  padding: 0rem 25rem;
   background-color: #0b0b0b;
   color: #ccc;
 }
@@ -241,6 +250,23 @@ footer h4 {
     padding: 0rem 0rem;
   }
 }
+
+@media (max-width: 600px) {
+  .footer-section {
+    display: none;
+  }
+}
+
+.footer-link {
+  color: #bbb;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #00bfff; /* lighter blue on hover */
+}
+
 
 /* -----------------------------------
    RESPONSIVENESS
@@ -411,6 +437,85 @@ footer h4 {
     grid-auto-flow: row;
     grid-template-columns: 1fr;
     min-width: auto;
+  }
+}
+
+/* Tablet Sidebar compatible */
+
+/* 🔹 Restore dropdown arrow in navbar (desktop + mobile) */
+
+/* Restore Docusaurus default dropdown caret */
+
+
+/* Ensure the caret button has room and is visible */
+.menu__caret {
+  display: inline-block !important;
+  width: 1em !important;
+  height: 1em !important;
+  min-width: 1em !important;
+  min-height: 1em !important;
+  padding: 0 !important;
+  margin-left: 0.35em !important;
+  background: transparent !important;
+  border: 0 none !important;
+  position: relative !important;
+  vertical-align: middle !important;
+  color: inherit !important; /* arrow inherits link color */
+}
+
+/* draw a small filled triangle pointing down */
+.menu__caret::after {
+  content: "" !important;
+  position: absolute !important;
+  left: 50% !important;
+  top: 50% !important;
+  transform: translate(-50%, -30%) rotate(0deg) !important;
+  width: 0 !important;
+  height: 0 !important;
+  border-left: 0.38em solid transparent !important;
+  border-right: 0.38em solid transparent !important;
+  border-top: 0.38em solid currentColor !important; /* the triangle */
+  transition: transform 0.18s ease, opacity 0.18s ease !important;
+  opacity: 1 !important;
+}
+
+/* rotate (point up) when expanded */
+.menu__caret[aria-expanded="true"]::after {
+  transform: translate(-50%, -30%) rotate(180deg) !important;
+}
+
+
+
+@media (max-width: 1000px) {
+  /* Sidebar width */
+  .navbar-sidebar {
+    width: 40% !important;
+  }
+}
+
+
+
+@media (max-width: 900px) {
+  .navbar-sidebar {
+    width: 50% !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .navbar-sidebar {
+    width: 60% !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar-sidebar {
+    width: 70% !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .navbar-sidebar {
+    width: 80% !important;
   }
 }
 

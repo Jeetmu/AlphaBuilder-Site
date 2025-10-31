@@ -1,0 +1,154 @@
+/* Search dropdown container */
+[role="listbox"] {
+  background-color: #000 !important;
+  border: 1px solid #222 !important;
+  border-radius: 8px !important;
+  padding: 4px 0 !important;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6) !important;
+  color: #fff !important;
+  z-index: 9999 !important;
+  position: absolute !important;
+}
+
+/* Each option item */
+[role="option"] {
+  padding: 10px 14px !important;
+  font-size: 15px !important;
+  border-bottom: 1px solid #111 !important;
+  cursor: pointer !important;
+  transition: background 0.2s ease, color 0.2s ease;
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+/* First result — more white */
+[role="option"]:first-child {
+  color: rgba(255, 255, 255, 1) !important;
+  font-weight: 600 !important;
+}
+
+/* Highlighted keyword (default) */
+[role="option"] mark {
+  background: none !important;
+  color: #fff !important;
+  font-weight: 700 !important;
+}
+
+/* Hover — keyword turns blue */
+[role="option"]:hover mark,
+[role="option"][aria-selected="true"] mark {
+  color: #00bfff !important;
+  text-shadow: 0 0 0px rgba(0, 191, 255, 0.5);
+}
+
+/* Maintain white text elsewhere */
+[role="option"]:hover {
+  background-color: #0a0a0a !important;
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+/* Remove border for last */
+[role="option"]:last-child {
+  border-bottom: none !important;
+}
+
+/* Global mark fix */
+mark {
+  background: none !important;
+  color: #fff !important;
+  font-weight: 700 !important;
+}
+
+@media (max-width: 1000px) {
+  [role="listbox"] {
+    max-width: 250% !important;   /* make it narrower on smaller screens */
+    margin: 0 auto !important;   /* center it horizontally */
+    border-radius: 6px !important;
+  }
+
+  [role="option"] {
+    font-size: 14px !important;  /* slightly smaller text for phones */
+    padding: 8px 12px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  [role="listbox"] {
+    max-width: 180% !important;  
+    margin: 0 auto !important;
+    border-radius: 6px !important;
+  }
+
+  [role="option"] {
+    font-size: 14px !important;
+    padding: 8px 12px !important;
+  }
+}
+
+
+
+
+
+
+/* Search results page container */
+.searchResultsPage_xxx,
+.theme-doc-markdown,
+main {
+  color: #fff !important;
+}
+
+/* Each result card/article */
+.searchResultItem_U687 {
+  background-color: #0a0a0a !important;
+  border: 1px solid #222 !important;
+  border-radius: 12px !important;
+  padding: 1rem 1.25rem !important;
+  margin-bottom: 1rem !important;
+  transition: all 0.25s ease;
+  color: #fff !important;
+}
+
+/* Hover effect */
+.searchResultItem_U687:hover {
+  background-color: #0d0d0d !important;
+  border-color: #00bfff !important;
+  transform: translateY(-2px);
+}
+
+/* Headline links */
+.searchResultItem_U687 h2 a {
+  color: #ffffff !important;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+/* Hover link turns blue */
+.searchResultItem_U687 h2 a:hover {
+  color: #00aaff !important;
+}
+
+/* Path text (small subtext under title) */
+.searchResultItemPath_uIbk {
+  color: #aaa !important;
+  font-size: 0.85rem;
+  margin-bottom: 0.4rem;
+}
+
+/* Summary paragraph */
+.searchResultItemSummary_oZHr {
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* Highlighted keywords */
+.searchResultItemSummary_oZHr mark {
+  background: none !important;
+  color: #ffffff !important; /* bright white for keyword */
+  font-weight: 700;
+}
+
+/* Hover color for highlighted keyword (optional) */
+.searchResultItem_U687:hover mark {
+  color: #00bfff !important;
+}

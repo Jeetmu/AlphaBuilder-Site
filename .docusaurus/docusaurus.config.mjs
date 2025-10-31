@@ -65,7 +65,8 @@ export default {
         "indexBlog": false,
         "indexPages": true,
         "searchBarPosition": "right",
-        "searchBarShortcut": false
+        "searchBarShortcut": false,
+        "searchResultLimits": 4
       }
     ]
   ],
@@ -472,10 +473,6 @@ export default {
               "target": "_blank"
             }
           ]
-        },
-        {
-          "type": "search",
-          "position": "left"
         }
       ],
       "hideOnScroll": false

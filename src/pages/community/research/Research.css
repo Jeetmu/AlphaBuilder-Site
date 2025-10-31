@@ -1,0 +1,123 @@
+:root {
+  --card-bg: #111;
+  --text-main: #ffffff;
+  --text-sub: #bbbbbb;
+  --border-dark: #1f1f1f;
+  --accent: #00bfff;
+  --accent-hover: #1ec8ff;
+  --highlight: #00bfff;
+}
+
+/* Overall Section */
+.paper-section {
+  color: var(--text-main);
+  text-align: center;
+  padding: 2rem 1.5rem 4rem;
+}
+
+/* Grid Layout */
+.paper-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.8rem;
+  justify-content: center;
+  align-items: stretch;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Paper Card */
+.paper-card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-dark);
+  border-radius: 12px;
+  padding: 1.8rem;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  text-align: left; /* 👈 makes text flow from left to right */
+}
+
+.paper-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--accent);
+}
+
+/* Typography */
+.paper-card h2 {
+  color: var(--text-main);
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Hover effect */
+.paper-card:hover h2 {
+  color: #00bfff;
+}
+
+.paper-card h4 {
+  color: var(--text-main);
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.paper-card p {
+  color: var(--text-sub);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+/* Link */
+.paper-card a {
+  color: var(--text-main);
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  transition: color 0.2s ease, text-shadow 0.2s ease;
+}
+
+.paper-card a:hover {
+  color: var(--accent);
+}
+
+/* Button */
+.show-more-btn {
+  margin-top: 2rem;
+  background-color: #111;
+  padding: 0.6rem 1.6rem;
+  border: 1px solid #333; /* subtle default border */
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #e0e0e0;
+  transition: all 0.3s ease;
+}
+
+.show-more-btn:hover {
+  background-color: #111;
+  border-color: #00bfff;
+  transform: translateY(-3px);
+  color: #00bfff;
+}
+
+
+/* Mobile */
+@media (max-width: 600px) {
+  .paper-section {
+    padding: 2rem 1rem;
+  }
+
+  .paper-card {
+    padding: 1.2rem;
+  }
+
+  .paper-card h2 {
+    font-size: 1.15rem;
+  }
+
+  .paper-card h4 {
+    font-size: 0.95rem;
+  }
+}

@@ -1,9 +1,10 @@
 import React, { useState } from "react";
+import "./Status.css";
 
 export default function Status() {
   const initialVisible = 2; // initial changelog entries
   const [visibleCount, setVisibleCount] = useState(initialVisible);
-  const [visibleAnnouncements, setVisibleAnnouncements] = useState(2); // initial announcements
+  const [visibleAnnouncements, setVisibleAnnouncements] = useState(2);
 
   const changelog = [
     {
@@ -247,174 +248,73 @@ export default function Status() {
     setVisibleAnnouncements(2);
   };
 
-  return (
-    <div class='status-section'>
-    <div
-      style={{
-        color: "#fff",
-        paddingTop: "1rem",
-        fontFamily: "Inter, sans-serif",
-        maxWidth: "900px",
-        margin: "auto",
-      }}
-    >
-      {/* ANNOUNCEMENTS */}
-      <section style={{ marginBottom: "2rem" }}>
-        <h2 style={{ color: "#f5a623", marginBottom: "1rem" }}>
-          Recent Announcements
-        </h2>
+   return (
+    <div className="status-section">
+      <div className="status-container">
+        {/* ANNOUNCEMENTS */}
+        <section className="announcements-section">
+          <h2 className="section-title">Recent Announcements</h2>
 
-        {visibleAnnouncementsList.map((a, idx) => (
-          <div
-            key={idx}
-            style={{
-              background: "#111",
-              border: "1px solid #333",
-              borderRadius: "10px",
-              padding: "1rem",
-              marginBottom: "1rem",
-            }}
-          >
-            <h3 style={{ marginBottom: "0.3rem" }}>{a.title}</h3>
-            <p style={{ color: "#aaa", fontSize: "0.9rem" }}>{a.message}</p>
-            <p style={{ color: "#777", fontSize: "0.8rem" }}>{a.date}</p>
+          {visibleAnnouncementsList.map((a, idx) => (
+            <div className="announcement-card" key={idx}>
+              <h3>{a.title}</h3>
+              <p className="announcement-message">{a.message}</p>
+              <p className="announcement-date">{a.date}</p>
+            </div>
+          ))}
+
+          <div className="button-group">
+            {visibleAnnouncements < announcements.length && (
+              <button onClick={handleShowMoreAnnouncements} className="button accent">
+                Show 3 more ▼
+              </button>
+            )}
+            {visibleAnnouncements > 3 && (
+              <button onClick={handleHideAnnouncements} className="button neutral">
+                Hide ▲
+              </button>
+            )}
           </div>
-        ))}
+        </section>
 
-        {/* BUTTONS */}
-        <div style={{ textAlign: "center", marginTop: "1rem" }}>
-          {visibleAnnouncements < announcements.length ? (
-            <button
-              onClick={handleShowMoreAnnouncements}
-              style={{
-                background: "none",
-                border: "1px solid #f5a623",
-                color: "#f5a623",
-                borderRadius: "6px",
-                padding: "0.4rem 1rem",
-                cursor: "pointer",
-                marginRight: "0.6rem",
-              }}
-            >
-              Show 3 more ▼
-            </button>
-          ) : null}
+        {/* CHANGELOG */}
+        <section id="changelog-root">
+          <h2 className="section-title">Weekly Updates</h2>
 
-          {visibleAnnouncements > 3 && (
-            <button
-              onClick={handleHideAnnouncements}
-              style={{
-                background: "none",
-                border: "1px solid #777",
-                color: "#fff",
-                borderRadius: "6px",
-                padding: "0.4rem 1rem",
-                cursor: "pointer",
-              }}
-            >
-              Hide ▲
-            </button>
-          )}
-        </div>
-      </section>
+          {visibleLogs.map((log, idx) => (
+            <div className="changelog-card" key={idx}>
+              <h3>
+                <span className="changelog-version">{log.version}</span>{" "}
+                <span className="changelog-date">({log.date})</span>
+              </h3>
 
-      {/* CHANGELOG */}
-      <section id="changelog-root">
-        <h2 style={{ color: "#f5a623" }}>Weekly Updates</h2>
+              {log.modules.map((mod, i) => (
+                <div key={i} className="module-block">
+                  <h4 className="module-name">{mod.name}</h4>
+                  <ul>
+                    {mod.updates.map((u, j) => (
+                      <li key={j}>{u}</li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
+          ))}
 
-        {visibleLogs.map((log, idx) => (
-          <div
-            key={idx}
-            style={{
-              background: "#111",
-              border: "1px solid #333",
-              borderRadius: "12px",
-              padding: "1rem",
-              marginTop: "1.2rem",
-            }}
-          >
-            <h3 style={{ marginBottom: "0.5rem" }}>
-              {log.version}{" "}
-              <span style={{ color: "#777" }}>({log.date})</span>
-            </h3>
-
-            {log.modules.map((mod, i) => (
-              <div key={i} style={{ marginTop: "0.5rem" }}>
-                <h4 style={{ color: "#f5a623", marginBottom: "0.3rem" }}>
-                  {mod.name}
-                </h4>
-                <ul style={{ marginLeft: "1.5rem", color: "#ccc" }}>
-                  {mod.updates.map((u, j) => (
-                    <li key={j}>{u}</li>
-                  ))}
-                </ul>
-              </div>
-            ))}
+          <div className="button-group">
+            {visibleCount < changelog.length && (
+              <button onClick={handleShowMore} className="button accent">
+                Load 3 more updates ▼
+              </button>
+            )}
+            {visibleCount > initialVisible && (
+              <button onClick={handleHide} className="button neutral">
+                Hide older updates ▲
+              </button>
+            )}
           </div>
-        ))}
-
-        {/* LOAD MORE / HIDE BUTTONS */}
-        <div style={{ textAlign: "center", marginTop: "1rem" }}>
-          {visibleCount < changelog.length ? (
-            <button
-              onClick={handleShowMore}
-              style={{
-                background: "none",
-                border: "1px solid #f5a623",
-                color: "#f5a623",
-                borderRadius: "6px",
-                padding: "0.4rem 1rem",
-                cursor: "pointer",
-                marginRight: "0.6rem",
-              }}
-            >
-              Load 3 more updates ▼
-            </button>
-          ) : null}
-
-          {visibleCount > initialVisible && (
-            <button
-              onClick={handleHide}
-              style={{
-                background: "none",
-                border: "1px solid #777",
-                color: "#fff",
-                borderRadius: "6px",
-                padding: "0.4rem 1rem",
-                cursor: "pointer",
-              }}
-            >
-              Hide older updates ▲
-            </button>
-          )}
-        </div>
-      </section>
-
-      {/* FOOTER */}
-      <section style={{ marginTop: "3rem", textAlign: "center" }}>
-        <p style={{ color: "#ccc", fontSize: "0.9rem" }}>
-          Follow full dev logs and deep dives on{" "}
-          <a
-            href="https://alphabuilderblogs.substack.com"
-            target="_blank"
-            rel="noreferrer"
-            style={{ color: "#f5a623", textDecoration: "none" }}
-          >
-            Substack
-          </a>{" "}
-          or join the{" "}
-          <a
-            href="https://discord.gg/rz6wPGYQBH"
-            target="_blank"
-            rel="noreferrer"
-            style={{ color: "#f5a623", textDecoration: "none" }}
-          >
-            AlphaBuilder Discord
-          </a>{" "}
-          for real-time progress.
-        </p>
-      </section>
-    </div>
+        </section>
+      </div>
     </div>
   );
 }

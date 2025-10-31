@@ -50,6 +50,7 @@ const config = {
         indexPages: true,   
         searchBarPosition: 'right',
         searchBarShortcut: false,
+        searchResultLimits: 4,
       }),
     ],
   ],
@@ -173,7 +174,6 @@ const config = {
             { href: 'https://discord.gg/rz6wPGYQBH', label: 'Discord', target: '_blank' },
           ]
         },
-        { type: 'search', position: 'left' },
      ],
     },
     colorMode: {

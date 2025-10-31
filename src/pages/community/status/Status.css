@@ -1,0 +1,175 @@
+:root {
+  --bg-dark: #111;
+  --text-main: #ffffff;
+  --text-sub: #bbbbbb;
+  --text-muted: #888;
+  --border-dark: #1f1f1f;
+  --accent: #00bfff;
+  --accent-hover: #1ec8ff;
+  --highlight: #00bfff;
+}
+
+/* Overall Layout */
+.status-section {
+  color: var(--text-main);
+  font-family: "Inter", sans-serif;
+  padding: 2rem 0rem 0rem;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+
+.status-container {
+  max-width: 900px;
+  width: 100%;
+}
+
+/* Section Titles */
+.section-title {
+  color: var(--text-main);
+  margin-bottom: 1rem;
+  text-align: left;
+  font-weight: 600;
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.section-title:hover {
+  color: var(--accent);
+  transform: translateY(-2px);
+}
+
+/* Announcement Cards */
+.announcement-card {
+  background: var(--bg-dark);
+  border: 1px solid var(--border-dark);
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.announcement-card h3 {
+  color: var(--text-main);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.announcement-card:hover h3 {
+  color: #00bfff; /* bright blue hover */
+  transform: translateY(-2px);
+}
+
+.announcement-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--accent);
+}
+
+.announcement-message {
+  color: var(--text-sub);
+  font-size: 0.9rem;
+}
+
+.announcement-date {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+
+/* Changelog Cards */
+.changelog-card {
+  background: var(--bg-dark);
+  border: 1px solid var(--border-dark);
+  border-radius: 12px;
+  padding: 1rem;
+  margin-top: 1.2rem;
+  transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.changelog-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--accent);
+}
+
+.changelog-date {
+  color: var(--text-muted);
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+.module-block {
+  margin-top: 0.6rem;
+}
+
+.module-name {
+  color: var(--text-main);
+  margin-bottom: 0.3rem;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.module-name:hover {
+  color: var(--accent); /* blue hover */
+  transform: translateY(-2px);
+}
+
+.changelog-card ul {
+  margin-left: 1.5rem;
+  color: var(--text-sub);
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+.changelog-version {
+  color: var(--text-main);
+  transition: all 0.3s ease;
+}
+
+/* 🔥 When the entire card is hovered */
+.changelog-card:hover .changelog-version {
+  color: #00bfff; /* accent blue */
+  transform: translateY(-2px);
+}
+
+
+
+/* Buttons */
+/* Button Group - Center All Buttons */
+.button-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem; /* space between buttons */
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Buttons */
+.button {
+  background-color: var(--bg-dark);
+  border: 1px solid #333;
+  color: var(--text-main);
+  border-radius: 8px;
+  padding: 0.5rem 1.2rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-3px);
+}
+
+@media (max-width: 450px) {
+    .button-group{
+        gap: 0.5rem;
+    }
+    .button {
+        padding: 0.5rem 0.5rem;
+    }
+}

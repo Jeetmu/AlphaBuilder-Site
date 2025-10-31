@@ -21,11 +21,11 @@ export default function Home() {
               AlphaBuilder ultimately aims to serve as a continuously learning system for modern quantitative finance — bridging data, theory, and execution.
           </p>
           <div className={styles.buttons}>
-            <Link className={styles.button} to="community/research">
-              Research
+            <Link className={styles.button} to="system">
+              Framework
             </Link>
             <Link className={styles.button} to="community/contact">
-              Contact
+              Communtity
             </Link>
           </div>
         </section>
