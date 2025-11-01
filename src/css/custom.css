@@ -3,6 +3,7 @@
   --ifm-color-secondary: #ffffff;
   --ifm-background-color: #121212;
   --ifm-color-gray-100: #e0e0e0;
+  --border-dark:#1f1f1f;
 }
 
  
@@ -51,7 +52,7 @@ a {
   align-items: center;
   justify-content: space-between;
   background-color: #121212 !important;
-  border-bottom: 1px solid #222;
+  border-bottom: 1px solid #1f1f1f;
   padding: 0 2rem;
 }
 
@@ -94,9 +95,8 @@ a {
 .dropdown__menu {
   background: #0a0a0a !important;
   backdrop-filter: blur(8px);
-  border: 1px solid #2a2a2a;
+  border: 1px solid var(--border-dark);
   border-radius: 30px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
   display: grid !important;
   grid-template-columns: repeat(3, minmax(160px, 1fr));
   gap: 0.1rem;

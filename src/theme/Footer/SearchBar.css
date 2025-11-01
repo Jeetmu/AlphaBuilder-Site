@@ -41,7 +41,7 @@
 
 /* Maintain white text elsewhere */
 [role="option"]:hover {
-  background-color: #0a0a0a !important;
+  background-color: #121212!important;
   color: rgba(255, 255, 255, 0.85) !important;
 }
 
@@ -49,6 +49,94 @@
 [role="option"]:last-child {
   border-bottom: none !important;
 }
+
+/* === Search icon color customization === */
+
+html[data-theme="dark"] {
+  --search-local-highlight-color: #0a0a0a;
+}
+
+
+/* === Make Docusaurus local search bar black === */
+
+/* Search input box */
+.navbar__search-input,
+.searchInput_YFbd {
+  background-color: #0a0a0a !important;     
+  color: #fff !important;                
+  border: 1px solid var(--border-dark) !important;    
+  border-radius: 8px !important;
+  padding: 8px 12px !important;
+  transition: border-color 0.3s ease;
+}
+
+.navbar__search-input::placeholder {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.navbar__search-input:hover,
+.navbar__search-input:focus {
+  border-color: var(--hover-color) !important;
+  outline: none !important;
+}
+
+.searchBar_RVTs {
+  background-color: #0a0a0a !important;
+  border-radius: 8px !important;
+}
+
+/* Optional: dark modal background (if using local search modal) */
+:root {
+  --search-local-modal-background: #0a0a0a !important;
+  --search-local-hit-background: #0a0a0a !important;
+  --search-local-hit-color: #fff !important;
+  --search-local-muted-color: rgba(255, 255, 255, 0.6) !important;
+}
+
+
+/* Keep full search bar visible on small screens */
+@media (max-width: 600px) {
+  /* Center the search bar container */
+  .navbar__items {
+    justify-content: center !important;
+    width: 100% !important;
+  }
+
+  .navbar__search-input,
+  .searchBar_RVTs,
+  .DocSearch-Button {
+    display: flex !important;
+    width: 100% !important;
+    max-width: 220px !important; /* adjust size */
+    border-radius: 8px !important;
+    margin: 0 auto !important;   /* centers horizontally */
+  }
+
+  /* Prevent Docusaurus from replacing search with circular icon */
+  .DocSearch-Button-Container {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  /* Disable any hidden states applied by theme */
+  .DocSearch-Button,
+  .navbar__search-input {
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+
+  /* Remove any icon-only layout styles */
+  .DocSearch-Button .DocSearch-Button-Keys,
+  .DocSearch-Button .DocSearch-Button-Placeholder {
+    display: inline !important;
+  }
+}
+
+
+
+
+
 
 /* Global mark fix */
 mark {

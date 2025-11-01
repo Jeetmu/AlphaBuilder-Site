@@ -34,11 +34,10 @@ export default function SignalPage() {
           <strong>AlphaBuilder-Signal</strong> is an experimental Python package providing a curated
           library of trading signals for quantitative finance.
         </p>
-        <blockquote>
-          ⚠️ This package is currently in <strong>early development</strong>. More features,
-          indicators, and signal types will be added soon.
-        </blockquote>
-
+        <p>
+        ⚠️ This package is currently in <strong>early development</strong>. More features,
+          indicators, and signal types will be added soon. 
+          </p>
         <h2 id="features">Features</h2>
         <ul>
           <li>

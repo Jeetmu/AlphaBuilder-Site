@@ -26,9 +26,9 @@
   position: absolute;
   top: 2rem;
   right: 0;
-  width: 2px;
+  width: 1px;
   height: calc(100% - 2rem);
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: #1f1f1f;
 }
 
 .markdown-toc ul {
@@ -63,7 +63,6 @@
 .sub-list {
   margin-left: 1rem;
   margin-top: 0.4rem; /* closer to main */
-  border-left: 2px solid rgba(255, 255, 255, 0.15);
   padding-left: 0.5rem; /* indent sub-items a bit */
 }
 
@@ -104,10 +103,10 @@
   margin-top: 2rem;
 }
 
-.markdown-content h1:hover,
+/* .markdown-content h1:hover,
 .markdown-content h2:hover {
   color: var(--hover-color);
-}
+} */
 
 /* HEADER SPACER */
 .markdown-spacer-card {

@@ -33,7 +33,7 @@ export default function Footer() {
     <footer
       style={{
         backgroundColor: '#121212',
-        borderTop: '1px solid #222',
+        borderTop: '1px solid #1f1f1f',
         color: '#ccc',
         padding: '3rem 1rem 1rem 1rem',
         textAlign: 'center',
@@ -51,23 +51,6 @@ export default function Footer() {
         <div style={{ width: 'min(500px, 90%)' }}>
           <SearchBar />
         </div>
-
-        <button
-          onClick={handleColorChange}
-          className="color-switch-btn"
-          aria-label="Change Accent Color"
-          style={{
-            background: 'none',
-            border: '1px solid #333',
-            color: colors[currentColor],
-            cursor: 'pointer',
-            padding: '0.6rem',
-            borderRadius: '50%',
-            transition: 'all 0.3s ease',
-          }}
-        >
-          <FaPalette size={18} />
-        </button>
       </div>
 
       {/* 🔗 Footer Links */}
@@ -83,53 +66,144 @@ export default function Footer() {
         >
           {/* Community */}
           <div>
-            <h4 style={{ color: '#fff', marginBottom: '0.75rem' }}>Community</h4>
+            <h4
+              style={{
+                color: '#fff',
+                marginBottom: '0.75rem',
+                transition: 'color 0.3s ease',
+                fontSize: '0.9rem' 
+              }}
+              onMouseEnter={(e) =>
+                (e.currentTarget.style.color = 'var(--hover-color)')
+              }
+              onMouseLeave={(e) =>
+                (e.currentTarget.style.color = '#fff')
+              }
+            >
+              Community
+            </h4>
             <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
-              <li><Link to="/community/blog" style={{ color: '#bbb' }}>Blogs</Link></li>
-              <li><Link to="/community/about" style={{ color: '#bbb' }}>About</Link></li>
-              <li><Link to="/community/status" style={{ color: '#bbb' }}>Status</Link></li>
-              <li><Link to="/community/contact" style={{ color: '#bbb' }}>Contact</Link></li>
-              <li><Link to="/community/research" style={{ color: '#bbb' }}>Research</Link></li>
+              <li><Link to="/community/research" style={{ color: '#bbb',fontSize: '0.9rem' }}>Research</Link></li>
+              <li><Link to="/community/blog" style={{ color: '#bbb',fontSize: '0.9rem' }}>Blogs</Link></li>
+              <li><Link to="/community/status" style={{ color: '#bbb',fontSize: '0.9rem' }}>Status</Link></li>
+              <li><Link to="/community/about" style={{ color: '#bbb',fontSize: '0.9rem' }}>About</Link></li>
+              <li><Link to="/community/contact" style={{ color: '#bbb',fontSize: '0.9rem' }}>Contact</Link></li>
             </ul>
           </div>
 
           {/* Frameworks */}
           <div>
-            <h4 style={{ color: '#fff', marginBottom: '0.75rem' }}>Framework</h4>
+              <h4
+                style={{
+                  color: '#fff',
+                  marginBottom: '0.75rem',
+                  transition: 'color 0.3s ease',
+                  fontSize: '0.9rem'
+                }}
+                onMouseEnter={(e) =>
+                  (e.currentTarget.style.color = 'var(--hover-color)')
+                }
+                onMouseLeave={(e) =>
+                  (e.currentTarget.style.color = '#fff')
+                }
+              >
+                Framework
+              </h4>
             <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
-              <li><Link to="/optimizer" style={{ color: '#bbb' }}>Optimizer</Link></li>
-              <li><Link to="/signals" style={{ color: '#bbb' }}>Signal Lab</Link></li>
-              <li><Link to="/hub" style={{ color: '#bbb' }}>Model Hub</Link></li>
-              <li><Link to="/risk" style={{ color: '#bbb' }}>Risk Engine</Link></li>
-              <li><Link to="/vega" style={{ color: '#bbb' }}>Vega Studio</Link></li>
+              <li><Link to="/signals" style={{ color: '#bbb', fontSize: '0.9rem' }}>Signal Lab</Link></li>
+              <li><Link to="/risk" style={{ color: '#bbb', fontSize: '0.9rem' }}>Risk Engine</Link></li>
+            <li><Link to="/optimizer" style={{ color: '#bbb', fontSize: '0.9rem' }}>Optimizer</Link></li>
+            <li><Link to="/vega" style={{ color: '#bbb', fontSize: '0.9rem' }}>Vega Studio</Link></li>
+            <li><Link to="/hub" style={{ color: '#bbb', fontSize: '0.9rem' }}>Model Hub</Link></li>
               {/* <li><Link to="/system" style={{ color: '#bbb' }}>System</Link></li> */}
             </ul>
           </div>
 
           {/* Engagement */}
           <div>
-            <h4 style={{ color: '#fff', marginBottom: '0.75rem' }}>Engagement</h4>
-            <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
-              <li><a href="mailto:alphabuilder.research@gmail.com" style={{ color: '#bbb' }}>Email</a></li>
-              <li><a href="https://x.com/AlphaBuild39589" target="_blank" rel="noopener noreferrer" style={{ color: '#bbb' }}>Twitter</a></li>
-              <li><a href="https://discord.gg/rz6wPGYQBH" target="_blank" rel="noopener noreferrer" style={{ color: '#bbb' }}>Discord</a></li>
-              <li><a href="https://www.linkedin.com/company/alphabuilder/" target="_blank" rel="noopener noreferrer" style={{ color: '#bbb' }}>LinkedIn</a></li>
-              <li><a href="https://alphabuilderblogs.substack.com" target="_blank" rel="noopener noreferrer" style={{ color: '#bbb' }}>Substack</a></li>
+            <h4
+                style={{
+                  color: '#fff',
+                  marginBottom: '0.75rem',
+                  transition: 'color 0.3s ease',
+                  fontSize: '0.9rem'
+                }}
+                onMouseEnter={(e) =>
+                  (e.currentTarget.style.color = 'var(--hover-color)')
+                }
+                onMouseLeave={(e) =>
+                  (e.currentTarget.style.color = '#fff')
+                }
+              >
+                Engagement
+              </h4>
+                          <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+              <li><a href="mailto:alphabuilder.research@gmail.com" style={{ color: '#bbb', fontSize: '0.9rem' }}>Email</a></li>
+              <li><a href="https://x.com/AlphaBuild39589" target="_blank" rel="noopener noreferrer" style={{ color: '#bbb', fontSize: '0.9rem' }}>Twitter</a></li>
+              <li><a href="https://discord.gg/rz6wPGYQBH" target="_blank" rel="noopener noreferrer" style={{ color: '#bbb', fontSize: '0.9rem' }}>Discord</a></li>
+              <li><a href="https://www.linkedin.com/company/alphabuilder/" target="_blank" rel="noopener noreferrer" style={{ color: '#bbb', fontSize: '0.9rem' }}>LinkedIn</a></li>
+              <li><a href="https://alphabuilderblogs.substack.com" target="_blank" rel="noopener noreferrer" style={{ color: '#bbb', fontSize: '0.9rem' }}>Substack</a></li>
             </ul>
           </div>
         </div>
       </div>
-      <p style={{ fontSize: '0.9rem', color: '#aaa', maxWidth: '700px', margin: '0 auto 1rem' }}>
-        AlphaBuilder is a continuous research documentation platform exploring 
-        market intelligence, adaptive modeling, and dynamic portfolio systems.
-      </p>
+          <div
+            style={{
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'center',
+              textAlign: 'center',
+              marginTop: '1.5rem',
+            }}
+          >
+            <p
+              style={{
+                fontSize: '0.9rem',
+                color: '#aaa',
+                maxWidth: '700px',
+                margin: '0 auto 1rem',
+              }}
+            >
+              AlphaBuilder is a continuous research documentation platform exploring
+              market intelligence, adaptive modeling, and dynamic portfolio systems.
+            </p>
 
-      <p style={{ fontSize: '0.9rem', color: '#666' }}>
-        © {year} AlphaBuilder — Follow progress on{' '}
-        <a href="https://discord.gg/rz6wPGYQBH" target="_blank" rel="noopener noreferrer" className="footer-link">
-          Discord
-        </a>
-      </p>
+            <p
+              style={{
+                fontSize: '0.9rem',
+                color: '#666',
+                marginBottom: '1rem',
+              }}
+            >
+              © {year} AlphaBuilder — Follow progress on{' '}
+              <a
+                href="https://discord.gg/rz6wPGYQBH"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="footer-link"
+              >
+                Discord
+              </a>
+            </p>
+
+            <button
+              onClick={handleColorChange}
+              className="color-switch-btn"
+              aria-label="Change Accent Color"
+              style={{
+                background: 'none',
+                border: '1px solid #333',
+                color: colors[currentColor],
+                cursor: 'pointer',
+                padding: '0.6rem',
+                borderRadius: '50%',
+                transition: 'all 0.3s ease',
+              }}
+            >
+              <FaPalette size={18} />
+            </button>
+          </div>
+
     </footer>
   );
 }

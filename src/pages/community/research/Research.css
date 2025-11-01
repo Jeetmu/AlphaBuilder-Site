@@ -29,9 +29,8 @@
   border: 1px solid var(--border-dark);
   border-radius: 12px;
   padding: 1.8rem;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
-  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
-  text-align: left; /* 👈 makes text flow from left to right */
+  transition: transform 0.25s ease, border-color 0.25s ease;
+  text-align: left; 
 }
 
 .paper-card:hover {
@@ -84,7 +83,7 @@
   margin-top: 2rem;
   background-color: #111;
   padding: 0.6rem 1.6rem;
-  border: 1px solid #333; /* subtle default border */
+  border: 1px solid var(--border-dark); /* subtle default border */
   border-radius: 8px;
   cursor: pointer;
   font-weight: bold;
