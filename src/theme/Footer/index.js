@@ -32,7 +32,7 @@ export default function Footer() {
   return (
     <footer
       style={{
-        backgroundColor: '#0a0a0a',
+        backgroundColor: '#121212',
         borderTop: '1px solid #222',
         color: '#ccc',
         padding: '3rem 1rem 1rem 1rem',
@@ -85,24 +85,24 @@ export default function Footer() {
           <div>
             <h4 style={{ color: '#fff', marginBottom: '0.75rem' }}>Community</h4>
             <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
-              <li><Link to="/community/about" style={{ color: '#bbb' }}>About</Link></li>
-              <li><Link to="/community/research" style={{ color: '#bbb' }}>Research</Link></li>
               <li><Link to="/community/blog" style={{ color: '#bbb' }}>Blogs</Link></li>
+              <li><Link to="/community/about" style={{ color: '#bbb' }}>About</Link></li>
               <li><Link to="/community/status" style={{ color: '#bbb' }}>Status</Link></li>
               <li><Link to="/community/contact" style={{ color: '#bbb' }}>Contact</Link></li>
+              <li><Link to="/community/research" style={{ color: '#bbb' }}>Research</Link></li>
             </ul>
           </div>
 
           {/* Frameworks */}
           <div>
-            <h4 style={{ color: '#fff', marginBottom: '0.75rem' }}>Frameworks</h4>
+            <h4 style={{ color: '#fff', marginBottom: '0.75rem' }}>Framework</h4>
             <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
-              <li><Link to="/signals" style={{ color: '#bbb' }}>Signal</Link></li>
-              <li><Link to="/risk" style={{ color: '#bbb' }}>Risk</Link></li>
               <li><Link to="/optimizer" style={{ color: '#bbb' }}>Optimizer</Link></li>
-              <li><Link to="/vega" style={{ color: '#bbb' }}>Vega</Link></li>
-              <li><Link to="/hub" style={{ color: '#bbb' }}>Hub</Link></li>
-              <li><Link to="/system" style={{ color: '#bbb' }}>System</Link></li>
+              <li><Link to="/signals" style={{ color: '#bbb' }}>Signal Lab</Link></li>
+              <li><Link to="/hub" style={{ color: '#bbb' }}>Model Hub</Link></li>
+              <li><Link to="/risk" style={{ color: '#bbb' }}>Risk Engine</Link></li>
+              <li><Link to="/vega" style={{ color: '#bbb' }}>Vega Studio</Link></li>
+              {/* <li><Link to="/system" style={{ color: '#bbb' }}>System</Link></li> */}
             </ul>
           </div>
 
@@ -110,11 +110,11 @@ export default function Footer() {
           <div>
             <h4 style={{ color: '#fff', marginBottom: '0.75rem' }}>Engagement</h4>
             <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
-              <li><a href="https://discord.gg/rz6wPGYQBH" target="_blank" rel="noopener noreferrer" style={{ color: '#bbb' }}>Discord</a></li>
-              <li><a href="https://alphabuilderblogs.substack.com" target="_blank" rel="noopener noreferrer" style={{ color: '#bbb' }}>Substack</a></li>
-              <li><a href="https://www.linkedin.com/company/alphabuilder/" target="_blank" rel="noopener noreferrer" style={{ color: '#bbb' }}>LinkedIn</a></li>
-              <li><a href="https://x.com/AlphaBuild39589" target="_blank" rel="noopener noreferrer" style={{ color: '#bbb' }}>Twitter</a></li>
               <li><a href="mailto:alphabuilder.research@gmail.com" style={{ color: '#bbb' }}>Email</a></li>
+              <li><a href="https://x.com/AlphaBuild39589" target="_blank" rel="noopener noreferrer" style={{ color: '#bbb' }}>Twitter</a></li>
+              <li><a href="https://discord.gg/rz6wPGYQBH" target="_blank" rel="noopener noreferrer" style={{ color: '#bbb' }}>Discord</a></li>
+              <li><a href="https://www.linkedin.com/company/alphabuilder/" target="_blank" rel="noopener noreferrer" style={{ color: '#bbb' }}>LinkedIn</a></li>
+              <li><a href="https://alphabuilderblogs.substack.com" target="_blank" rel="noopener noreferrer" style={{ color: '#bbb' }}>Substack</a></li>
             </ul>
           </div>
         </div>
