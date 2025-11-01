@@ -16,8 +16,6 @@
   --text-main: #ffffff;
   --text-sub: #bbbbbb;
   --border-dark: #1f1f1f;
-  --accent: #00bfff;
-  --accent-hover: #1ec8ff;
   --highlight: #00bfff;
   --bg-dark: #0a0a0a;
 }
@@ -76,7 +74,7 @@
 
 .blog-card:hover {
   transform: translateY(-5px);
-  border-color: var(--accent);
+  border-color:var(--hover-color);
 }
 
 /* Typography */
@@ -88,7 +86,7 @@
 }
 
 .blog-card:hover h2 {
-  color: var(--accent);
+  color: var(--hover-color);
 }
 
 .blog-card h4 {
@@ -115,7 +113,7 @@
 }
 
 .blog-card a:hover {
-  color: var(--accent-hover);
+  color: var(--hover-color);
 }
 
 /* Button */
@@ -138,9 +136,9 @@
 
 .blog-toggle button:hover {
   background-color: #111;
-  border-color: var(--accent);
+  border-color: var(--hover-color);
   transform: translateY(-3px);
-  color: var(--accent);
+  color: var(--hover-color);
 }
 
 /* Mobile */

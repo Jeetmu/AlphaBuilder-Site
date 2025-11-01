@@ -57,7 +57,7 @@
 
 .main-link:hover,
 .main-link.active {
-  color: #00bfff;
+  color: var(--hover-color);
 }
 
 .sub-list {
@@ -80,7 +80,7 @@
 }
 
 .sub-list a:hover {
-  color: #00bfff;
+  color: var(--hover-color);
 }
 
 
@@ -106,10 +106,8 @@
 
 .markdown-content h1:hover,
 .markdown-content h2:hover {
-  color: #00bfff;
+  color: var(--hover-color);
 }
-
-
 
 /* HEADER SPACER */
 .markdown-spacer-card {
@@ -223,21 +221,20 @@
 /* 📟 Tablets / Small Laptops (≤950px) */
 @media (max-width: 1000px) {
   .markdown-two-col {
-    padding: 0rem 5rem 3rem;
+    padding: 2rem 2rem 3rem;
   }
-
   .markdown-toc {
-    flex: 0 0 180px;
-    padding: 0rem 0 0 0;
+    flex: 0 0 200px;
+    padding-top: 1rem;
   }
-
   .markdown-content {
     font-size: 0.98rem;
     margin-top: 1rem;
+    margin-left: -2rem;
   }
     /* HEADER SPACER */
   .markdown-spacer-card {
-    height: 0rem;
+    height: 7rem;
   }
 }
 
@@ -264,7 +261,8 @@
   }
 
   .markdown-content {
-    margin-top: 0;
+    margin-top: 1rem;
+    margin-left: -2rem;
   }
 
   .main-link {
@@ -285,7 +283,7 @@
   }
 }
 
-/* 📞 Very Small Phones (≤480px) */
+/* Very Small Phones (≤480px) */
 @media (max-width: 480px) {
   .markdown-two-col {
     padding: 2rem 1rem 2.5rem;
@@ -302,6 +300,7 @@
   .markdown-content {
     font-size: 0.9rem;
     line-height: 1.6;
+    margin-left: 0rem;
   }
   .markdown-spacer-card {
     height: 0rem;

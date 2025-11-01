@@ -44,25 +44,13 @@ export default function Contact() {
         Join our communities or reach out directly at{" "}
         <a
           href="mailto:alphabuilder.research@gmail.com"
-          style={{
-            color: "#fff",
-            textDecoration: "none",
-            fontWeight: "600",
-            transition: "all 0.2s ease",
-          }}
-          onMouseEnter={(e) => {
-            e.target.style.textDecoration = "underline";
-            e.target.style.color = "#00bfff";
-          }}
-          onMouseLeave={(e) => {
-            e.target.style.textDecoration = "none";
-            e.target.style.color = "#fff";
-          }}
+          className="email-link"
         >
           alphabuilder.research@gmail.com
         </a>
         — we’d love to hear from you.
       </p>
+
 
 
       <div className="contact-links">

@@ -4,9 +4,6 @@
   --text-sub: #bbbbbb;
   --text-muted: #888;
   --border-dark: #1f1f1f;
-  --accent: #00bfff;
-  --accent-hover: #1ec8ff;
-  --highlight: #00bfff;
 }
 
 /* Overall Layout */
@@ -36,7 +33,7 @@
 
 /* Hover effect */
 .section-title:hover {
-  color: var(--accent);
+  color: var(--hover-color);
   transform: translateY(-2px);
 }
 
@@ -60,13 +57,13 @@
 
 /* Hover effect */
 .announcement-card:hover h3 {
-  color: #00bfff; /* bright blue hover */
+  color: var(--hover-color); /* bright blue hover */
   transform: translateY(-2px);
 }
 
 .announcement-card:hover {
   transform: translateY(-5px);
-  border-color: var(--accent);
+  border-color: var(--hover-color);
 }
 
 .announcement-message {
@@ -91,7 +88,7 @@
 
 .changelog-card:hover {
   transform: translateY(-5px);
-  border-color: var(--accent);
+  border-color: var(--hover-color);
 }
 
 .changelog-date {
@@ -112,7 +109,7 @@
 }
 
 .module-name:hover {
-  color: var(--accent); /* blue hover */
+  color: var(--hover-color); /* blue hover */
   transform: translateY(-2px);
 }
 
@@ -130,7 +127,7 @@
 
 /* 🔥 When the entire card is hovered */
 .changelog-card:hover .changelog-version {
-  color: #00bfff; /* accent blue */
+  color: var(--hover-color); /* accent blue */
   transform: translateY(-2px);
 }
 
@@ -160,8 +157,8 @@
 }
 
 .button:hover {
-  border-color: var(--accent);
-  color: var(--accent);
+  border-color: var(--hover-color);
+  color: var(--hover-color);
   transform: translateY(-3px);
 }
 
@@ -173,3 +170,4 @@
         padding: 0.5rem 0.5rem;
     }
 }
+
