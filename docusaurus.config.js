@@ -60,7 +60,7 @@ const config = {
       style: 'dark',
       logo: {
         alt: 'AlphaBuilder Logo',
-        src: '/img/logo_9.png',
+        src: '/img/Logo_4.svg',
       },
        items: [
         { type: 'dropdown', to: '/signals', label: 'Signals', position: 'left', className: 'center-navbar',
