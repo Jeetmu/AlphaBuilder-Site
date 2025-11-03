@@ -1,10 +1,9 @@
-
 .contact-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: var(--ifm-button-color);
   text-align: center;
   font-family: 'Inter', sans-serif;
   margin-top: 10rem;
@@ -15,7 +14,7 @@
 .contact-container h1 {
   font-size: 2.2rem;
   margin-bottom: 0rem;
-  color: #e5e5e5;
+  color: var(--ifm-button-color);
   transition: color 0.3s ease;
 }
 
@@ -25,7 +24,7 @@
 
 .contact-container p {
   max-width: 650px;
-  color: #ccc;
+  color: var(--ifm-pcard-color);
   font-size: 1rem;
   line-height: 1.7;
   margin-bottom: 2rem;
@@ -43,8 +42,8 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  background-color: #111;
-  border: 1px solid var(--border-dark);
+  background-color: var(--ifm-background-color);
+  border: 1px solid var(--ifm-background-color);
   border-radius: 10px;
   padding: 0.8rem 1.2rem;
   font-size: 1rem;
@@ -59,7 +58,7 @@
 }
 
 .email-link {
-  color: #fff;
+  color: var(--ifm-button-color);
   text-decoration: none;
   font-weight: 600;
   transition: all 0.2s ease;

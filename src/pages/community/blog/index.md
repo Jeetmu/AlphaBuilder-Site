@@ -81,8 +81,6 @@ export default function BlogSection() {
         </div>
       )}
             {/* Substack Embed */}
-      <div className="blog-section">
-        <div className="substack-subscribe">
           <div className="substack-embed-wrapper">
             <iframe
               src="https://alphabuilderblogs.substack.com/embed"
@@ -93,8 +91,6 @@ export default function BlogSection() {
               scrolling="no"
             ></iframe>
           </div>
-        </div>
-      </div>
     </>
   );
 }

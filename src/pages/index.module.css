@@ -11,7 +11,7 @@
 .title {
   font-size: 2.8rem;
   font-weight: 700;
-  color: #e5e5e5;
+  color: var(--ifm-button-color);
   margin-bottom: 1rem;
   position: relative;
   display: inline-block;
@@ -28,7 +28,7 @@
   width: 60%;
   height: 2px;
   margin: 0.5rem auto 0;
-  background: linear-gradient(90deg, #e5e5e5, transparent);
+  background: linear-gradient(90deg, var(--ifm-title-color), transparent);
   opacity: 0.6;
   transition: all 0.3s ease;
 }
@@ -39,7 +39,7 @@
 
 .subtitle {
   font-size: 1.1rem;
-  color: #e5e5e5;
+  color: var(--ifm-title-color);
   margin: 0 auto 2rem;
   text-align: justify;     
   text-justify: inter-word;
@@ -52,9 +52,9 @@
 }
 
 .button {
-  background-color: #121212;
-  color: #fff;
-  border: 1px solid var(--border-dark);
+  background-color: var(--ifm-background-color);
+  color: var(--ifm-button-color);
+  border: 1px solid var(--ifm-background-color);
   border-radius: 8px;
   padding: 0.75rem 1.5rem;
   font-size: 1rem;
@@ -79,7 +79,7 @@
 }
 
 .modules h2 {
-  color: #e5e5e5;
+  color: var(--ifm-button-color);
   margin-bottom: 2.5rem;
   font-size: 2.2rem;
   font-weight: 700;
@@ -98,7 +98,7 @@
   width: 60%;
   height: 2px;
   margin: 0.5rem auto 0;
-  background: linear-gradient(90deg, #e5e5e5, transparent);
+  background: linear-gradient(90deg, var(--ifm-title-color), transparent);
   opacity: 0.6;
   transition: all 0.3s ease;
 }
@@ -130,8 +130,8 @@
 }
 
 .card {
-  background: #111;
-  border: 1px solid var(--border-dark);
+  background: var(--ifm-background-color);
+  border: 1px solid var(--ifm-background-color);
   border-radius: 12px;
   padding: 1.5rem;
   text-align: left;
@@ -144,7 +144,7 @@
 }
 
 .card h3 {
-  color: #e5e5e5;
+  color: var(--ifm-button-color);
   margin-bottom: 0.5rem;
   transition: color 0.3s ease;
 }
@@ -155,7 +155,7 @@
 
 
 .card p {
-  color: #bbb;
+  color: var(--ifm-pcard-color);
   font-size: 0.95rem;
 }
 
@@ -210,7 +210,7 @@
     font-size: 2.3rem;
   }
   .modules {
-    padding: 0 1rem;
+    padding: 0 0rem;
   }
   .subtitle {
     font-size: 0.95rem;

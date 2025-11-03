@@ -1,13 +1,6 @@
-:root {
-  --card-bg: #111;
-  --text-main: #ffffff;
-  --text-sub: #bbbbbb;
-  --border-dark: #1f1f1f;
-}
-
 /* Overall Section */
 .paper-section {
-  color: var(--text-main);
+  color: var(--ifm-button-color);
   text-align: center;
   padding: 2rem 1.5rem 4rem;
 }
@@ -25,8 +18,8 @@
 
 /* Paper Card */
 .paper-card {
-  background-color: var(--card-bg);
-  border: 1px solid var(--border-dark);
+  background-color: var(--ifm-background-color);
+  border: 1px solid var(--ifm-background-color);
   border-radius: 12px;
   padding: 1.8rem;
   transition: transform 0.25s ease, border-color 0.25s ease;
@@ -40,7 +33,7 @@
 
 /* Typography */
 .paper-card h2 {
-  color: var(--text-main);
+  color: var(--ifm-button-color);
   font-size: 1.3rem;
   margin-bottom: 1rem;
   transition: color 0.3s ease, text-shadow 0.3s ease;
@@ -52,14 +45,14 @@
 }
 
 .paper-card h4 {
-  color: var(--text-main);
+  color: var(--ifm-button-color);
   font-size: 1rem;
   font-weight: 500;
   margin-bottom: 1rem;
 }
 
 .paper-card p {
-  color: var(--text-sub);
+  color: var(--ifm-pcard-color);
   font-size: 0.95rem;
   line-height: 1.6;
   margin-bottom: 1.5rem;
@@ -67,7 +60,7 @@
 
 /* Link */
 .paper-card a {
-  color: var(--text-main);
+  color: var(--ifm-button-color);
   text-decoration: none;
   font-weight: bold;
   display: inline-block;
@@ -81,18 +74,18 @@
 /* Button */
 .show-more-btn {
   margin-top: 2rem;
-  background-color: #111;
+  background-color: var(--ifm-background-color);
   padding: 0.6rem 1.6rem;
-  border: 1px solid var(--border-dark); /* subtle default border */
+  border: 1px solid var(--ifm-background-color); /* subtle default border */
   border-radius: 8px;
   cursor: pointer;
   font-weight: bold;
-  color: #e0e0e0;
+  color: var(--ifm-button-color);
   transition: all 0.3s ease;
 }
 
 .show-more-btn:hover {
-  background-color: #111;
+  background-color: var(--ifm-background-color);
   border-color:var(--hover-color);
   transform: translateY(-3px);
   color: var(--hover-color);

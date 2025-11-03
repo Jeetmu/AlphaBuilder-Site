@@ -6,7 +6,6 @@
   align-items: flex-start;
   justify-content: flex-start;
   padding: 2rem 20rem 4rem;
-  color: #fff;
   gap: 2rem;
 }
 
@@ -28,7 +27,7 @@
   right: 0;
   width: 1px;
   height: calc(100% - 2rem);
-  background-color: #1f1f1f;
+  background-color: var(--ifm-background-color);
 }
 
 .markdown-toc ul {
@@ -42,7 +41,7 @@
 }
 
 .main-link {
-  color: #fff;
+  color: var(--ifm-button-color);
   font-weight: 600;
   background: none;
   border: none;
@@ -71,7 +70,7 @@
 }
 
 .sub-list a {
-  color: #ccc;
+  color: var(--ifm-title-color);
   text-decoration: none;
   font-size: 0.95rem;
   display: block;
@@ -95,18 +94,64 @@
 /* -------------------------
    RIGHT: MARKDOWN CONTENT
    ------------------------- */
+/* Base markdown text color */
 .markdown-content {
-  color: #e5e5e5;
+  color: var(--ifm-pcard-color);
   line-height: 1.7;
   flex: 1;
   min-width: 0;
   margin-top: 2rem;
+  transition: color 0.3s ease, background 0.3s ease;
 }
 
-/* .markdown-content h1:hover,
-.markdown-content h2:hover {
+/* Headings */
+.markdown-content h1,
+.markdown-content h2,
+.markdown-content h3 {
+  color: var(--ifm-button-color);
+  font-weight: 700;
+  transition: color 0.2s ease;
+}
+
+.markdown-content h1:hover{
   color: var(--hover-color);
-} */
+}
+
+.markdown-content h2:hover{
+  color: var(--hover-color);
+}
+
+/* Paragraphs and lists */
+.markdown-content p,
+.markdown-content li {
+  color: var(--ifm-title-color);
+}
+
+/* Links */
+.markdown-content a {
+  color: var(--hover-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.markdown-content a:hover {
+  color: var(--ifm-button-color);
+  text-decoration: underline;
+}
+
+
+.custom-codeblock .theme-code-block {
+  border-radius: 15px; 
+  overflow: hidden;
+}
+
+/* Add inside spacing for the actual code content */
+.custom-codeblock .theme-code-block pre,
+.custom-codeblock .theme-code-block code {
+  padding: 1rem 0.8rem !important;
+  box-sizing: border-box;
+}
+
 
 /* HEADER SPACER */
 .markdown-spacer-card {
@@ -119,20 +164,10 @@
   justify-content: center;
   align-items: center;
   z-index: 10;
-  background: #121212;
+  background: var(--ifm-background-color);
 }
 
-/* CODE BLOCK STYLING */
-.custom-codeblock .theme-code-block {
-  background-color: #121212 !important;
-  border-radius: 12px;
-  border: 1px solid #2a2d3e;
-  padding: 1.2rem;
-}
 
-.custom-codeblock pre {
-  background-color: transparent !important;
-}
 
 /* =========================
    RESPONSIVE ADAPTATION
@@ -153,7 +188,6 @@
     justify-content: center;
     align-items: center;
     z-index: 10;
-    background: #121212;
   }
   .markdown-toc {
     position: sticky;
@@ -261,7 +295,7 @@
 
   .markdown-content {
     margin-top: 1rem;
-    margin-left: -2rem;
+    margin-left: 0.5rem;
   }
 
   .main-link {

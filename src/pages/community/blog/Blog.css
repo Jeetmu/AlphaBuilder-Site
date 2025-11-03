@@ -11,45 +11,55 @@
   }
 }
 
-:root {
-  --card-bg: #111;
-  --text-main: #ffffff;
-  --text-sub: #bbbbbb;
-  --border-dark: #1f1f1f;
-  --highlight: #00bfff;
-  --bg-dark: #0a0a0a;
-}
-
-/* Overall Section */
-.blog-section {
-  color: var(--text-main);
-  text-align: center;
-  padding: 2rem 1.5rem 4rem;
-}
-
-/* Substack Embed */
 .substack-subscribe {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
+/* Outer wrapper */
 .substack-embed-wrapper {
+  position: relative;
   border-radius: 10px;
   overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: all 0.3s ease;
+  background: var(--ifm-background-color);
 }
 
+/* The iframe */
+.substack-embed {
+  display: block;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  height: 320px; /* adjust as needed */
+  background: var(--ifm-background-color);
+  color-scheme: dark;
+}
+
+/* Hover overlay */
+.substack-embed-wrapper::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 10px;
+  box-shadow: 0 0 0px transparent;
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+/* Hover effect: glow + lift */
 .substack-embed-wrapper:hover {
   transform: translateY(-5px);
 }
 
-.substack-embed {
-  border: none;
-  border-radius: 8px;
-  background: #000;
-  color-scheme: dark;
+.substack-embed-wrapper:hover::after {
+  box-shadow: 0 0 20px var(--hover-color);
+  border: 1px solid var(--hover-color);
 }
+
+
 
 /* Blog Grid */
 .blog-grid {
@@ -65,8 +75,8 @@
 
 /* Blog Card */
 .blog-card {
-  background-color: var(--card-bg);
-  border: 1px solid var(--border-dark);
+  background-color: var(--ifm-background-color);
+  border: 1px solid var(--ifm-background-color);
   border-radius: 12px;
   padding: 1.8rem;
   transition: transform 0.25s ease, border-color 0.25s ease;
@@ -79,7 +89,7 @@
 
 /* Typography */
 .blog-card h2 {
-  color: var(--text-main);
+  color: var(--ifm-button-color);
   font-size: 1.3rem;
   margin-bottom: 1rem;
   transition: color 0.3s ease;
@@ -90,14 +100,14 @@
 }
 
 .blog-card h4 {
-  color: var(--text-main);
+  color: var(--ifm-button-color);
   font-size: 1rem;
   font-weight: 500;
   margin-bottom: 1rem;
 }
 
 .blog-card p {
-  color: var(--text-sub);
+  color: var(--ifm-pcard-color);
   font-size: 0.95rem;
   line-height: 1.6;
   margin-bottom: 1.5rem;
@@ -105,7 +115,7 @@
 
 /* Link */
 .blog-card a {
-  color: var(--text-main);
+  color: var(--ifm-button-color);
   text-decoration: none;
   font-weight: bold;
   display: inline-block;
@@ -124,18 +134,18 @@
 }
 
 .blog-toggle button {
-  background-color: #111;
+  background-color: var(--ifm-background-color);
   padding: 0.6rem 1.6rem;
-  border: 1px solid var(--border-dark);
+  border: 1px solid var(--ifm-background-color);
   border-radius: 8px;
   cursor: pointer;
   font-weight: bold;
-  color: #e0e0e0;
+  color: var(--ifm-button-color);
   transition: all 0.3s ease;
 }
 
 .blog-toggle button:hover {
-  background-color: #111;
+  background-color: var(--ifm-background-color);
   border-color: var(--hover-color);
   transform: translateY(-3px);
   color: var(--hover-color);

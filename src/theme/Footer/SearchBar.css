@@ -1,77 +1,74 @@
-/* Search dropdown container */
+/* === Search Dropdown Container === */
 [role="listbox"] {
-  background-color: #000 !important;
-  border: 1px solid #222 !important;
+  background-color: var(--ifm-background-color) !important;
+  border: 1px solid var(--ifm-button-color) !important;
   border-radius: 8px !important;
   padding: 4px 0 !important;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6) !important;
-  color: #fff !important;
+  color: var(--ifm-button-color) !important;
   z-index: 9999 !important;
   position: absolute !important;
 }
 
-/* Each option item */
+/* === Each Option Item === */
 [role="option"] {
   padding: 10px 14px !important;
   font-size: 15px !important;
-  border-bottom: 1px solid #111 !important;
+  border-bottom: 1px solid var(--ifm-button-color) !important;
   cursor: pointer !important;
   transition: background 0.2s ease, color 0.2s ease;
-  color: rgba(255, 255, 255, 0.85) !important;
+  color: var(--ifm-button-color) !important;
 }
 
-/* First result — more white */
+/* === First Option (More Prominent) === */
 [role="option"]:first-child {
-  color: rgba(255, 255, 255, 1) !important;
+  color: var(--ifm-button-color) !important;
   font-weight: 600 !important;
 }
 
-/* Highlighted keyword (default) */
+/* === Highlighted Keyword === */
 [role="option"] mark {
   background: none !important;
-  color: #fff !important;
+  color: var(--hover-color) !important;
   font-weight: 700 !important;
 }
 
-/* Hover — keyword turns blue */
+/* === Hover Keyword Color === */
 [role="option"]:hover mark,
 [role="option"][aria-selected="true"] mark {
-  color: var(--hover-color) !important;
+  color: var(--ifm-button-color) !important; /* change this to any shade like #ff4d4d if you want softer red */
 }
 
-/* Maintain white text elsewhere */
-[role="option"]:hover {
-  background-color: #121212!important;
-  color: rgba(255, 255, 255, 0.85) !important;
+
+/* === Hover Effect === */
+[role="option"]:hover,
+[role="option"][aria-selected="true"] {
+  background-color: var(--ifm-background-color) !important;  /* subtle contrast background */
+  color: var(--ifm-button-color) !important;            /* readable text color */
 }
 
-/* Remove border for last */
+
+/* === Last Option Border Removal === */
 [role="option"]:last-child {
   border-bottom: none !important;
 }
 
-/* === Search icon color customization === */
-
-html[data-theme="dark"] {
-  --search-local-highlight-color: #0a0a0a;
-}
-
-
-/* === Make Docusaurus local search bar black === */
-
-/* Search input box */
+/* === Search Input Field === */
 .navbar__search-input,
 .searchInput_YFbd {
-  background-color: #0a0a0a !important;     
-  color: #fff !important;                
-  border: 1px solid var(--border-dark) !important;    
+  background-color: var(--ifm-background-color) !important;
+  color: var(--ifm-button-color) !important;
+  border: 1px solid var(--ifm-background-color) !important;
   border-radius: 8px !important;
   padding: 8px 12px !important;
-  transition: border-color 0.3s ease;
+  transition: border-color 0.3s ease, color 0.3s ease;
+  text-align: center !important;
 }
 
-.navbar__search-input::placeholder {
-  color: rgba(255, 255, 255, 0.7) !important;
+.navbar__search-input::placeholder,
+.searchInput_YFbd::placeholder {
+  color: var(--ifm-button-color) !important;
+  opacity: 0.7 !important;
+  text-align: center !important;
 }
 
 .navbar__search-input:hover,
@@ -80,18 +77,23 @@ html[data-theme="dark"] {
   outline: none !important;
 }
 
+/* === Search Bar Wrapper === */
 .searchBar_RVTs {
-  background-color: #0a0a0a !important;
+  background-color: var(--ifm-background-color) !important;
   border-radius: 8px !important;
+  display: flex;
+  justify-content: center;
 }
 
-/* Optional: dark modal background (if using local search modal) */
+/* === Local Search Modal Variables === */
 :root {
-  --search-local-modal-background: #0a0a0a !important;
-  --search-local-hit-background: #0a0a0a !important;
-  --search-local-hit-color: #fff !important;
-  --search-local-muted-color: rgba(255, 255, 255, 0.6) !important;
+  --search-local-modal-background: var(--ifm-background-color) !important;
+  --search-local-modal-shadow: 0 0 15px var(--ifm-button-color) !important;
+  --search-local-hit-background: var(--ifm-background-color) !important;
+  --search-local-hit-color: var(--ifm-button-color) !important;
+  --search-local-muted-color: var(--ifm-button-color) !important;
 }
+
 
 
 /* Keep full search bar visible on small screens */
@@ -135,17 +137,27 @@ html[data-theme="dark"] {
 
 
 
-
-
-
 /* Global mark fix */
 mark {
   background: none !important;
-  color: #fff !important;
+  color: var(--ifm-button-color) !important;
   font-weight: 700 !important;
 }
 
 @media (max-width: 1000px) {
+  [role="listbox"] {
+    max-width: 300% !important;   /* make it narrower on smaller screens */
+    margin: 0 auto !important;   /* center it horizontally */
+    border-radius: 6px !important;
+  }
+
+  [role="option"] {
+    font-size: 14px !important;  /* slightly smaller text for phones */
+    padding: 8px 12px !important;
+  }
+}
+
+@media (max-width: 800px) {
   [role="listbox"] {
     max-width: 250% !important;   /* make it narrower on smaller screens */
     margin: 0 auto !important;   /* center it horizontally */
@@ -160,7 +172,20 @@ mark {
 
 @media (max-width: 600px) {
   [role="listbox"] {
-    max-width: 180% !important;  
+    max-width: 150% !important;  
+    margin: 0 auto !important;
+    border-radius: 6px !important;
+  }
+
+  [role="option"] {
+    font-size: 14px !important;
+    padding: 8px 12px !important;
+  }
+}
+
+@media (max-width: 450px) {
+  [role="listbox"] {
+    max-width: 130% !important;  
     margin: 0 auto !important;
     border-radius: 6px !important;
   }
@@ -175,58 +200,63 @@ mark {
 .searchResultsPage_xxx,
 .theme-doc-markdown,
 main {
-  color: #fff !important;
+  color: var(--ifm-button-color) !important;
 }
 
 /* Each result card/article */
 .searchResultItem_U687 {
-  background-color: #0a0a0a !important;
-  border: 1px solid #222 !important;
+  background-color: var(--ifm-background-color) !important;
+  border: 1px solid var(--ifm-background-color) !important;
   border-radius: 12px !important;
   padding: 1rem 1.25rem !important;
   margin-bottom: 1rem !important;
   transition: all 0.25s ease;
-  color: #fff !important;
+  color: var(--ifm-button-color) !important;
+  position: relative;
+  cursor: pointer;
 }
 
-/* Hover effect */
+/* Hover effect on card */
 .searchResultItem_U687:hover {
-  background-color: #0d0d0d !important;
+  background-color: var(--ifm-background-color) !important;
   border-color: var(--hover-color) !important;
   transform: translateY(-2px);
 }
 
 /* Headline links */
 .searchResultItem_U687 h2 a {
-  color: #ffffff !important;
+  color: var(--ifm-button-color) !important;
   text-decoration: none;
   font-weight: 600;
-  transition: color 0.2s ease;
+  transition: color 0.25s ease, text-shadow 0.25s ease;
 }
 
-/* Hover link turns blue */
-.searchResultItem_U687 h2 a:hover {
+/* Glow effect when hovering over the card */
+.searchResultItem_U687:hover h2 a {
   color: var(--hover-color) !important;
 }
 
+
 /* Path text (small subtext under title) */
 .searchResultItemPath_uIbk {
-  color: #aaa !important;
+  color: var(--ifm-background-color) !important;
   font-size: 0.85rem;
   margin-bottom: 0.4rem;
 }
 
 /* Summary paragraph */
 .searchResultItemSummary_oZHr {
-  color: rgba(255, 255, 255, 0.9) !important;
+  color: var(--ifm-button-color) !important;
+  opacity: 0.9; /* Keeps the same soft tone effect */
   font-size: 0.9rem;
   line-height: 1.5;
 }
 
+
 /* Highlighted keywords */
 .searchResultItemSummary_oZHr mark {
   background: none !important;
-  color: #ffffff !important; /* bright white for keyword */
+  color: var(--ifm-button-color) !important; /* bright white for keyword */
   font-weight: 700;
 }
 
@@ -234,6 +264,7 @@ main {
 .searchResultItem_U687:hover mark {
   color: var(--hover-color) !important;
 }
+
 
 .color-switch-btn {
   background: transparent;
@@ -251,7 +282,27 @@ main {
 }
 
 .color-switch-btn:hover {
-  background: var(--hover-color);
-  color: #000;
+  color: var(--hover-color);
   transform: rotate(15deg) scale(1.1);
+}
+
+
+
+
+
+/* === Search Results Title ("Search results for ...") === */
+.container.margin-vert--lg > h1 {
+  color: var(--ifm-button-color) !important; /* bright red */
+  font-weight: 700 !important;
+  font-size: 1.6rem !important;
+  text-align: center !important;
+}
+
+/* === Document Count Text ("5 documents found") === */
+.container.margin-vert--lg > p {
+  color: var(--ifm-pcard-color) !important; /* subtle gray tone from your theme */
+  text-align: center !important;
+  font-size: 0.95rem !important;
+  opacity: 0.8 !important;
+  margin-bottom: 2rem !important;
 }

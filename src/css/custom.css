@@ -1,23 +1,25 @@
-:root {
-  --ifm-color-primary: #1e1e1e;
-  --ifm-color-secondary: #ffffff;
-  --ifm-background-color: #121212;
-  --ifm-color-gray-100: #e0e0e0;
-  --border-dark:#1f1f1f;
+/* :root, */
+[data-theme='dark'] {
+  --ifm-background-color: #111 !important;
+  --ifm-title-color: #e5e5e5 !important;
+  --ifm-button-color: #fff !important;
+  --ifm-pcard-color: #ccc !important;
+  --ifm-footeraa-color:#aaa !important;
+  --ifm-footerbb-color: #857e7eff !important;
 }
 
- 
- /* Examples you can swap in:
-   #00E5FF
-   #3EF5C0
-   #9B5DE5
-   #8A2BE2
-   #FFC300
-   #FF4757
-   #00FF7F
-   
-   #00ffaa
-*/
+
+/* :root, */
+[data-theme='light'] {
+  --ifm-background-color: #fff !important;   
+  --ifm-title-color: #111 !important;           
+  --ifm-button-color: #000 !important;         
+  --ifm-pcard-color: #333 !important;           
+  --ifm-footeraa-color: #555 !important;       
+  --ifm-footerbb-color: #ccc !important;     
+}
+
+
 
 body {
   background-color: var(--ifm-background-color);
@@ -26,11 +28,8 @@ body {
   padding: 0;
 }
 
-/* -----------------------------------
-   GLOBAL LINK STYLE
------------------------------------ */
 a {
-  color: var(--ifm-color-primary);
+  color: var(--ifm-background-color);
 }
 
 
@@ -51,9 +50,10 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #121212 !important;
-  border-bottom: 1px solid #1f1f1f;
+  background-color:  var(--ifm-background-color) !important;
+  border-bottom: none !important;
   padding: 0 2rem;
+  box-shadow: none !important;
 }
 
 .navbar__inner {
@@ -82,7 +82,7 @@ a {
 
 /* Navbar Links */
 .navbar__link {
-  color: #ffffff !important;
+  color: var(--ifm-button-color) !important;
   font-size: 1rem;
   transition: color 0.2s ease;
 }
@@ -93,9 +93,9 @@ a {
 
 /* Dropdown Menu Background + Border */
 .dropdown__menu {
-  background: #0a0a0a !important;
+  background: var(--ifm-background-color) !important;
   backdrop-filter: blur(8px);
-  border: 1px solid var(--border-dark);
+  border: 1px solid var(--ifm-background-color);
   border-radius: 30px;
   display: grid !important;
   grid-template-columns: repeat(3, minmax(160px, 1fr));
@@ -114,12 +114,13 @@ a {
 
   animation: dropdownFade 0.2s ease-out;
   z-index: 1000;
+  /* box-shadow: none !important;  */
 }
 
 
 /* Dropdown Links */
 .dropdown__link {
-  color: #ffffff !important;
+  color: var(--ifm-button-color) !important;
   white-space: nowrap;
   padding: 0.5rem 1rem;
   border-radius: 8px;
@@ -128,7 +129,6 @@ a {
 
 /* Hover Effect */
 .dropdown__link:hover {
-  background: rgba(255, 255, 255, 0.1);
   color: var(--hover-color) !important;
 }
 
@@ -200,7 +200,7 @@ a {
 } */
 
 .navbar__logo-svg path {
-  fill: #ffffff;
+  fill: var(--ifm-button-color);
   transition: all 0.3s ease;
 }
 
@@ -215,8 +215,8 @@ a {
   .dropdown__link,
   .navbar__item,
   .navbar__title {
-    color: #ffffff !important;
-    fill: #ffffff !important;
+    color: var(--ifm-button-color)!important;
+    fill: var(--ifm-button-color)!important;
   }
 }
 
@@ -225,16 +225,16 @@ a {
 /* -----------------------------------
    DARK MODE SEARCH FIX
 ----------------------------------- */
-html[data-theme='dark'] .search-result__link {
-  color: #ffffff !important;
+/* html[data-theme='dark'] .search-result__link {
+  color: var(--ifm-button-color) !important;
 }
 html[data-theme='dark'] .search-result__summary {
-  color: #cccccc !important;
+  color: var(--ifm-button-color) !important;
 }
 html[data-theme='dark'] .DocSearch-Modal,
 html[data-theme='dark'] .DocSearch-Dropdown {
-  background-color: #1a1a1a !important;
-}
+  background-color: var(--ifm-background-color)!important;
+} */
 
 /* -----------------------------------
    FOOTER
@@ -256,7 +256,7 @@ footer h4 {
 
 .footer-section {
   padding: 0rem 25rem;
-  color: #ccc;
+  color: var(--ifm-pcard-color);
 }
 
 @media (max-width: 1450px) {
@@ -313,15 +313,8 @@ footer h4 {
   .dropdown__link,
   .navbar__item,
   .navbar__brand,
-  .navbar__title {
-    color: #ffffff !important;
-    fill: #ffffff !important;
-  }
-
   .navbar__link:hover,
-  .dropdown__link:hover {
-    color: var(--hover-color) !important;
-  }
+  .dropdown__link:hover
 
   .navbar__logo-svg:hover path,
   .navbar__logo-svg:focus path,
@@ -367,15 +360,10 @@ footer h4 {
   .dropdown__link,
   .navbar__item,
   .navbar__brand,
-  .navbar__title {
-    color: #ffffff !important;
-    fill: #ffffff !important;
-  }
-
   /* Slight brightness hover for mobile clarity */
   .navbar__link:hover,
   .dropdown__link:hover {
-    color: var(--hover-color) !important;
+    color: var(--ifm-button-color) !important;
   }
 
   .navbar__items {
@@ -410,15 +398,11 @@ footer h4 {
   .dropdown__link,
   .navbar__item,
   .navbar__brand,
-  .navbar__title {
-    color: #ffffff !important;
-    fill: #ffffff !important;
-  }
 
   /* Slight brightness hover for mobile clarity */
   .navbar__link:hover,
   .dropdown__link:hover {
-    color: var(--hover-color) !important;
+   color: var(--ifm-button-color) !important;
   }
 
   /* Adjust logo size for wrapped navbar */

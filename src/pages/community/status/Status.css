@@ -1,14 +1,6 @@
-:root {
-  --bg-dark: #111;
-  --text-main: #ffffff;
-  --text-sub: #bbbbbb;
-  --text-muted: #888;
-  --border-dark: #1f1f1f;
-}
-
 /* Overall Layout */
 .status-section {
-  color: var(--text-main);
+  color: var(--ifm-button-color);
   font-family: "Inter", sans-serif;
   padding: 2rem 0rem 0rem;
   display: flex;
@@ -23,7 +15,7 @@
 
 /* Section Titles */
 .section-title {
-  color: var(--text-main);
+  color: var(--ifm-button-color);
   margin-bottom: 1rem;
   text-align: left;
   font-weight: 600;
@@ -39,8 +31,8 @@
 
 /* Announcement Cards */
 .announcement-card {
-  background: var(--bg-dark);
-  border: 1px solid var(--border-dark);
+  background: var(--ifm-background-color);
+  border: 1px solid var(--ifm-background-color);
   border-radius: 12px;
   padding: 1rem;
   margin-bottom: 1rem;
@@ -48,7 +40,7 @@
 }
 
 .announcement-card h3 {
-  color: var(--text-main);
+  color: var(--ifm-button-color);
   font-size: 1rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
@@ -67,19 +59,19 @@
 }
 
 .announcement-message {
-  color: var(--text-sub);
+  color: var(--ifm-pcard-color);
   font-size: 0.9rem;
 }
 
 .announcement-date {
-  color: var(--text-muted);
+  color: var(--ifm-pcard-color);
   font-size: 0.8rem;
 }
 
 /* Changelog Cards */
 .changelog-card {
-  background: var(--bg-dark);
-  border: 1px solid var(--border-dark);
+  background: var(--ifm-background-color);
+  border: 1px solid var(--ifm-background-color);
   border-radius: 12px;
   padding: 1rem;
   margin-top: 1.2rem;
@@ -92,8 +84,8 @@
 }
 
 .changelog-date {
-  color: var(--text-muted);
-  font-size: 1rem;
+  color: var(--ifm-pcard-color);
+  font-size: 0.8rem;
   margin-left: 1rem;
 }
 
@@ -102,7 +94,7 @@
 }
 
 .module-name {
-  color: var(--text-main);
+  color: var(--ifm-button-color);
   margin-bottom: 0.3rem;
   font-weight: 600;
   font-size: 1rem;
@@ -115,13 +107,13 @@
 
 .changelog-card ul {
   margin-left: 1.5rem;
-  color: var(--text-sub);
+  color: var(--ifm-pcard-color);
   font-size: 0.9rem;
   text-align: left;
 }
 
 .changelog-version {
-  color: var(--text-main);
+  color: var(--ifm-button-color);
   transition: all 0.3s ease;
 }
 
@@ -146,9 +138,9 @@
 
 /* Buttons */
 .button {
-  background-color: var(--bg-dark);
-  border: 1px solid var(--border-dark);
-  color: var(--text-main);
+  background-color: var(--ifm-background-color);
+  border: 1px solid var(--ifm-background-color);
+  color: var(--ifm-button-color);
   border-radius: 8px;
   padding: 0.5rem 1.2rem;
   cursor: pointer;
