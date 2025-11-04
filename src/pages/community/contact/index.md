@@ -31,7 +31,7 @@ export default function Contact() {
     {
       name: "Twitter",
       icon: <FaTwitter />,
-      url: "https://x.com/AlphaBuild39589",
+      url: "https://x.com/AlphaBuilderLab",
       color: "#1da1f2",
     },
   ];

@@ -1,7 +1,7 @@
 /* === Search Dropdown Container === */
 [role="listbox"] {
   background-color: var(--ifm-background-color) !important;
-  border: 1px solid var(--ifm-button-color) !important;
+  border: 1px solid var(--ifm-background-color) !important;
   border-radius: 8px !important;
   padding: 4px 0 !important;
   color: var(--ifm-button-color) !important;
@@ -9,15 +9,25 @@
   position: absolute !important;
 }
 
-/* === Each Option Item === */
 [role="option"] {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  
+  border: 1px solid transparent !important;
+  border-radius: 8px !important;
   padding: 10px 14px !important;
-  font-size: 15px !important;
-  border-bottom: 1px solid var(--ifm-button-color) !important;
+  transition: border-color 0.25s ease, background 0.25s ease;
   cursor: pointer !important;
-  transition: background 0.2s ease, color 0.2s ease;
-  color: var(--ifm-button-color) !important;
 }
+
+[role="option"]:hover {
+  border-color: var(--hover-color) !important; /* or use #ff4d4d for red */
+  background-color: transparent !important; /* optional: keep background clear */
+}
+
 
 /* === First Option (More Prominent) === */
 [role="option"]:first-child {
@@ -43,7 +53,7 @@
 [role="option"]:hover,
 [role="option"][aria-selected="true"] {
   background-color: var(--ifm-background-color) !important;  /* subtle contrast background */
-  color: var(--ifm-button-color) !important;            /* readable text color */
+  color: var(--ifm-title-color) !important;            /* readable text color */
 }
 
 
@@ -51,6 +61,32 @@
 [role="option"]:last-child {
   border-bottom: none !important;
 }
+
+
+/* 🔹 Subheading (path or context text) inside each search dropdown item */
+/* Default style for subheading text (below search title) */
+.hitPath_ieM4 {
+  display: block;
+  font-size: 0.8rem !important;
+  color: var(--ifm-title-color) !important;
+  opacity: 0.85 !important;
+  margin-top: 2px !important;
+  transition: color 0.2s ease;
+}
+
+/* Change to red ONLY when its parent suggestion is hovered */
+.suggestion_fB_2:hover .hitPath_ieM4 {
+  color: var(--hover-color) !important; /* or var(--hover-color) */
+  opacity: 1 !important;
+}
+
+/* 🔹 Remove dropdown shadow from local search box */
+.dropdownMenu_qbY6 {
+  box-shadow: none !important;
+}
+
+
+
 
 /* === Search Input Field === */
 .navbar__search-input,
@@ -88,7 +124,7 @@
 /* === Local Search Modal Variables === */
 :root {
   --search-local-modal-background: var(--ifm-background-color) !important;
-  --search-local-modal-shadow: 0 0 15px var(--ifm-button-color) !important;
+  /* --search-local-modal-shadow: 0 0 15px var(--ifm-button-color) !important; */
   --search-local-hit-background: var(--ifm-background-color) !important;
   --search-local-hit-color: var(--ifm-button-color) !important;
   --search-local-muted-color: var(--ifm-button-color) !important;
@@ -106,32 +142,10 @@
 
   .navbar__search-input,
   .searchBar_RVTs,
-  .DocSearch-Button {
-    display: flex !important;
-    width: 100% !important;
-    max-width: 220px !important; /* adjust size */
-    border-radius: 8px !important;
-    margin: 0 auto !important;   /* centers horizontally */
-  }
 
-  /* Prevent Docusaurus from replacing search with circular icon */
-  .DocSearch-Button-Container {
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-  }
-
-  /* Disable any hidden states applied by theme */
-  .DocSearch-Button,
   .navbar__search-input {
     visibility: visible !important;
     opacity: 1 !important;
-  }
-
-  /* Remove any icon-only layout styles */
-  .DocSearch-Button .DocSearch-Button-Keys,
-  .DocSearch-Button .DocSearch-Button-Placeholder {
-    display: inline !important;
   }
 }
 
@@ -172,7 +186,7 @@ mark {
 
 @media (max-width: 600px) {
   [role="listbox"] {
-    max-width: 150% !important;  
+    max-width: 200% !important;  
     margin: 0 auto !important;
     border-radius: 6px !important;
   }
@@ -185,7 +199,7 @@ mark {
 
 @media (max-width: 450px) {
   [role="listbox"] {
-    max-width: 130% !important;  
+    max-width: 170% !important;  
     margin: 0 auto !important;
     border-radius: 6px !important;
   }
@@ -228,7 +242,7 @@ main {
   color: var(--ifm-button-color) !important;
   text-decoration: none;
   font-weight: 600;
-  transition: color 0.25s ease, text-shadow 0.25s ease;
+  transition: color 0.25s ease;
 }
 
 /* Glow effect when hovering over the card */
@@ -305,4 +319,56 @@ main {
   font-size: 0.95rem !important;
   opacity: 0.8 !important;
   margin-bottom: 2rem !important;
+}
+
+/* Default state (normal color) */
+/* Default icon color */
+.searchBar_RVTs svg path {
+  stroke: var(--ifm-title-color) !important;
+  fill: var(--ifm-title-color) !important;
+}
+
+/* 🔴 Make the search modal heading red */
+.searchBar_RVTs h1,
+.searchBar_RVTs h2,
+.searchBar_RVTs h3,
+.searchBar_RVTs h4,
+.searchBar_RVTs h5,
+.searchBar_RVTs p {
+  color: var(--hover-color) !important; /* uses your theme red/hover color */
+  font-weight: 700;
+  text-align: center;
+}
+
+
+/* Force full search bar visible and centered on small screens */
+@media (max-width: 600px) {
+  .navbar__items {
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    flex-wrap: nowrap !important;
+  }
+
+  .navbar__search-input,
+  .searchBar_RVTs,
+  [class*="searchBar_RVTs"],
+  [class*="navbar__search-input"],
+  .DocSearch-Button {
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    width: 100% !important;
+    max-width: 150px !important;
+    border-radius: 8px !important;
+    height: 38px !important;
+    margin: 0 auto !important;
+    background: var(--ifm-background-color) !important;
+  }
+
+  /* Optional: prevent it from collapsing into a round button */
+  .DocSearch-Button-Placeholder,
+  .DocSearch-Button-Keys {
+    display: inline !important;
+  }
 }

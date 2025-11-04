@@ -440,7 +440,7 @@ footer h4 {
 }
 
 /* Tablet Sidebar compatible */
-@media (max-width: 1000px) and (min-width:600px) {
+/* @media (max-width: 1000px) and (min-width:600px) {
   .navbar-sidebar {
     width: 50% !important;
     overflow-x: hidden !important;
@@ -507,13 +507,178 @@ footer h4 {
     overflow-y: auto !important;
     background: var(--ifm-background-color, #0a0a0a) !important;
   }
+}*/
+
+  /* Normal state */
+.clean-btn.menu__caret {
+  background-color: var(--ifm-footerbb-color) !important;
+  border-radius: 6px !important;
+  width: 32px !important;
+  height: 32px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  transition: background-color 0.25s ease;
+  margin: 0.6rem 1rem;
+}
+/* Hover effect */
+.clean-btn.menu__caret:hover {
+  background-color: var(--hover-color) !important;
 }
 
-@media (max-width: 600px) {
-  .navbar-sidebar {
-    background: var(--ifm-background-color, #0a0a0a) !important;
-    width: 80% !important;
+/* Inner menu content spacing */
+.theme-layout-navbar-sidebar-panel.navbar-sidebar__item.menu {
+  padding: 0.4rem 0.8rem !important;
+}
+
+.navbar-sidebar {
+    background: var(--ifm-background-color) !important;
   }
+
+.menu__link {
+  font-size: 0.9rem !important;
+  padding: 0.5rem 0.6rem !important;
+}
+
+/* === Sidebar Item Default === */
+/* Target only the clickable header bar of a collapsible menu item */
+
+/* Reset layout inconsistencies on collapsible wrappers */
+.menu__list-item-collapsible {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+  width: 100% !important;
+}
+
+/* Align the <a> link content properly */
+.menu__list-item-collapsible > .menu__link {
+  flex: 1;
+  padding-left: 0.8rem !important;
+  margin-left: 0 !important;
+  border-radius: 6px !important;
+  border: 1px solid transparent !important;
+  transition: border-color 0.25s ease, color 0.25s ease;
+  box-shadow: none;
+}
+
+/* Hover / active border (aligned perfectly now) */
+/* .menu__list-item-collapsible > .menu__link:hover, */
+
+.menu__list-item--collapsed {
+  background-color: var(--ifm-background-color) !important;   /* pink background */
+  border-radius: 6px !important;
+  transition: background-color 0.25s ease;
+}
+.menu__list-item-collapsible--active {
+  background-color:  var(--ifm-background-color)!important; /* pink background */
+  border-radius: 6px !important;        /* optional rounded edges */
+  transition: background-color 0.25s ease;
+}
+
+.menu__list-item--collapsed {
+  background-color: var(--ifm-background-color)!important;  /* dark background */
+  border-radius: 8px !important;
+  transition: background-color 0.25s ease;
+}
+
+/* --- Inner collapsible header (the clickable area) --- */
+.menu__list-item-collapsible {
+  background-color: var(--ifm-background-color) !important;  /* same dark background */
+  border-radius: 8px !important;
+  transition: background-color 0.25s ease;
+}
+/* --- Keep text + caret visible --- */
+.menu__list-item--collapsed .menu__link,
+.menu__list-item--collapsed .menu__caret {
+  color: var(--ifm-button-color) !important;
 }
 
 
+/* --- Make text and caret readable (white text) --- */
+/* Base state for collapsible header */
+/* .menu__list-item.menu__list-item--collapsed > .menu__list-item-collapsible {
+  border: 1px solid transparent !important;
+  border-radius: 8px !important;
+  transition: border-color 0.25s ease, color 0.25s ease;
+  padding: 0rem 0.6rem !important;
+} */
+
+/* Hover effect — only border */
+/* .menu__list-item.menu__list-item--collapsed > .menu__list-item-collapsible:hover {
+  background-color: transparent !important;
+  color: var(--hover-color, #ff4d4d) !important;
+} */
+
+/* Change inner link and caret color when hovering header */
+/* --- Hover color for both collapsed and expanded menu items --- */
+/* .menu__list-item > .menu__list-item-collapsible:hover .menu__link,
+.menu__list-item > .menu__list-item-collapsible:hover .menu__caret,
+.menu__list-item.menu__list-item--collapsed > .menu__list-item-collapsible:hover .menu__link,
+.menu__list-item.menu__list-item--collapsed > .menu__list-item-collapsible:hover .menu__caret {
+  color: var(--hover-color) !important;
+  border-color: var(--hover-color) !important;
+} */
+
+/* --- Prevent hover bleed to child submenus --- */
+.menu__list-item ul,
+.menu__list-item ul * {
+  background: transparent !important;
+  color: inherit !important;
+}
+
+/* --- Base link style --- */
+.menu__list-item > .menu__link {
+  display: block;
+  padding: 0.5rem 0.8rem !important;
+  border: 1px solid transparent !important;
+  border-radius: 6px !important;
+  transition: border-color 0.25s ease, color 0.25s ease;
+}
+
+/* --- Hover effect: border + color for both states --- */
+.menu__list-item > .menu__link:hover,
+.menu__list-item > .menu__list-item-collapsible:hover > .menu__link {
+  border-color: var(--hover-color) !important;
+  color: var(--hover-color) !important;
+  background: transparent !important;
+}
+
+/* --- Active / Focused state --- */
+.menu__list-item > .menu__link:focus,
+.menu__list-item > .menu__link[aria-current="page"],
+.menu__list-item--active > .menu__link {
+  border-color: var(--hover-color) !important;
+  color: var(--hover-color) !important;
+  background: transparent !important;
+}
+
+
+
+/* Base close button */
+.clean-btn.navbar-sidebar__close {
+  background: transparent !important;
+  border: 1px solid transparent !important;
+  border-radius: 8px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 36px !important;
+  height: 36px !important;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+/* Hover state — subtle glow and color accent */
+.clean-btn.navbar-sidebar__close:hover {
+  border-color: var(--hover-color) !important;
+  background-color: var(--ifm-background-color) !important;
+  transform: scale(1.05);
+}
+
+/* Change the SVG stroke color on hover */
+.clean-btn.navbar-sidebar__close:hover svg g {
+  stroke: var(--hover-color) !important;
+}

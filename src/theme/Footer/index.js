@@ -151,7 +151,7 @@ export default function Footer() {
             </h4>
             <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
               <li><a href="mailto:alphabuilder.research@gmail.com" style={{ color: 'var(--ifm-pcard-color)', fontSize: '0.9rem' }}>Email</a></li>
-              <li><a href="https://x.com/AlphaBuild39589" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--ifm-pcard-color)', fontSize: '0.9rem' }}>Twitter</a></li>
+              <li><a href="https://x.com/AlphaBuilderLab" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--ifm-pcard-color)', fontSize: '0.9rem' }}>Twitter</a></li>
               <li><a href="https://discord.gg/rz6wPGYQBH" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--ifm-pcard-color)', fontSize: '0.9rem' }}>Discord</a></li>
               <li><a href="https://www.linkedin.com/company/alphabuilder/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--ifm-pcard-color)', fontSize: '0.9rem' }}>LinkedIn</a></li>
               <li><a href="https://alphabuilderblogs.substack.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--ifm-pcard-color)', fontSize: '0.9rem' }}>Substack</a></li>
