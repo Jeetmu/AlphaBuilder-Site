@@ -30,9 +30,8 @@ const BigInteractiveStockDashboard = () => (
       );
 
       const tickers = ["AAPL", "MSFT", "GOOGL", "AMZN", "META", "TSLA"];
-      const API_BASE = "https://alphabuilder-signal.onrender.com";
+      const API_BASE = "https://api.alphabuilder.xyz/dashboard";
 
-      // 🎨 Helper to read theme-dependent colors
       const getColors = () => {
         const styles = getComputedStyle(document.documentElement);
         return {
@@ -280,7 +279,7 @@ const BigInteractiveStockDashboard = () => (
             }}
           >
             {loading ? (
-              <p style={{ textAlign: "center" }}>Loading data...</p>
+              <p style={{ textAlign: "center", color:"var(--ifm-button-color)" }}>Loading data...</p>
             ) : error ? (
               <p style={{ textAlign: "center", color: "red" }}>{error}</p>
             ) : stockData.length > 0 ? (

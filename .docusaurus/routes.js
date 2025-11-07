@@ -63,6 +63,11 @@ export default [
     exact: true
   },
   {
+    path: '/dashboards/ivs',
+    component: ComponentCreator('/dashboards/ivs', '413'),
+    exact: true
+  },
+  {
     path: '/hub',
     component: ComponentCreator('/hub', 'f69'),
     exact: true
@@ -419,7 +424,7 @@ export default [
   },
   {
     path: '/vega/calibration_engine',
-    component: ComponentCreator('/vega/calibration_engine', '25e'),
+    component: ComponentCreator('/vega/calibration_engine', 'df2'),
     exact: true
   },
   {

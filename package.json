@@ -23,6 +23,7 @@
     "chartjs-plugin-zoom": "^2.2.0",
     "clsx": "^2.0.0",
     "date-fns": "^4.1.0",
+    "plotly.js-dist-min": "^3.2.0",
     "prism-react-renderer": "^2.3.0",
     "react": "^19.0.0",
     "react-chartjs-2": "^5.3.1",
