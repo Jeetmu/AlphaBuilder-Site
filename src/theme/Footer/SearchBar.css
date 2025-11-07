@@ -45,26 +45,21 @@
 /* === Hover Keyword Color === */
 [role="option"]:hover mark,
 [role="option"][aria-selected="true"] mark {
-  color: var(--ifm-button-color) !important; /* change this to any shade like #ff4d4d if you want softer red */
+  color: var(--ifm-title-color)!important;
 }
 
 
 /* === Hover Effect === */
 [role="option"]:hover,
 [role="option"][aria-selected="true"] {
-  background-color: var(--ifm-background-color) !important;  /* subtle contrast background */
-  color: var(--ifm-title-color) !important;            /* readable text color */
+  background-color: var(--ifm-background-color) !important; 
+  color: var(--ifm-title-color) !important;    
 }
 
-
-/* === Last Option Border Removal === */
 [role="option"]:last-child {
   border-bottom: none !important;
 }
 
-
-/* 🔹 Subheading (path or context text) inside each search dropdown item */
-/* Default style for subheading text (below search title) */
 .hitPath_ieM4 {
   display: block;
   font-size: 0.8rem !important;

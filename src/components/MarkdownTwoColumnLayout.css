@@ -61,12 +61,12 @@
 
 .sub-list {
   margin-left: 1rem;
-  margin-top: 0.4rem; /* closer to main */
-  padding-left: 0.5rem; /* indent sub-items a bit */
+  margin-top: 0.4rem; 
+  padding-left: 0.5rem;
 }
 
 .sub-list li {
-  margin: 0.2rem 0; /* small vertical space between subs */
+  margin: 0.2rem 0;
 }
 
 .sub-list a {

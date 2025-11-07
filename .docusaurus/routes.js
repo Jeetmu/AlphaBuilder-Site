@@ -224,7 +224,7 @@ export default [
   },
   {
     path: '/risk',
-    component: ComponentCreator('/risk', '35d'),
+    component: ComponentCreator('/risk', 'fce'),
     exact: true
   },
   {
@@ -414,12 +414,17 @@ export default [
   },
   {
     path: '/vega',
-    component: ComponentCreator('/vega', 'ac4'),
+    component: ComponentCreator('/vega', 'be7'),
     exact: true
   },
   {
     path: '/vega/calibration_engine',
-    component: ComponentCreator('/vega/calibration_engine', 'df2'),
+    component: ComponentCreator('/vega/calibration_engine', '25e'),
+    exact: true
+  },
+  {
+    path: '/vega/dashboards/notebook_1',
+    component: ComponentCreator('/vega/dashboards/notebook_1', 'bea'),
     exact: true
   },
   {

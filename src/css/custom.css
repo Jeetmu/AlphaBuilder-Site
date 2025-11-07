@@ -186,18 +186,6 @@ a {
   padding: 0 10px;
 }
 
-.navbar__brand svg {
-  height: 150px;
-  width: auto;
-  transition: all 0.3s ease;
-  display: inline-block;
-  object-fit: contain;
-}
-
-/* .navbar__brand svg:hover,
-.navbar__brand svg:active {
-  transform: scale(1.05);
-} */
 
 .navbar__logo-svg path {
   fill: var(--ifm-button-color);
@@ -219,22 +207,6 @@ a {
     fill: var(--ifm-button-color)!important;
   }
 }
-
-
-
-/* -----------------------------------
-   DARK MODE SEARCH FIX
------------------------------------ */
-/* html[data-theme='dark'] .search-result__link {
-  color: var(--ifm-button-color) !important;
-}
-html[data-theme='dark'] .search-result__summary {
-  color: var(--ifm-button-color) !important;
-}
-html[data-theme='dark'] .DocSearch-Modal,
-html[data-theme='dark'] .DocSearch-Dropdown {
-  background-color: var(--ifm-background-color)!important;
-} */
 
 /* -----------------------------------
    FOOTER

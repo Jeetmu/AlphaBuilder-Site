@@ -301,12 +301,12 @@
     },
     "content": "content---optimizer-scenario-stress-aware-optimization-592-962"
   },
-  "/risk-35d": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+  "/risk-fce": {
+    "__comp": "__comp---site-src-pages-risk-index-jsxde-6-01c",
     "__context": {
       "plugin": "plugin---community-abouta-74-2af"
     },
-    "content": "content---risk-629-046"
+    "config": "config---community-about-5-e-9-025"
   },
   "/risk/basic_statistical_risk-5ee": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
@@ -566,19 +566,26 @@
     },
     "content": "content---system-numerai-signals-0-c-9-f1a"
   },
-  "/vega-ac4": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+  "/vega-be7": {
+    "__comp": "__comp---site-src-pages-vega-index-jsx-131-f7e",
     "__context": {
       "plugin": "plugin---community-abouta-74-2af"
     },
-    "content": "content---vega-65-e-b9e"
+    "config": "config---community-about-5-e-9-025"
   },
-  "/vega/calibration_engine-df2": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+  "/vega/calibration_engine-25e": {
+    "__comp": "__comp---site-src-pages-vega-calibration-engine-jsx-57-d-637",
     "__context": {
       "plugin": "plugin---community-abouta-74-2af"
     },
-    "content": "content---vega-calibration-engine-1-c-0-204"
+    "config": "config---community-about-5-e-9-025"
+  },
+  "/vega/dashboards/notebook_1-bea": {
+    "__comp": "__comp---site-src-pages-vega-dashboards-notebook-1-jsx-9-e-4-240",
+    "__context": {
+      "plugin": "plugin---community-abouta-74-2af"
+    },
+    "config": "config---community-about-5-e-9-025"
   },
   "/vega/deep_volatility_models-5af": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",

@@ -2,6 +2,7 @@
   "type": "mdx",
   "permalink": "/risk/",
   "source": "@site/src/pages/risk/index.md",
+  "description": "// src/pages/risk.jsx",
   "frontMatter": {},
   "unlisted": false
 }

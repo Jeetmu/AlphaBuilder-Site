@@ -61,6 +61,7 @@ const config = {
       logo: {
         alt: 'AlphaBuilder Logo',
         src: '/img/Logo_4.svg',
+        style: { margin: 0, padding: 0 }
       },
        items: [
         { type: 'dropdown', to: '/signals', label: 'Signals', position: 'left', className: 'center-navbar',
