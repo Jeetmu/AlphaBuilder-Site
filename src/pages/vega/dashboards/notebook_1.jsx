@@ -1,10 +1,12 @@
-// BigInteractiveStockDashboard.jsx
 import React, { useState, useEffect } from "react";
 import BrowserOnly from "@docusaurus/BrowserOnly";
 
 const BigInteractiveStockDashboard = () => (
   <BrowserOnly>
     {() => {
+      if (typeof window === "undefined") return null;
+
+      // Import Chart.js and plugins
       const { Line } = require("react-chartjs-2");
       const {
         Chart: ChartJS,
@@ -37,6 +39,7 @@ const BigInteractiveStockDashboard = () => (
         return {
           buttonColor: styles.getPropertyValue("--ifm-button-color").trim(),
           hoverColor: styles.getPropertyValue("--hover-color").trim(),
+          backgroundColor: styles.getPropertyValue("--ifm-background-color").trim(),
         };
       };
 
@@ -62,8 +65,8 @@ const BigInteractiveStockDashboard = () => (
           }));
 
           setStockData(parsed);
-          setStartDate(new Date(parsed[0].date));
-          setEndDate(new Date(parsed[parsed.length - 1].date));
+          setStartDate(parsed.length ? new Date(parsed[0].date) : null);
+          setEndDate(parsed.length ? new Date(parsed[parsed.length - 1].date) : null);
         } catch (err) {
           console.error(err);
           setError("Failed to load data");
@@ -76,21 +79,13 @@ const BigInteractiveStockDashboard = () => (
         fetchStockData(selectedTicker);
       }, [selectedTicker]);
 
+      // Watch theme changes
       useEffect(() => {
         const html = document.documentElement;
+        const updateColors = () => setChartColors(getColors());
 
-        const updateColors = () => {
-          setChartColors(getColors());
-        };
-
-        const observer = new MutationObserver(() => {
-          updateColors();
-        });
-
-        observer.observe(html, {
-          attributes: true,
-          attributeFilter: ["data-theme", "data-accent"],
-        });
+        const observer = new MutationObserver(updateColors);
+        observer.observe(html, { attributes: true, attributeFilter: ["data-theme", "data-accent"] });
 
         const colorChangeHandler = () => updateColors();
         window.addEventListener("colorChange", colorChangeHandler);
@@ -102,9 +97,7 @@ const BigInteractiveStockDashboard = () => (
       }, []);
 
       const filteredData = stockData.filter(
-        (d) =>
-          (!startDate || d.date >= startDate) &&
-          (!endDate || d.date <= endDate)
+        (d) => (!startDate || d.date >= startDate) && (!endDate || d.date <= endDate)
       );
 
       const data = {
@@ -129,10 +122,7 @@ const BigInteractiveStockDashboard = () => (
         maintainAspectRatio: false,
         interaction: { mode: "index", intersect: false },
         plugins: {
-          legend: {
-            position: "top",
-            labels: { color: chartColors.buttonColor },
-          },
+          legend: { labels: { color: chartColors.buttonColor } },
           title: {
             display: true,
             text: `${selectedTicker} Closing Prices (Interactive)`,
@@ -145,32 +135,17 @@ const BigInteractiveStockDashboard = () => (
         },
         scales: {
           x: {
-            title: {
-              display: true,
-              text: "Date",
-              color: chartColors.buttonColor,
-            },
+            title: { display: true, text: "Date", color: chartColors.buttonColor },
             ticks: { color: chartColors.buttonColor },
             grid: { color: chartColors.hoverColor + "33" },
           },
           y: {
-            title: {
-              display: true,
-              text: "Price ($)",
-              color: chartColors.buttonColor,
-            },
+            title: { display: true, text: "Price ($)", color: chartColors.buttonColor },
             ticks: { color: chartColors.buttonColor },
             grid: { color: chartColors.hoverColor + "33" },
           },
         },
-        animation: {
-          duration: 400,
-          easing: "easeInOutCubic",
-        },
-      };
-
-      const handleTickerChange = (e) => {
-        setSelectedTicker(e.target.value);
+        animation: { duration: 400, easing: "easeInOutCubic" },
       };
 
       return (
@@ -180,7 +155,7 @@ const BigInteractiveStockDashboard = () => (
             margin: "3rem auto",
             padding: "2rem",
             borderRadius: "20px",
-            background: "var(--ifm-background-color)",
+            background: chartColors.backgroundColor,
             transition: "background 0.3s ease, color 0.3s ease",
           }}
         >
@@ -195,6 +170,7 @@ const BigInteractiveStockDashboard = () => (
             Interactive Stock Dashboard
           </h1>
 
+          {/* Controls */}
           <div
             style={{
               display: "flex",
@@ -202,15 +178,13 @@ const BigInteractiveStockDashboard = () => (
               gap: "1.5rem",
               marginBottom: "1.5rem",
               flexWrap: "wrap",
-              color: chartColors.buttonColor,
-              transition: "color 0.3s ease",
             }}
           >
             <div>
               <label>Ticker: </label>
               <select
                 value={selectedTicker}
-                onChange={handleTickerChange}
+                onChange={(e) => setSelectedTicker(e.target.value)}
                 style={{
                   padding: "0.4rem",
                   borderRadius: "8px",
@@ -234,7 +208,7 @@ const BigInteractiveStockDashboard = () => (
                   <label>Start Date: </label>
                   <input
                     type="date"
-                    value={startDate?.toISOString().split("T")[0]}
+                    value={startDate ? startDate.toISOString().split("T")[0] : ""}
                     onChange={(e) => setStartDate(new Date(e.target.value))}
                     style={{
                       padding: "0.4rem",
@@ -251,7 +225,7 @@ const BigInteractiveStockDashboard = () => (
                   <label>End Date: </label>
                   <input
                     type="date"
-                    value={endDate?.toISOString().split("T")[0]}
+                    value={endDate ? endDate.toISOString().split("T")[0] : ""}
                     onChange={(e) => setEndDate(new Date(e.target.value))}
                     style={{
                       padding: "0.4rem",
@@ -267,25 +241,29 @@ const BigInteractiveStockDashboard = () => (
             )}
           </div>
 
+          {/* Chart */}
           <div
             style={{
               height: "500px",
               width: "100%",
-              overflow: "hidden",
               borderRadius: "12px",
-              background: "var(--background-color)",
+              background: chartColors.backgroundColor,
               padding: "1rem",
               transition: "background 0.3s ease",
             }}
           >
             {loading ? (
-              <p style={{ textAlign: "center", color:"var(--ifm-button-color)" }}>Loading data...</p>
+              <p style={{ textAlign: "center", color: chartColors.buttonColor }}>
+                Loading data...
+              </p>
             ) : error ? (
               <p style={{ textAlign: "center", color: "red" }}>{error}</p>
-            ) : stockData.length > 0 ? (
+            ) : typeof window !== "undefined" && filteredData.length > 0 ? (
               <Line data={data} options={options} />
             ) : (
-              <p style={{ textAlign: "center" }}>No data available</p>
+              <p style={{ textAlign: "center", color: chartColors.buttonColor }}>
+                No data available
+              </p>
             )}
           </div>
         </div>

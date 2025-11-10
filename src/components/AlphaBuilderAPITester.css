@@ -61,6 +61,8 @@
   color: var(--hover-color);
   padding: 1rem;
   border-radius: 10px;
-  overflow-x: auto;
   font-family: monospace;
+
+  white-space: pre-wrap;     
+  word-wrap: break-word;       
 }

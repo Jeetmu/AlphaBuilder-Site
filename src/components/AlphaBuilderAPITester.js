@@ -82,7 +82,10 @@ export default function AlphaBuilderAPITester({
       {error && <div className="error-box">{error}</div>}
 
       {/* Response display */}
-      <pre className="response-box">{response || "Response will appear here..."}</pre>
+      <pre className="response-box">
+  {(response || "Response will appear here...").replace(/\\n/g, "\n")}
+      </pre>
+
     </div>
   );
 }
