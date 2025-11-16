@@ -68,6 +68,35 @@ export default function Footer() {
         textAlign: 'center',
       }}
     >
+      <div style={{ marginBottom: '1.5rem', textAlign: 'center' }}>
+        <a
+          href="https://app.alphabuilder.xyz/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            display: 'inline-block',
+            padding: '0.6rem 1.4rem',
+            fontSize: '1rem',
+            fontWeight: '600',
+            borderRadius: '8px',
+            border: '1px solid var(--ifm-background-color)',
+            backgroundColor: 'transparent',
+            color: 'var(--ifm-button-color)',
+            textDecoration: 'none',
+            transition: 'all 0.2s ease',
+          }}
+          onMouseEnter={(e) => {
+            e.target.style.borderColor = 'var(--hover-color)';
+            e.target.style.color = 'var(--hover-color)';
+          }}
+          onMouseLeave={(e) => {
+            e.target.style.borderColor = 'var(--ifm-background-color)';
+            e.target.style.color = 'var(--ifm-button-color)';
+          }}
+        >
+          Launch App →
+        </a>
+      </div>
       <div style={{
         display: 'flex',
         justifyContent: 'center',

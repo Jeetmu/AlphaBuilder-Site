@@ -66,20 +66,17 @@ const config = {
        items: [
         { type: 'dropdown', to: '/signals', label: 'Signals', position: 'left', className: 'center-navbar',
           items: [
-            { to: '/signals/price_return_features', label: 'Price / Return Features' },
-            { to: '/signals/moving_averages', label: 'Moving Averages' },
-            { to: '/signals/technical_indicators', label: 'Technical Indicators' },
-            { to: '/signals/fundamental_indicators', label: 'Fundamental Indicators' },
+            { to: '/signals/rule_based_signals', label: 'Rule Based Signals' },
             { to: '/signals/formulaic_alphas', label: 'Formulaic Alphas' },
-            { to: '/signals/regime_aware_signals', label: 'Regime-Aware Signals' },
+            { to: '/signals/regime_weighted_aware_signals', label: 'Regime Weighted Aware Signals' },
             { to: '/signals/volatility_garch_signals', label: 'Volatility / GARCH Signals' },
             { to: '/signals/statistical_arb_signals', label: 'Statistical / Arb Signals' },
             { to: '/signals/network_aware_signals', label: 'Network-Aware Signals' },
+            { to: '/signals/bayesian_probabilistic_signals', label: 'Bayseian / Probabilistic Signals' },
             { to: '/signals/entropy_based_signals', label: 'Entropy-Based Signals' },
             { to: '/signals/fractal_based_signals', label: 'Fractal-Based Signals' },
             { to: '/signals/event_sentiment_signals', label: 'Event / Sentiment Signals ' },
             { to: '/signals/multi_resolution_signals', label: 'Multi-Resolution Signals' },
-            { to: '/signals/regime_weighted_features', label: 'Regime-Weighted Features' },
             { to: '/signals/derived_meta_signals', label: 'Derived / Meta Signals' },
           ],
          },
@@ -175,6 +172,7 @@ const config = {
             { href: 'https://discord.gg/rz6wPGYQBH', label: 'Discord', target: '_blank' },
           ]
         },
+        {href: 'https://app.alphabuilder.xyz/', label: 'Launch App', position: 'left', className: 'center-navbar navbar__item--launch-app'}
      ],
     },
     colorMode: {

@@ -319,20 +319,16 @@ footer h4 {
   }
 }
 
-
 /* 📟 Tablets (≤1000px) */
 @media (max-width: 1000px) {
   .navbar {
     padding: 0.5rem 1.5rem;
   }
-
-  /* Make all navbar text + icons white */
   .navbar *,
   .navbar__link,
   .dropdown__link,
   .navbar__item,
   .navbar__brand,
-  /* Slight brightness hover for mobile clarity */
   .navbar__link:hover,
   .dropdown__link:hover {
     color: var(--ifm-button-color) !important;
@@ -411,76 +407,6 @@ footer h4 {
   }
 }
 
-/* Tablet Sidebar compatible */
-/* @media (max-width: 1000px) and (min-width:600px) {
-  .navbar-sidebar {
-    width: 50% !important;
-    overflow-x: hidden !important;
-    overflow-y: auto !important;
-    background: var(--ifm-background-color, #0a0a0a) !important;
-  }
-
-  .menu__list-item {
-    display: flex !important;
-    align-items: center !important;
-    justify-content: space-between !important;
-  }
-
-  .menu__link {
-    flex: 1 !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: space-between !important;
-    text-align: left !important;
-    padding-right: 0.5rem !important;
-  }
-
-  .menu__caret {
-    display: inline-block !important;
-    width: 8em !important;
-    height: 3em !important;
-    margin-left: 0.25em !important;
-    background: transparent !important;
-    border: none !important;
-    flex-shrink: 0 !important;
-    position: relative !important;
-    right: 0 !important;
-  }
-
-  .menu__caret::after {
-    content: "" !important;
-    position: absolute !important;
-    top: 50% !important;
-    left: 50% !important;
-    transform: translate(-50%, -50%) rotate(0deg) !important;
-    border-left: 0.5em solid transparent !important;
-    border-right: 0.5em solid transparent !important;
-    border-top: 0.5em solid currentColor !important;
-    transition: transform 0.18s ease !important;
-  }
-
-  .menu__caret[aria-expanded="true"]::after {
-    transform: translate(-50%, -50%) rotate(180deg) !important;
-  }
-
-  .menu__list .menu__list .menu__link {
-    white-space: normal !important;     
-    overflow-wrap: break-word !important;
-    word-break: break-word !important;
-    max-width: 50% !important;           
-    line-height: 1.4 !important;
-  }
-}
-
-@media (max-width: 850px){
-  .navbar-sidebar {
-    width: 60% !important;
-    overflow-x: hidden !important;
-    overflow-y: auto !important;
-    background: var(--ifm-background-color, #0a0a0a) !important;
-  }
-}*/
-
   /* Normal state */
 .clean-btn.menu__caret {
   background-color: var(--ifm-footerbb-color) !important;
@@ -512,9 +438,6 @@ footer h4 {
   padding: 0.5rem 0.6rem !important;
 }
 
-/* === Sidebar Item Default === */
-/* Target only the clickable header bar of a collapsible menu item */
-
 /* Reset layout inconsistencies on collapsible wrappers */
 .menu__list-item-collapsible {
   margin-left: 0 !important;
@@ -536,29 +459,26 @@ footer h4 {
   box-shadow: none;
 }
 
-/* Hover / active border (aligned perfectly now) */
-/* .menu__list-item-collapsible > .menu__link:hover, */
-
 .menu__list-item--collapsed {
-  background-color: var(--ifm-background-color) !important;   /* pink background */
+  background-color: var(--ifm-background-color) !important;
   border-radius: 6px !important;
   transition: background-color 0.25s ease;
 }
 .menu__list-item-collapsible--active {
-  background-color:  var(--ifm-background-color)!important; /* pink background */
-  border-radius: 6px !important;        /* optional rounded edges */
+  background-color:  var(--ifm-background-color)!important; 
+  border-radius: 6px !important;        
   transition: background-color 0.25s ease;
 }
 
 .menu__list-item--collapsed {
-  background-color: var(--ifm-background-color)!important;  /* dark background */
+  background-color: var(--ifm-background-color)!important; 
   border-radius: 8px !important;
   transition: background-color 0.25s ease;
 }
 
 /* --- Inner collapsible header (the clickable area) --- */
 .menu__list-item-collapsible {
-  background-color: var(--ifm-background-color) !important;  /* same dark background */
+  background-color: var(--ifm-background-color) !important; 
   border-radius: 8px !important;
   transition: background-color 0.25s ease;
 }
@@ -567,32 +487,6 @@ footer h4 {
 .menu__list-item--collapsed .menu__caret {
   color: var(--ifm-button-color) !important;
 }
-
-
-/* --- Make text and caret readable (white text) --- */
-/* Base state for collapsible header */
-/* .menu__list-item.menu__list-item--collapsed > .menu__list-item-collapsible {
-  border: 1px solid transparent !important;
-  border-radius: 8px !important;
-  transition: border-color 0.25s ease, color 0.25s ease;
-  padding: 0rem 0.6rem !important;
-} */
-
-/* Hover effect — only border */
-/* .menu__list-item.menu__list-item--collapsed > .menu__list-item-collapsible:hover {
-  background-color: transparent !important;
-  color: var(--hover-color, #ff4d4d) !important;
-} */
-
-/* Change inner link and caret color when hovering header */
-/* --- Hover color for both collapsed and expanded menu items --- */
-/* .menu__list-item > .menu__list-item-collapsible:hover .menu__link,
-.menu__list-item > .menu__list-item-collapsible:hover .menu__caret,
-.menu__list-item.menu__list-item--collapsed > .menu__list-item-collapsible:hover .menu__link,
-.menu__list-item.menu__list-item--collapsed > .menu__list-item-collapsible:hover .menu__caret {
-  color: var(--hover-color) !important;
-  border-color: var(--hover-color) !important;
-} */
 
 /* --- Prevent hover bleed to child submenus --- */
 .menu__list-item ul,
@@ -653,4 +547,10 @@ footer h4 {
 /* Change the SVG stroke color on hover */
 .clean-btn.navbar-sidebar__close:hover svg g {
   stroke: var(--hover-color) !important;
+}
+
+@media (max-width: 1100px) and (min-width: 1000px) {
+  .navbar__item--launch-app {
+    display: none !important;
+  }
 }

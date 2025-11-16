@@ -3,6 +3,41 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug', '5ff'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
+    exact: true
+  },
+  {
     path: '/community/about',
     component: ComponentCreator('/community/about', '4df'),
     exact: true
@@ -283,6 +318,11 @@ export default [
     exact: true
   },
   {
+    path: '/signals/bayesian_probabilistic_signals',
+    component: ComponentCreator('/signals/bayesian_probabilistic_signals', '159'),
+    exact: true
+  },
+  {
     path: '/signals/derived_meta_signals',
     component: ComponentCreator('/signals/derived_meta_signals', 'bb9'),
     exact: true
@@ -308,16 +348,6 @@ export default [
     exact: true
   },
   {
-    path: '/signals/fundamental_indicators',
-    component: ComponentCreator('/signals/fundamental_indicators', '016'),
-    exact: true
-  },
-  {
-    path: '/signals/moving_averages',
-    component: ComponentCreator('/signals/moving_averages', '3e8'),
-    exact: true
-  },
-  {
     path: '/signals/multi_resolution_signals',
     component: ComponentCreator('/signals/multi_resolution_signals', 'f96'),
     exact: true
@@ -328,28 +358,18 @@ export default [
     exact: true
   },
   {
-    path: '/signals/price_return_features',
-    component: ComponentCreator('/signals/price_return_features', '07e'),
+    path: '/signals/regime_weighted_aware_signals',
+    component: ComponentCreator('/signals/regime_weighted_aware_signals', 'e0c'),
     exact: true
   },
   {
-    path: '/signals/regime_aware_signals',
-    component: ComponentCreator('/signals/regime_aware_signals', '176'),
-    exact: true
-  },
-  {
-    path: '/signals/regime_weighted_features',
-    component: ComponentCreator('/signals/regime_weighted_features', 'f9e'),
+    path: '/signals/rule_based_signals',
+    component: ComponentCreator('/signals/rule_based_signals', 'f98'),
     exact: true
   },
   {
     path: '/signals/statistical_arb_signals',
     component: ComponentCreator('/signals/statistical_arb_signals', 'c8a'),
-    exact: true
-  },
-  {
-    path: '/signals/technical_indicators',
-    component: ComponentCreator('/signals/technical_indicators', 'fc6'),
     exact: true
   },
   {

@@ -296,9 +296,6 @@ main {
 }
 
 
-
-
-
 /* === Search Results Title ("Search results for ...") === */
 .container.margin-vert--lg > h1 {
   color: var(--ifm-button-color) !important; /* bright red */

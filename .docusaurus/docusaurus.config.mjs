@@ -90,28 +90,16 @@ export default {
           "className": "center-navbar",
           "items": [
             {
-              "to": "/signals/price_return_features",
-              "label": "Price / Return Features"
-            },
-            {
-              "to": "/signals/moving_averages",
-              "label": "Moving Averages"
-            },
-            {
-              "to": "/signals/technical_indicators",
-              "label": "Technical Indicators"
-            },
-            {
-              "to": "/signals/fundamental_indicators",
-              "label": "Fundamental Indicators"
+              "to": "/signals/rule_based_signals",
+              "label": "Rule Based Signals"
             },
             {
               "to": "/signals/formulaic_alphas",
               "label": "Formulaic Alphas"
             },
             {
-              "to": "/signals/regime_aware_signals",
-              "label": "Regime-Aware Signals"
+              "to": "/signals/regime_weighted_aware_signals",
+              "label": "Regime Weighted Aware Signals"
             },
             {
               "to": "/signals/volatility_garch_signals",
@@ -124,6 +112,10 @@ export default {
             {
               "to": "/signals/network_aware_signals",
               "label": "Network-Aware Signals"
+            },
+            {
+              "to": "/signals/bayesian_probabilistic_signals",
+              "label": "Bayseian / Probabilistic Signals"
             },
             {
               "to": "/signals/entropy_based_signals",
@@ -140,10 +132,6 @@ export default {
             {
               "to": "/signals/multi_resolution_signals",
               "label": "Multi-Resolution Signals"
-            },
-            {
-              "to": "/signals/regime_weighted_features",
-              "label": "Regime-Weighted Features"
             },
             {
               "to": "/signals/derived_meta_signals",
@@ -477,6 +465,12 @@ export default {
               "target": "_blank"
             }
           ]
+        },
+        {
+          "href": "https://app.alphabuilder.xyz/",
+          "label": "Launch App",
+          "position": "left",
+          "className": "center-navbar navbar__item--launch-app"
         }
       ],
       "hideOnScroll": false
