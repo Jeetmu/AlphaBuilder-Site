@@ -409,31 +409,6 @@ export default {
         },
         {
           "type": "dropdown",
-          "to": "/system",
-          "label": "System",
-          "position": "left",
-          "className": "center-navbar",
-          "items": [
-            {
-              "to": "/system/dashboard",
-              "label": "Dashboard"
-            },
-            {
-              "to": "/system/alpaca_trade",
-              "label": "Alpaca Trade"
-            },
-            {
-              "to": "/system/numerai",
-              "label": "Numerai"
-            },
-            {
-              "to": "/system/numerai_signals",
-              "label": "Numerai Signals"
-            }
-          ]
-        },
-        {
-          "type": "dropdown",
           "to": "/community/contact",
           "label": "Community",
           "position": "left",
@@ -446,6 +421,10 @@ export default {
             {
               "to": "/community/blog",
               "label": "Blogs"
+            },
+            {
+              "to": "/community/learn_more",
+              "label": "Learn More"
             },
             {
               "to": "/community/status",

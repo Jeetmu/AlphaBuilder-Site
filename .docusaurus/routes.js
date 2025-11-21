@@ -3,41 +3,6 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '5ff'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
-    exact: true
-  },
-  {
     path: '/community/about',
     component: ComponentCreator('/community/about', '4df'),
     exact: true
@@ -53,6 +18,11 @@ export default [
     exact: true
   },
   {
+    path: '/community/learn_more',
+    component: ComponentCreator('/community/learn_more', 'a6b'),
+    exact: true
+  },
+  {
     path: '/community/research',
     component: ComponentCreator('/community/research', '5f8'),
     exact: true
@@ -63,8 +33,8 @@ export default [
     exact: true
   },
   {
-    path: '/dashboards/ivs',
-    component: ComponentCreator('/dashboards/ivs', '413'),
+    path: '/dashboards/BigInteractiveIVSDashboard',
+    component: ComponentCreator('/dashboards/BigInteractiveIVSDashboard', 'bba'),
     exact: true
   },
   {
@@ -378,33 +348,8 @@ export default [
     exact: true
   },
   {
-    path: '/system',
-    component: ComponentCreator('/system', '4e8'),
-    exact: true
-  },
-  {
-    path: '/system/alpaca_trade',
-    component: ComponentCreator('/system/alpaca_trade', 'b8d'),
-    exact: true
-  },
-  {
-    path: '/system/dashboard',
-    component: ComponentCreator('/system/dashboard', 'f06'),
-    exact: true
-  },
-  {
-    path: '/system/numerai',
-    component: ComponentCreator('/system/numerai', '542'),
-    exact: true
-  },
-  {
-    path: '/system/numerai_signals',
-    component: ComponentCreator('/system/numerai_signals', 'd4a'),
-    exact: true
-  },
-  {
     path: '/vega',
-    component: ComponentCreator('/vega', 'be7'),
+    component: ComponentCreator('/vega', 'ac4'),
     exact: true
   },
   {
@@ -414,7 +359,7 @@ export default [
   },
   {
     path: '/vega/dashboards/notebook_1',
-    component: ComponentCreator('/vega/dashboards/notebook_1', 'bea'),
+    component: ComponentCreator('/vega/dashboards/notebook_1', '6cb'),
     exact: true
   },
   {

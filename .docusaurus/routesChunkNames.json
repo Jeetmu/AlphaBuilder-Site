@@ -1,667 +1,596 @@
 {
-  "/__docusaurus/debug-5ff": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/config-5ba": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/content-a2b": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    },
-    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
-  },
-  "/__docusaurus/debug/globalData-c3c": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/metadata-156": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/registry-88c": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/routes-000": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
   "/community/about-4df": {
-    "__comp": "__comp---site-src-pages-community-about-index-jsxa-93-d70",
+    "__comp": "a93e88bf",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "config": "config---community-about-5-e-9-025"
+    "config": "5e9f5e1a"
   },
   "/community/blog-1c3": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---community-bloga-85-b50"
+    "content": "a85bb399"
   },
   "/community/contact-ae4": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---community-contactc-7-c-7e2"
+    "content": "c7c47bb7"
+  },
+  "/community/learn_more-a6b": {
+    "__comp": "ef33a66a",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
   },
   "/community/research-5f8": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---community-research-4-f-8-fa5"
+    "content": "4f870c12"
   },
   "/community/status-4db": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---community-status-772-55c"
+    "content": "77276f94"
   },
-  "/dashboards/ivs-413": {
-    "__comp": "__comp---site-src-pages-dashboards-ivs-jsx-8-bf-fc2",
+  "/dashboards/BigInteractiveIVSDashboard-bba": {
+    "__comp": "a336f6f1",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "config": "config---community-about-5-e-9-025"
+    "config": "5e9f5e1a"
   },
   "/hub-f69": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---hubed-2-3c4"
+    "content": "ed2a202d"
   },
   "/hub/auto_regime_discovery-4b9": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---hub-auto-regime-discovery-4-b-9-26a"
+    "content": "4b9650ce"
   },
   "/hub/cascade_modeling-080": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---hub-cascade-modeling-41-e-d9a"
+    "content": "41ecc089"
   },
   "/hub/encoder_layer-4b8": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---hub-encoder-layerab-4-1d0"
+    "content": "ab485847"
   },
   "/hub/explainability_attribution-a84": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---hub-explainability-attributiond-43-e6a"
+    "content": "d43e603e"
   },
   "/hub/feature_engineering-b23": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---hub-feature-engineeringd-5-c-726"
+    "content": "d5c5e2d2"
   },
   "/hub/forecast_head_decoder-85c": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---hub-forecast-head-decoderfa-8-59d"
+    "content": "fa82dba7"
   },
   "/hub/gan_generative-5b8": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---hub-gan-generative-632-50e"
+    "content": "632fb6e2"
   },
   "/hub/gating_layer-87a": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---hub-gating-layerf-27-60a"
+    "content": "f27070ce"
   },
   "/hub/integrated_module-e0e": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---hub-integrated-moduled-03-af4"
+    "content": "d03e8237"
   },
   "/hub/meta_learning-ede": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---hub-meta-learning-033-b7d"
+    "content": "0332ba6a"
   },
   "/hub/rl_based_layer-23e": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---hub-rl-based-layer-324-f75"
+    "content": "324ade72"
   },
   "/hub/skating_fusion_layer-92a": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---hub-skating-fusion-layer-9-ab-62f"
+    "content": "9abd96e2"
   },
   "/hub/transformer_attention_layer-816": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---hub-transformer-attention-layer-442-143"
+    "content": "442daa53"
   },
   "/hub/tree_based_module-de2": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---hub-tree-based-modulef-60-032"
+    "content": "f60446a4"
   },
   "/optimizer-34a": {
-    "__comp": "__comp---site-src-pages-optimizer-index-jsx-1-ac-05d",
+    "__comp": "1acac086",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "config": "config---community-about-5-e-9-025"
+    "config": "5e9f5e1a"
   },
   "/optimizer/classical_portfolio_optimization-876": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---optimizer-classical-portfolio-optimization-78-c-a9b"
+    "content": "78c865f5"
   },
   "/optimizer/derived_composite_objectives-f2b": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---optimizer-derived-composite-objectives-80-c-4f8"
+    "content": "80ce96e2"
   },
   "/optimizer/diversification_based_allocation-927": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---optimizer-diversification-based-allocation-1-c-4-a45"
+    "content": "1c454d4e"
   },
   "/optimizer/entropy_based_allocation-21f": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---optimizer-entropy-based-allocatione-80-b0b"
+    "content": "e80d02e8"
   },
   "/optimizer/factor_exposure_constraints-067": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---optimizer-factor-exposure-constraintsb-41-94e"
+    "content": "b4118e83"
   },
   "/optimizer/heuristic_optimization-b12": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---optimizer-heuristic-optimizationb-82-a7b"
+    "content": "b8225454"
   },
   "/optimizer/hybrid_ensemble_optimization-0b2": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---optimizer-hybrid-ensemble-optimizationdfc-307"
+    "content": "dfc8274a"
   },
   "/optimizer/meta_learning_cross_asset_adaptation-eee": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---optimizer-meta-learning-cross-asset-adaptation-55-f-98f"
+    "content": "55fc8cf2"
   },
   "/optimizer/multi_horizon_optimization-503": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---optimizer-multi-horizon-optimization-52-d-103"
+    "content": "52d9061d"
   },
   "/optimizer/multi_objective_pareto_optimization-b26": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---optimizer-multi-objective-pareto-optimization-0-cd-c0b"
+    "content": "0cd8fa39"
   },
   "/optimizer/network_aware_optimization-200": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---optimizer-network-aware-optimizationa-20-938"
+    "content": "a20614a5"
   },
   "/optimizer/non_convex_optimization-457": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---optimizer-non-convex-optimization-03-f-93f"
+    "content": "03f5d466"
   },
   "/optimizer/regime_aware_optimization-4d6": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---optimizer-regime-aware-optimization-6-cb-1cd"
+    "content": "6cb21e9a"
   },
   "/optimizer/risk_adjusted_optimization-44a": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---optimizer-risk-adjusted-optimization-319-35e"
+    "content": "31929e7a"
   },
   "/optimizer/rl_based_portfolio_optimization-3a0": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---optimizer-rl-based-portfolio-optimizationf-98-200"
+    "content": "f98a60fe"
   },
   "/optimizer/scenario_stress_aware_optimization-98e": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---optimizer-scenario-stress-aware-optimization-592-962"
+    "content": "59237b25"
   },
   "/risk-fce": {
-    "__comp": "__comp---site-src-pages-risk-index-jsxde-6-01c",
+    "__comp": "de6e68a1",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "config": "config---community-about-5-e-9-025"
+    "config": "5e9f5e1a"
   },
   "/risk/basic_statistical_risk-5ee": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---risk-basic-statistical-risk-45-e-25c"
+    "content": "45e29f53"
   },
   "/risk/bayesian_probabilistic_risk-656": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---risk-bayesian-probabilistic-risk-783-083"
+    "content": "7833b759"
   },
   "/risk/correlation_network_risk-8f7": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---risk-correlation-network-risk-446-18e"
+    "content": "446972af"
   },
   "/risk/derived_hybrid_risk_signals-40f": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---risk-derived-hybrid-risk-signals-8-a-5-4ce"
+    "content": "8a548bd8"
   },
   "/risk/distribution_based_risk-2a2": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---risk-distribution-based-risk-4-f-0-02c"
+    "content": "4f01ab25"
   },
   "/risk/entropy_based_risk-bfb": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---risk-entropy-based-riskb-95-1a6"
+    "content": "b957c81b"
   },
   "/risk/factor_exposure_constraints-a52": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---risk-factor-exposure-constraints-1-bd-241"
+    "content": "1bdc7816"
   },
   "/risk/multi_asset_cross_asset_volatility-ea9": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---risk-multi-asset-cross-asset-volatility-3-ab-375"
+    "content": "3ab80828"
   },
   "/risk/regime_aware_risk-af6": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---risk-regime-aware-risk-094-21e"
+    "content": "094c63cb"
   },
   "/risk/rl_dynamic_risk_control-6e6": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---risk-rl-dynamic-risk-controlcb-4-a37"
+    "content": "cb40b0eb"
   },
   "/risk/rolling_multi_horizon_risk-f01": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---risk-rolling-multi-horizon-risk-99-b-816"
+    "content": "99b8d437"
   },
   "/risk/scenario_stress_testing-335": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---risk-scenario-stress-testing-9-fb-5f4"
+    "content": "9fb85749"
   },
   "/risk/signal_to_risk_mapping-01a": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---risk-signal-to-risk-mapping-9-e-8-887"
+    "content": "9e841b63"
   },
   "/risk/tail_extreme_event_risk-96b": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---risk-tail-extreme-event-risk-105-05b"
+    "content": "10511096"
   },
   "/risk/volatility_modelling-234": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---risk-volatility-modelling-1-f-9-199"
+    "content": "1f9c96b4"
   },
   "/search-822": {
-    "__comp": "__comp---theme-search-page-1-a-4-d6f",
+    "__comp": "1a4e3797",
     "__context": {
-      "plugin": "plugin---search-138-688"
+      "plugin": "138e0e15"
     }
   },
   "/signals-e7a": {
-    "__comp": "__comp---site-src-pages-signals-index-jsxc-8-c-145",
+    "__comp": "c8cb8391",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "config": "config---community-about-5-e-9-025"
+    "config": "5e9f5e1a"
   },
   "/signals/bayesian_probabilistic_signals-159": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---signals-bayesian-probabilistic-signalsb-4-e-ba4"
+    "content": "b4efb16e"
   },
   "/signals/derived_meta_signals-bb9": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---signals-derived-meta-signalsc-34-a03"
+    "content": "c34e885d"
   },
   "/signals/entropy_based_signals-4a5": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---signals-entropy-based-signals-36-c-edf"
+    "content": "36c84c25"
   },
   "/signals/event_sentiment_signals-bdc": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---signals-event-sentiment-signals-06-f-1ff"
+    "content": "06ff1687"
   },
   "/signals/formulaic_alphas-feb": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---signals-formulaic-alphas-337-388"
+    "content": "33717c9a"
   },
   "/signals/fractal_based_signals-210": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---signals-fractal-based-signals-9-d-3-92a"
+    "content": "9d3a2954"
   },
   "/signals/multi_resolution_signals-f96": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---signals-multi-resolution-signals-03-e-428"
+    "content": "03e95a8e"
   },
   "/signals/network_aware_signals-333": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---signals-network-aware-signals-398-441"
+    "content": "39856bdf"
   },
   "/signals/regime_weighted_aware_signals-e0c": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---signals-regime-weighted-aware-signals-2-c-0-2fd"
+    "content": "2c03d86c"
   },
   "/signals/rule_based_signals-f98": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---signals-rule-based-signals-835-89a"
+    "content": "83575c71"
   },
   "/signals/statistical_arb_signals-c8a": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---signals-statistical-arb-signalsb-43-b5e"
+    "content": "b43ed370"
   },
   "/signals/volatility_garch_signals-32c": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---signals-volatility-garch-signalseec-b36"
+    "content": "eec0d852"
   },
-  "/system-4e8": {
-    "__comp": "__comp---site-src-pages-system-index-jsxe-54-a60",
+  "/vega-ac4": {
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "config": "config---community-about-5-e-9-025"
-  },
-  "/system/alpaca_trade-b8d": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
-    "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
-    },
-    "content": "content---system-alpaca-trade-38-f-729"
-  },
-  "/system/dashboard-f06": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
-    "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
-    },
-    "content": "content---system-dashboard-66-d-c87"
-  },
-  "/system/numerai-542": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
-    "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
-    },
-    "content": "content---system-numerai-909-eef"
-  },
-  "/system/numerai_signals-d4a": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
-    "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
-    },
-    "content": "content---system-numerai-signals-0-c-9-f1a"
-  },
-  "/vega-be7": {
-    "__comp": "__comp---site-src-pages-vega-index-jsx-131-f7e",
-    "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
-    },
-    "config": "config---community-about-5-e-9-025"
+    "content": "65ed7f0a"
   },
   "/vega/calibration_engine-df2": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---vega-calibration-engine-1-c-0-204"
+    "content": "1c0b2036"
   },
-  "/vega/dashboards/notebook_1-bea": {
-    "__comp": "__comp---site-src-pages-vega-dashboards-notebook-1-jsx-9-e-4-240",
+  "/vega/dashboards/notebook_1-6cb": {
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "config": "config---community-about-5-e-9-025"
+    "content": "a1457c20"
   },
   "/vega/deep_volatility_models-5af": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---vega-deep-volatility-modelse-90-d0c"
+    "content": "e903556b"
   },
   "/vega/gaussian_process_implied_volatility-534": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---vega-gaussian-process-implied-volatility-95-e-30b"
+    "content": "95e98df6"
   },
   "/vega/hybrid_meta_volatility_models-a9d": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---vega-hybrid-meta-volatility-models-512-c1b"
+    "content": "51272fc4"
   },
   "/vega/regime_aware_pricing-cad": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---vega-regime-aware-pricingdd-2-6eb"
+    "content": "dd210fe8"
   },
   "/vega/regime_switching_volatility_models-aec": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---vega-regime-switching-volatility-modelsd-10-9f4"
+    "content": "d103ea19"
   },
   "/vega/stochastic_volatility_models-5f2": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---vega-stochastic-volatility-models-766-cce"
+    "content": "766ae777"
   },
   "/vega/vega_risk_sensitivity_analysis-28d": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---vega-vega-risk-sensitivity-analysis-84-d-ef3"
+    "content": "84dc676a"
   },
   "/vega/volatility_forecasting_layer-f8b": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---vega-volatility-forecasting-layer-039-7ce"
+    "content": "039efe77"
   },
   "/vega/volatility_foundations-a71": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---vega-volatility-foundationsbe-7-c8d"
+    "content": "be7fa347"
   },
   "/vega/volatility_risk_premium-6c6": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---vega-volatility-risk-premiumd-08-0c1"
+    "content": "d089cd20"
   },
   "/vega/volatility_smile_skew_analysis-0fc": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---vega-volatility-smile-skew-analysisb-21-eed"
+    "content": "b2139376"
   },
   "/vega/volatility_surface_construction-f4f": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "content": "content---vega-volatility-surface-construction-3-e-7-365"
+    "content": "3e760a08"
   },
   "/-2e1": {
-    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__comp": "c4f5d8e4",
     "__context": {
-      "plugin": "plugin---community-abouta-74-2af"
+      "plugin": "a7456010"
     },
-    "config": "config---community-about-5-e-9-025"
+    "config": "5e9f5e1a"
   }
 }

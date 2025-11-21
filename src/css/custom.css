@@ -548,9 +548,3 @@ footer h4 {
 .clean-btn.navbar-sidebar__close:hover svg g {
   stroke: var(--hover-color) !important;
 }
-
-@media (max-width: 1100px) and (min-width: 1000px) {
-  .navbar__item--launch-app {
-    display: none !important;
-  }
-}

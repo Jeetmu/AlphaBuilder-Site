@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import styles from './index.module.css';
-import BigInteractiveIVSDashboard from './dashboards/ivs';
+import BigInteractiveIVSDashboard from './dashboards/BigInteractiveIVSDashboard';
 
 export default function Home() {
   return (
@@ -31,7 +31,7 @@ export default function Home() {
                 Launch App
               </a>
 
-            <Link className={styles.button} to="/system">
+            <Link className={styles.button} to="/community/learn_more">
               Learn More
             </Link>
           </div>

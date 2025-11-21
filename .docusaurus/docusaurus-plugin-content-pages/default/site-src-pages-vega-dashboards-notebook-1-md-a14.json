@@ -1,0 +1,8 @@
+{
+  "type": "mdx",
+  "permalink": "/vega/dashboards/notebook_1",
+  "source": "@site/src/pages/vega/dashboards/notebook_1.md",
+  "description": "<!-- // import React, { useState, useEffect } from \"react\";",
+  "frontMatter": {},
+  "unlisted": false
+}

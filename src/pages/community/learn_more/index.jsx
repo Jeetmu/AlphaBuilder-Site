@@ -1,7 +1,7 @@
 // src/pages/frameworks.jsx
 import React, { useState } from 'react';
 import Layout from '@theme/Layout';
-import MarkdownTwoColumnLayout from '../../components/MarkdownTwoColumnLayout';
+import MarkdownTwoColumnLayout from '../../../components/MarkdownTwoColumnLayout';
 
 const toc = [
   { id: 'signal', value: 'Signal-Lab',

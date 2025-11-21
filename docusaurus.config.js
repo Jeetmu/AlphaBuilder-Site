@@ -154,18 +154,11 @@ const config = {
             { to: '/hub/forecast_head_decoder', label: 'Forecast Head / Decoder' },
           ],
          },
-        { type: 'dropdown', to: '/system', label: 'System', position: 'left', className: 'center-navbar',
-          items: [
-            {to: '/system/dashboard', label: 'Dashboard'},
-            {to: '/system/alpaca_trade', label: 'Alpaca Trade'},
-            {to: '/system/numerai', label: 'Numerai'},
-            {to: '/system/numerai_signals', label: 'Numerai Signals'},
-          ]
-         },
         { type: 'dropdown', to: '/community/contact', label: 'Community', position: 'left', className: 'center-navbar',
           items: [
             { to: '/community/research', label: 'Research'},
             { to: '/community/blog', label: 'Blogs'},
+            { to: '/community/learn_more', label: 'Learn More'},
             { to: '/community/status', label: 'Status'},
             { to: '/community/about', label: 'About'},
             { to: '/community/contact', label: 'Contact'},

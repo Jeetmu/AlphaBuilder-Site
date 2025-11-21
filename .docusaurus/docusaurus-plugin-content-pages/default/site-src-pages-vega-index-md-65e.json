@@ -2,6 +2,7 @@
   "type": "mdx",
   "permalink": "/vega/",
   "source": "@site/src/pages/vega/index.md",
+  "description": "<!-- // import React from \"react\";",
   "frontMatter": {},
   "unlisted": false
 }
